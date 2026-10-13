@@ -1,0 +1,23 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/2152408/000215240826000001/0002152408-26-000001-index.htm",
+  "company_name": "Sylvan Labs, Inc.",
+  "created_at": "2026-10-12T21:22:52",
+  "fingerprint": "dcc135c7758187c5",
+  "size_band": "under_50",
+  "size_note": "estimated from a $10,940,500 round; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "At a company under 50 people building a world model platform for revenue agents, the CTO or technical founder likely makes the call on how models get trained, deployed, and served, and the site gives no evidence of their current stack.",
+      "cares_about": "shipping the product quickly with a small team and keeping infrastructure from eating engineering time",
+      "opening_angle": "Since Sylvan is training and deploying revenue agents, you may want models running as production APIs without building serving infrastructure yourself; Baseten turns ML models into production APIs, and I'd like to learn how your team handles that today.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Sylvan+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Sylvan",
+  "warnings": []
+}

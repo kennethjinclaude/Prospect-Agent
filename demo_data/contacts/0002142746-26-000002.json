@@ -1,0 +1,34 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/2142746/000214274626000002/0002142746-26-000002-index.htm",
+  "company_name": "Glauc Inc.",
+  "created_at": "2026-10-12T21:22:36",
+  "fingerprint": "cdca9f423e38cb5c",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "Form D industry: Other Health Care",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "As an early-stage health AI startup whose core product runs inference on smartphone eye images, the CTO or technical founder likely owns the model serving stack and is the person who would decide how those models get deployed to production.",
+      "cares_about": "Getting reliable model inference into production without building all the serving infrastructure from scratch.",
+      "opening_angle": "Glauc's eye-photo risk signals depend on models running reliably behind your SDKs and REST API, and Baseten turns ML models into production APIs, so I'd like to hear how you're serving those models today.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Glauc+CTO"
+    },
+    {
+      "slot": "blocker",
+      "role": "CISO or security lead",
+      "search": "CISO",
+      "why_this_role": "Glauc works in the Form D category Other Health Care and handles health insights from patient eye photos, so a security or compliance lead likely has to sign off on any vendor that touches that data.",
+      "cares_about": "Clear data handling and compliance guarantees for health data.",
+      "opening_angle": "Since Glauc handles health insights from eye photos, I wanted to share that Baseten supports HIPAA and SOC 2 Type II and offers single-tenant and self-hosted options, so you can review those controls early.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Glauc+CISO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Glauc",
+  "warnings": []
+}

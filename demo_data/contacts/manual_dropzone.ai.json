@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:dropzone.ai",
+  "company_name": "Dropzone AI",
+  "created_at": "2026-10-12T21:25:00",
+  "fingerprint": "63b70fa36612faa2",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "This role likely decides how Dropzone AI's agents get run in production, since every alert triggers model-driven investigation and the evidence shows no model-hosting setup yet.",
+      "cares_about": "keeping agent investigations fast and reliable as alert volume grows",
+      "opening_angle": "Your agents run model-driven investigation on every alert, so I wanted to ask how you currently host the models behind the AI SOC Analyst and whether that setup is where you want it to be.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Dropzone+AI+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Dropzone+AI",
+  "warnings": []
+}

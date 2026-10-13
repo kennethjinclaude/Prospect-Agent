@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:read.ai",
+  "company_name": "Read AI",
+  "created_at": "2026-10-12T21:25:14",
+  "fingerprint": "f613176758cda828",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "As the person most likely owning the technical stack, they would decide whether Read AI's AI features run on their own model infrastructure, though the evidence shows no custom model or GPU signals (likely a team that buys model capacity rather than builds it).",
+      "cares_about": "Reliable production AI features and control over how models are served, likely without adding heavy infrastructure work.",
+      "opening_angle": "Baseten turns ML models into production APIs, so if you ever run your own models for Ada or meeting summaries, we can serve them as production APIs on dedicated, autoscaling GPUs.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Read+AI+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Read+AI",
+  "warnings": []
+}

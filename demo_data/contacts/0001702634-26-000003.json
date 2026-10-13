@@ -1,0 +1,23 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/1702634/000170263426000003/0001702634-26-000003-index.htm",
+  "company_name": "Virtualitics, Inc.",
+  "created_at": "2026-10-12T21:22:58",
+  "fingerprint": "39c8180a0812554c",
+  "size_band": "under_50",
+  "size_note": "estimated from a $15,000,000 round; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "Virtualitics sells an AI-native readiness platform with Generative AI and Readiness AI Agents, so the technical lead likely owns how those models get served, and the company is likely small (estimated under 50 people from a $15,000,000 round), so this person may be the one making infrastructure calls.",
+      "cares_about": "Getting AI agents and generative models running reliably in production for defense customers.",
+      "opening_angle": "Baseten turns ML models into production APIs, and I wanted to ask how your team currently serves the generative and agent models behind Iris.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Virtualitics+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Virtualitics",
+  "warnings": []
+}

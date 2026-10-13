@@ -1,0 +1,50 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/2014393/000201439326000004/0002014393-26-000004-index.htm",
+  "company_name": "CodeRabbit Inc.",
+  "created_at": "2026-10-12T21:23:30",
+  "fingerprint": "563dcdfd2f478bd6",
+  "size_band": "300_plus",
+  "size_note": "estimated from a $142,998,877 round; check the LinkedIn company page for headcount",
+  "regulated": "sells into a regulated industry (\"health\" in what they sell)",
+  "notes": [],
+  "cards": [
+    {
+      "slot": "champion",
+      "role": "Director of ML Platform",
+      "search": "ML Platform",
+      "why_this_role": "This person likely owns the model serving and ML infrastructure behind CodeRabbit's AI code review, though the evidence shows no ML infra hiring and no open or self-hosted model usage, so the fit is unconfirmed.",
+      "cares_about": "reliable model serving and infrastructure they control",
+      "opening_angle": "Baseten turns ML models into production APIs, so you could run your own review models as production APIs without building that serving layer yourselves.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=CodeRabbit+ML+Platform"
+    },
+    {
+      "slot": "economic_buyer",
+      "role": "VP Engineering or CTO",
+      "search": "VP Engineering",
+      "why_this_role": "This person likely decides how CodeRabbit's AI review stack is built and whether it runs on third-party inference, and the company's scale of 17K customers and 6M repositories makes that call significant.",
+      "cares_about": "platform scale and dependable AI infrastructure for a large customer base",
+      "opening_angle": "With 6M repositories in review, you may want dedicated deployments with autoscaling GPUs, which Baseten offers for running models as production APIs.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=CodeRabbit+VP+Engineering"
+    },
+    {
+      "slot": "blocker",
+      "role": "Procurement",
+      "search": "Procurement",
+      "why_this_role": "Procurement likely handles vendor contracts and pricing for an AI platform at this size, and Baseten's usage-based pricing is a fact they would weigh.",
+      "cares_about": "clear contract terms and pricing that matches usage",
+      "opening_angle": "Baseten uses usage-based pricing, so you can match inference spend to how much your review workload actually runs.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=CodeRabbit+Procurement"
+    },
+    {
+      "slot": "blocker",
+      "role": "CISO or security lead",
+      "search": "CISO",
+      "why_this_role": "Because CodeRabbit sells into a regulated industry and scans codebases for security issues, this person likely needs compliance assurance for any inference vendor handling code.",
+      "cares_about": "compliance certifications and deployment control over sensitive code",
+      "opening_angle": "Baseten supports HIPAA and SOC 2 Type II, and offers single-tenant and self-hosted options, so you can keep code review inference under tighter control.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=CodeRabbit+CISO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=CodeRabbit",
+  "warnings": []
+}

@@ -1,0 +1,132 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/2045111/000204511126000003/0002045111-26-000003-index.htm",
+  "company_name": "Stuut, Inc.",
+  "created_at": "2026-10-12T18:18:13",
+  "brief": {
+    "facts": [
+      {
+        "fact": "Stuut sells an AI coworker that runs order-to-cash for enterprises, covering order management, credit, collections, payments, cash application, disputes and deductions.",
+        "source_url": "https://thenextweb.com/news/stuut-52-5m-series-b-ai-order-to-cash",
+        "possibly_outdated": false,
+        "source_verified": true
+      },
+      {
+        "fact": "Stuut raised a $52.5M Series B announced 2026-10-07, led by Insight Partners with a16z and M12 participating, for $93M total funding; the article reports over 150 customers and a 47% DSO reduction, which are Stuut's own claims, and more than $3B has moved through the platform.",
+        "source_url": "https://thenextweb.com/news/stuut-52-5m-series-b-ai-order-to-cash",
+        "possibly_outdated": false,
+        "source_verified": true
+      },
+      {
+        "fact": "A Form D filed 2026-09-16 shows a $67.6M round size, which is larger than the announced $52.5M Series B; this gap was not reconciled and is not independently verified.",
+        "source_url": "",
+        "possibly_outdated": true,
+        "source_verified": false
+      }
+    ],
+    "hook": "Post-Series B scale-up: Stuut raised $52.5M and is adding workflows such as credit risk, so inference latency, reliability and cost per task may start to matter.",
+    "hook_why": "The Series B was announced 2026-10-07 and the company is expanding its product. This is a timing hook only; no evidence of their serving stack was found.",
+    "hook_source_url": "https://thenextweb.com/news/stuut-52-5m-series-b-ai-order-to-cash",
+    "discovery_question": "As you add workflows like credit risk and process more volume, which parts of your AI pipeline run on third-party model APIs and which on models you host or tune yourselves? Where do latency or cost bite first?",
+    "what_not_to_say": [
+      "Do not say or imply they use open-source models, fine-tune, or self-host GPUs; this is unverified.",
+      "Do not say or imply they are or are not a Baseten customer.",
+      "Do not cite the 47% DSO or $3B figures as independently verified.",
+      "Do not quote a round size without noting the gap between the Form D ($67.6M) and the announcement ($52.5M).",
+      "Do not present the multi-workflow model-usage inference as a sourced fact."
+    ],
+    "confidence": "low",
+    "confidence_reason": "Only one secondary, likely company-contributed source was read. The Baseten customer check, model usage, hiring, competitor and contact steps were not completed because the search tool hit its usage limit.",
+    "says_already_customer": false,
+    "competitors_that_are_customers": [],
+    "contact_roles": [
+      "Head of AI/ML or Applied AI",
+      "VP/Director of Engineering",
+      "Platform or Infrastructure lead",
+      "CTO (fallback)"
+    ],
+    "not_found": [
+      "Baseten customer status (baseten.co/resources/customers could not be loaded)",
+      "Models they run and serving stack (no engineering blog, docs, or talks found)",
+      "Hiring signals (careers page and job boards not checked)",
+      "Business model and pricing (Stuut site not read)",
+      "Competitors that are Baseten customers (not searched)",
+      "Contact names (roles only, inferred and not confirmed)"
+    ],
+    "hook_source_verified": true
+  },
+  "warnings": [
+    "Unverified source for: A Form D filed 2026-09-16 shows a $67.6M round size, which is larger than the an"
+  ],
+  "notes": "Results are JSON strings.\nResearch was cut short. My search tool hit its usage limit after one successful search and one page fetch. Steps 2, 3, 4, 6 and 7 are therefore mostly \"not found\". That reflects how far I got, not proof that nothing exists.\n\n## Step notes\n\n**1. What they do, who buys it, how they make money**\n- Stuut sells an AI coworker that runs order-to-cash for enterprises. \nIt covers order management, credit, collections, payments, cash application, disputes and deductions.\n Source: https://thenextweb.com/news/stuut-52-5m-series-b-ai-order-to-cash\n- The buyers are enterprise finance teams (AR, collections, cash application). The article reports over 150 customers and a 47% reduction in DSO (days sales outstanding). Those figures are Stuut's own claims. Source: https://thenextweb.com/news/stuut-52-5m-series-b-ai-order-to-cash\n- The article says more than $3B has moved through the platform. Source: same URL.\n- Business model and pricing (subscription, per-outcome, or per-payment): not found. I did not read the Stuut site pages myself. The product description comes from your brief (https://www.stuut.ai/).\n\n**2. Already a Baseten customer?**\nNot found. I could not load baseten.co/resources/customers (the fetch was blocked). Do not imply they are a customer.\n\n**3. Models they run**\nNot found. I found no engineering blog, docs, or talks on fine-tuning, open-source models, or self-hosted GPUs.\n\n**4. Hiring signals**\nNot found. I did not check the careers page or job boards.\n\n**5. Recent news (last 90 days)**\n- The Series B was published 2026-10-07. Stuut raised $52.5M, \nled by Insight Partners, with a16z and M12 also participating, for $93M total funding.\n Source: https://thenextweb.com/news/stuut-52-5m-series-b-ai-order-to-cash\n- The article says the Series A came ten months earlier. Same source.\n- Your Form D (filed 2026-09-16, $67.6M round size) is larger than the announced $52.5M. I could not reconcile the two. The Form D may cover a bigger or different round, or an extension. Source: your brief; not independently verified.\n- The TNW piece is tagged \"Contributed\", so it is likely company-supplied. Treat the metrics as claims.\n\n**6. Competitors that are Baseten customers**\nNot found. I did not search this.\n\n**7. Who to contact (roles only)**\nThese are inferred from the company type, not confirmed:\n- Head of AI/ML or Applied AI\n- VP/Director of Engineering\n- Platform or Infrastructure lead\n- CTO, as the fallback at a company this size\n\n## Output\n\n**3 facts that matter most**\n1. They raised $52.5M in a Series B announced 2026-10-07, with $93M total raised. This means fresh budget to scale. https://thenextweb.com/news/stuut-52-5m-series-b-ai-order-to-cash\n2. They report over 150 customers and more than $3B moved through the platform, so production volume is growing. Same URL. These are company claims.\n3. The product covers many workflows (collections outreach, cash application, disputes, payments, and credit risk as \"coming soon\"). That implies several model-backed workloads, such as document and email understanding. This is my inference, not a sourced fact. https://www.stuut.ai/\n\n**Best hook**\nLead with the post-Series B scale-up. They went from 10 months after a Series A to a $52.5M Series B, and they are adding workflows like credit risk. That is when inference latency, reliability and cost per task start to matter. This is a timing hook only. I found no evidence of their serving stack.\n\n**Discovery question**\n\"As you add workflows like credit risk and process more volume, which parts of your AI pipeline run on third-party model APIs and which on models you host or tune yourselves? Where do latency or cost bite first?\"\n\n**What not to say**\n- Don't say or imply they use open-source models, fine-tune, or self-host GPUs. That is unverified.\n- Don't say they are or aren't a Baseten customer.\n- Don't cite the 47% DSO or $3B figures as independently verified.\n- Don't quote a round size without noting the gap between the Form D ($67.6M) and the announcement ($52.5M).\n- No suspicious or instruction-like page content was seen.\n\n**Confidence: Low.** Only one secondary, likely company-contributed source was read. The customer check, model usage, hiring, competitor and contact steps were not completed. Rerun steps 2\u20134 and 6 before outreach.",
+  "sources": [
+    "https://af.net/realtime/stuut-raises-52-5m-series-b-to-enhance-ai-powered-order-to-cash-automation/",
+    "https://ai.meta.com/blog/when-to-fine-tune-llms-vs-other-techniques/",
+    "https://aiunderstanding.org/news/stuut-raises-52-5m-series-b-to-expand-ai-agents-in-order-to-cash",
+    "https://arxiv.org/html/2408.13296v1",
+    "https://arxiv.org/pdf/2402.10083",
+    "https://builtin.com/company/stuut",
+    "https://cohere.com/blog/fine-tuning",
+    "https://didierlopes.com/blog/fine-tuning-a-llm-on-my-blog-posts/",
+    "https://en.wikipedia.org/wiki/Form_D",
+    "https://en.wikipedia.org/wiki/LMArena",
+    "https://en.wikipedia.org/wiki/SpreeAI",
+    "https://fintech.global/2026/10/07/stuut-raises-52-5m-series-b-to-automate-order-to-cash/",
+    "https://forkast.news/stuuts-52-5m-series-b-shows-microsoft-betting-the-agent-economys-revenue-layer-is-already-here/",
+    "https://hidevscommunity.medium.com/mastering-llm-fine-tuning-the-key-to-becoming-an-ai-engineer-f93f8a1aaab9",
+    "https://huggingface.co/spaces/tryolabs/blogpost-cqa/commit/d5ad3a34aa710f1593c559b0ba296580c30c4778",
+    "https://huggingnews.com/startups/stuut-raises-525m-to-scale-first-ai-order-to-cash-coworker-2979b54e",
+    "https://image-ppubs.uspto.gov/dirsearch-public/print/downloadPdf/12531820",
+    "https://jobs.a16z.com/jobs/stuut",
+    "https://jobs.ashbyhq.com/stuut-ai",
+    "https://jobs.ashbyhq.com/stuut-ai/37cc28af-0ce7-4ddb-a099-6fb88b0b593f",
+    "https://media.thenextweb.com/2026/10/stuut-founders-tarek-alaruri-adam-chaarwari-ben-winter.jpg\\\\nmeta-og:image:height:",
+    "https://media.thenextweb.com/2026/10/stuut-founders-tarek-alaruri-adam-chaarwari-ben-winter.jpg\\\\nmeta-twitter:site:",
+    "https://medium.com/@siddantvardey/fine-tuning-ai-models-teaching-an-old-dog-very-new-tricks-91468dc0ef33",
+    "https://pomegra.io/startups/stuut-raises-52-5m-series-b-for-ai-order-to-cash-2026-2026-10-08",
+    "https://raulsallesdepadua.substack.com/p/fine-tuning-llms-when-context-only",
+    "https://rcpedia.stanford.edu/blog/2025/11/07/fine-tuning-open-source-models/",
+    "https://th\\n",
+    "https://thenextweb.com/",
+    "https://thenextweb.com/news/stuut-52-5m-series-b-ai-order-to-cash",
+    "https://thenextweb.com/news/stuut-52-5m-series-b-ai-order-to-cash\\",
+    "https://thenextweb.com/news/stuut-52-5m-series-b-ai-order-to-cash\\\\nmeta-apple-mobile-web-app-title:",
+    "https://thenextweb.com/news/stuut-52-5m-series-b-ai-order-to-cash\\\\nmeta-original-source:",
+    "https://thenextweb.com/news/stuut-52-5m-series-b-ai-order-to-cash\\\\nmeta-referrer:",
+    "https://thenextweb.com/news/stuut-52-5m-series-b-ai-order-to-cash\\\\nmeta-viewport:",
+    "https://towardsdatascience.com/fine-tuning-large-language-models-llms-23473d763b91/",
+    "https://valueaddvc.com/pulse/stuut-52-5m-series-b-ai-collections-2026",
+    "https://wellfound.com/company/stuut-1",
+    "https://wellfound.com/company/stuut-1/jobs",
+    "https://www.aijobs.com/companies/stuut-5075970",
+    "https://www.axios.com/pro/fintech-deals/2026/10/07/stuut-52-5-million-series-b-insight-partners",
+    "https://www.builder.io/blog/fine-tune-llm",
+    "https://www.builtinnyc.com/company/stuut",
+    "https://www.builtinnyc.com/company/stuut/jobs",
+    "https://www.databricks.com/blog/llm-fine-tuning",
+    "https://www.dreamworkhq.com/research/engineering-jobs-at-stuut.ai",
+    "https://www.finsmes.com/2026/10/stuut-raises-52-5m-in-series-b-funding.html",
+    "https://www.forbes.com/sites/davidprosser/2026/10/07/stuut-promises-to-put-a-stop-to-enterprises-payments-misery/",
+    "https://www.globenewswire.com/news-release/2026/10/07/3376511/0/en/ai-order-to-cash-platform-stuut-raises-52-5m-series-b-after-unlocking-40-more-cash-for-enterprises.html",
+    "https://www.googletagmanager.com/ns.html?id=GTM-NNKTCH4W",
+    "https://www.indeed.com/cmp/Stuut/jobs/l-New-York,-NY",
+    "https://www.linkedin.com/company/stuut-inc",
+    "https://www.menlotimes.com/post/how-stuut-ai-is-transforming-accounts-receivable",
+    "https://www.spaceo.ai/blog/llm-fine-tuning/",
+    "https://www.stuut.ai/",
+    "https://www.stuut.ai/blog/series-a",
+    "https://www.stuut.ai/blog/series-a?83eca7f2_page=2",
+    "https://www.stuut.ai/blog/why-we-raised-series-b",
+    "https://www.superannotate.com/blog/llm-fine-tuning",
+    "https://www.thesaasnews.com/news/stuut-raises-52-5m-series-b/",
+    "https://www.unite.ai/stuut-52-5m-series-b-ai-order-to-cash/"
+  ],
+  "usage": {
+    "input_tokens": 43246,
+    "output_tokens": 2446,
+    "cache_read_tokens": 0,
+    "cache_write_tokens": 0,
+    "searches": 8,
+    "pages_read": 2
+  },
+  "cost": 0.1917
+}

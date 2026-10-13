@@ -1,0 +1,32 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/2131697/000147083126000913/0001470831-26-000913-index.htm",
+  "company_name": "Penelope Health Inc.",
+  "created_at": "2026-10-12T21:21:40",
+  "fingerprint": "50be52524c998d24",
+  "size_band": "under_50",
+  "size_note": "estimated from a $24,999,998 round; check the LinkedIn company page for headcount",
+  "regulated": "sells into a regulated industry (\"Health\" in what they sell)",
+  "notes": [],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "A technical founder at a company of this size likely owns the decision on how the payer policy extraction API is built and served, and the evidence shows no ML infrastructure hiring yet, so this person likely makes the call directly.",
+      "cares_about": "keeping the API reliable and the engineering team focused on the product",
+      "opening_angle": "Baseten turns ML models into production APIs, so you can run your extraction models as production APIs without building the serving layer yourself.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Penelope+Health+CTO"
+    },
+    {
+      "slot": "blocker",
+      "role": "CISO or security lead",
+      "search": "CISO",
+      "why_this_role": "Penelope Health sells into a regulated healthcare market, so a security lead likely has to sign off on any vendor touching models and data, and Baseten supports HIPAA and SOC 2 Type II.",
+      "cares_about": "compliance posture and vendor security reviews for healthcare data",
+      "opening_angle": "Baseten supports HIPAA and SOC 2 Type II and offers single-tenant and self-hosted options, which may help if your payer policy workloads need tighter controls.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Penelope+Health+CISO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Penelope+Health",
+  "warnings": []
+}

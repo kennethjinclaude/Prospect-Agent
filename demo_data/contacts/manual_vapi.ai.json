@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:vapi.ai",
+  "company_name": "Vapi",
+  "created_at": "2026-10-12T21:23:52",
+  "fingerprint": "355f2c4b968076a1",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "Vapi runs voice AI agents where every call triggers model inference at large production volume (1B calls, 1M+ developers), so the technical leader likely owns the latency and reliability tradeoffs behind that inference path.",
+      "cares_about": "Latency, reliability at high call volume, and keeping the platform stable as usage grows.",
+      "opening_angle": "Vapi handles over a billion calls, so I wanted to ask how you're thinking about serving model inference for voice agents at that scale, since Baseten turns ML models into production APIs with autoscaling GPUs.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Vapi+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Vapi",
+  "warnings": []
+}

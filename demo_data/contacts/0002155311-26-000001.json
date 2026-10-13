@@ -1,0 +1,25 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/2155311/000215531126000001/0002155311-26-000001-index.htm",
+  "company_name": "Plankore Inc.",
+  "created_at": "2026-10-12T21:22:25",
+  "fingerprint": "64c93213a314ed44",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "The technical leader is the most likely person to know whether Plankore's computer vision detection runs on models they host themselves, which is the question that decides fit, since the site shows no GPU infrastructure or ML hiring.",
+      "cares_about": "Model accuracy, reliable detection performance, and keeping the engineering team focused on the product.",
+      "opening_angle": "Saw Plankore's AI detects rooms, walls, windows, and doors from plan sets; curious how you're serving those vision models today, since we turn ML models into production APIs with autoscaling GPUs.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Plankore+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Plankore",
+  "warnings": []
+}

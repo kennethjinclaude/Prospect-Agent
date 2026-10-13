@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:hume.ai",
+  "company_name": "Hume AI",
+  "created_at": "2026-10-12T21:24:02",
+  "fingerprint": "d463df1bd3ea03f4",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "The technical lead likely owns how Hume AI's voice models and evaluation platform run in production, so they are the person who would weigh any serving decision, though no GPU, competitor, or team details were found.",
+      "cares_about": "reliable, low-latency serving of voice models and evaluation workloads (likely)",
+      "opening_angle": "Hume, you're building both the voice models and the evaluation layer, so I'm curious how you currently serve Octave and the expression APIs, since Baseten turns ML models into production APIs with dedicated autoscaling GPU deployments.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Hume+AI+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Hume+AI",
+  "warnings": []
+}

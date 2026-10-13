@@ -1,0 +1,41 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/1934798/000193479826000002/0001934798-26-000002-index.htm",
+  "company_name": "Cube Security Inc.",
+  "created_at": "2026-10-12T21:22:41",
+  "fingerprint": "c8ce8c526fba7b60",
+  "size_band": "50_300",
+  "size_note": "estimated from a $48,519,636 round; check the LinkedIn company page for headcount",
+  "regulated": "vertical ai for finance or insurance: \"CUBE AI prevents financial crime, fraud, scams, and cyber threats for the world's largest institutions.\"",
+  "notes": [],
+  "cards": [
+    {
+      "slot": "champion",
+      "role": "Head of ML/AI or ML infrastructure lead",
+      "search": "Head of ML",
+      "why_this_role": "This person likely owns the AI models that detect fraud and financial crime for banks and fintechs, and no ML infrastructure hiring signals were found, so they may be the one deciding how those models get served in production.",
+      "cares_about": "reliable, scalable serving of detection models for large financial customers",
+      "opening_angle": "Baseten turns ML models into production APIs, so you can run your fraud and crime detection agents as production APIs without building the serving layer yourselves.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=CUBE+AI+Head+of+ML"
+    },
+    {
+      "slot": "economic_buyer",
+      "role": "VP Engineering",
+      "search": "VP Engineering",
+      "why_this_role": "This person likely oversees the engineering org that runs CUBE AI's platform for banks, fintechs, and crypto exchanges, which makes them the likely owner of how inference capacity is provisioned.",
+      "cares_about": "platform uptime and engineering capacity across a large enterprise customer base (likely)",
+      "opening_angle": "Baseten offers dedicated deployments with autoscaling GPUs, so your inference capacity can scale with your bank and fintech customers' demand.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=CUBE+AI+VP+Engineering"
+    },
+    {
+      "slot": "blocker",
+      "role": "CISO or security lead",
+      "search": "CISO",
+      "why_this_role": "Selling to the world's largest banks and institutions likely means security and compliance reviews gate any new infrastructure, and Baseten's stated HIPAA and SOC 2 Type II support plus single-tenant and self-hosted options may matter to them.",
+      "cares_about": "compliance posture and control over where data and models run (likely)",
+      "opening_angle": "Baseten supports SOC 2 Type II and offers single-tenant and self-hosted options, so you can review deployment controls before any model goes live for your institutional customers.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=CUBE+AI+CISO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=CUBE+AI",
+  "warnings": []
+}

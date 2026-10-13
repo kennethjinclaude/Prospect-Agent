@@ -1,0 +1,34 @@
+{
+  "filing_url": "manual:getfreed.ai",
+  "company_name": "Freed",
+  "created_at": "2026-10-12T21:24:40",
+  "fingerprint": "acb6c55f641916d1",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "your category: Healthcare AI",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "Freed runs AI products at real volume (26k+ clinicians and 32M+ visits transcribed), so the technical lead likely owns the model and infrastructure choices behind that scale, though the site doesn't show those choices.",
+      "cares_about": "Reliable production model serving and keeping the AI stack under their control.",
+      "opening_angle": "Freed's scribe is handling 32M+ visits, so I'm curious how you're serving models in production today and whether that's been a good fit.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Freed+CTO"
+    },
+    {
+      "slot": "blocker",
+      "role": "CISO or security lead",
+      "search": "CISO",
+      "why_this_role": "Healthcare AI handling patient conversations is likely to put HIPAA and security review at the center of any infrastructure decision, and Baseten supports HIPAA and SOC 2 Type II.",
+      "cares_about": "Compliance posture, data handling, and clear security controls for patient data.",
+      "opening_angle": "Since Freed handles patient conversations at scale, I wanted to share that Baseten supports HIPAA and SOC 2 Type II, with single-tenant and self-hosted options.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Freed+CISO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Freed",
+  "warnings": []
+}

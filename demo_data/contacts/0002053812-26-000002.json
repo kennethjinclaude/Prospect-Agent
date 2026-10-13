@@ -1,0 +1,25 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/2053812/000205381226000002/0002053812-26-000002-index.htm",
+  "company_name": "Liife, Inc.",
+  "created_at": "2026-10-12T21:21:57",
+  "fingerprint": "025da5e6b98ee9f9",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "The technical lead is the person most likely to decide whether Liife's AI fraud detection and generative AI BI features need a model serving layer, though the site shows no open or custom models, GPU use, or scale, so this is a weak fit.",
+      "cares_about": "Keeping AI features reliable and building them without heavy infrastructure overhead.",
+      "opening_angle": "Saw LiifeID's AI-driven fraud detection and LiifeBI's generative AI features; Baseten turns ML models into production APIs, so curious whether you're serving any of those models yourself today.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Liife+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Liife",
+  "warnings": []
+}

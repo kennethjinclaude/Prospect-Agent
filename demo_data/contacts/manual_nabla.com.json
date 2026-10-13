@@ -1,0 +1,34 @@
+{
+  "filing_url": "manual:nabla.com",
+  "company_name": "Nabla",
+  "created_at": "2026-10-12T21:24:32",
+  "fingerprint": "87898856707e89f9",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "your category: Healthcare AI",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "The CTO likely owns the model and infrastructure stack that serves Nabla's ambient documentation, dictation, and coding calls, which the evidence says run on every encounter at 20M+ encounters per year, though the site gives no details on that stack.",
+      "cares_about": "reliable, scalable model serving for high-volume clinical encounters",
+      "opening_angle": "With 20M+ encounters a year running through your models, I'm curious how you're serving those calls today. Baseten turns ML models into production APIs, and we offer dedicated deployments with autoscaling GPUs.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Nabla+CTO"
+    },
+    {
+      "slot": "blocker",
+      "role": "CISO or security lead",
+      "search": "CISO",
+      "why_this_role": "Nabla handles clinical documentation in a regulated healthcare setting, so the security lead likely needs to approve any vendor that touches patient data (inferred).",
+      "cares_about": "HIPAA compliance and control over where patient data is processed",
+      "opening_angle": "Clinical notes and encounter data are sensitive, so I wanted to share that Baseten supports HIPAA and SOC 2 Type II, and offers single-tenant and self-hosted options. Would it be useful to walk through how that fits your setup?",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Nabla+CISO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Nabla",
+  "warnings": []
+}

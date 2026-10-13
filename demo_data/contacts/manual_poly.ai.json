@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:poly.ai",
+  "company_name": "PolyAI",
+  "created_at": "2026-10-12T21:23:56",
+  "fingerprint": "12bf8c567accfc5d",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "The CTO or technical founder likely decides whether PolyAI keeps building and serving its own dialog models in-house or buys inference infrastructure, since the company runs its own trained models (Dialog-RSN-1, Raven) in production and also offers its own Model API.",
+      "cares_about": "control over the model serving stack and how it fits the in-house platform",
+      "opening_angle": "Saw PolyAI runs Dialog-RSN-1 and Raven in production alongside your own Model API, and wanted to ask how you think about where model serving should live as those workloads grow.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=PolyAI+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=PolyAI",
+  "warnings": []
+}

@@ -1,0 +1,25 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/2154539/000215453926000001/0002154539-26-000001-index.htm",
+  "company_name": "Jojo Health, Inc.",
+  "created_at": "2026-10-12T21:22:43",
+  "fingerprint": "32e4dccc871b71c7",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "Jojo is an early-access voice AI device startup with no stated production traffic or model-serving signals, so the technical lead likely owns how its voice models get deployed as the product moves toward real users.",
+      "cares_about": "getting voice AI models running reliably without building serving infrastructure from scratch",
+      "opening_angle": "Baseten turns ML models into production APIs, so you could run your voice and vocal biomarker models as production endpoints without standing up your own serving stack, and I'd like to hear how you're planning to deploy them.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Jojo+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Jojo",
+  "warnings": []
+}

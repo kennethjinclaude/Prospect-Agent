@@ -1,0 +1,32 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/1979342/000197934226000003/0001979342-26-000003-index.htm",
+  "company_name": "WindBorne Systems Inc.",
+  "created_at": "2026-10-12T21:23:17",
+  "fingerprint": "5b38ce8905c129c0",
+  "size_band": "50_300",
+  "size_note": "estimated from a $37,124,969 round; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [],
+  "cards": [
+    {
+      "slot": "champion",
+      "role": "Head of ML/AI or ML infrastructure lead",
+      "search": "Head of ML",
+      "why_this_role": "WeatherMesh is WindBorne's deep learning forecast model, so the person who runs its model work is the most likely owner of how it gets served, though the evidence shows no ML infra hiring signals.",
+      "cares_about": "getting trained forecast models running reliably in production",
+      "opening_angle": "Since WeatherMesh runs on your balloon data, Baseten turns ML models into production APIs, so you can run forecast models as production APIs without building serving from scratch.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=WindBorne+Head+of+ML"
+    },
+    {
+      "slot": "economic_buyer",
+      "role": "VP Engineering",
+      "search": "VP Engineering",
+      "why_this_role": "With an estimated 50 to 300 employees and a recent $37M raise, this leader likely owns engineering priorities and infrastructure spend across the company.",
+      "cares_about": "keeping engineering capacity focused and infrastructure predictable (likely)",
+      "opening_angle": "Baseten offers usage-based pricing and dedicated deployments with autoscaling GPUs, so you can run model inference on your own terms as WindBorne grows.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=WindBorne+VP+Engineering"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=WindBorne",
+  "warnings": []
+}

@@ -1,0 +1,75 @@
+company_name,city,state,filing_date,industry_group,total_offering_amount,amount_sold,related_persons,filing_url,source,round_entered_manually,website,demo_sample,added_at,category
+Sierra,,,,Manual,,,,manual:sierra.ai,Manual,False,https://sierra.ai,True,2026-10-12T18:11:13,Voice & support agents
+Adaptive Security,,,,Manual,,,,manual:adaptivesecurity.com,Manual,False,https://adaptivesecurity.com,True,2026-10-12T18:11:33,Security AI
+ElevenLabs,,,,Manual,,,,manual:elevenlabs.io,Manual,False,https://elevenlabs.io,True,2026-10-12T18:11:40,Voice & support agents
+Glean,,,,Manual,,,,manual:glean.com,Manual,False,https://glean.com,True,2026-10-12T18:11:55,Search & knowledge work
+Perplexity,,,,Manual,,,,manual:perplexity.ai,Manual,False,https://perplexity.ai,True,2026-10-12T18:12:19,Search & knowledge work
+Runway,,,,Manual,,,,manual:runwayml.com,Manual,False,https://runwayml.com,True,2026-10-12T18:12:20,Video image & audio
+Character.AI,,,,Manual,,,,manual:character.ai,Manual,False,https://character.ai,True,2026-10-12T18:12:28,Consumer AI
+Hippocratic AI,,,,Manual,,,,manual:hippocraticai.com,Manual,False,https://hippocraticai.com,True,2026-10-12T18:12:28,Voice & support agents
+Suno,,,,Manual,,,,manual:suno.com,Manual,False,https://suno.com,True,2026-10-12T18:12:34,Video image & audio
+Replit,,,,Manual,,,,manual:replit.com,Manual,False,https://replit.com,True,2026-10-12T18:12:50,Coding & developer tools
+CodeRabbit,,,,Manual,,,,manual:coderabbit.ai,Manual,False,https://coderabbit.ai,True,2026-10-12T20:04:10,Coding & developer tools
+Greptile,,,,Manual,,,,manual:greptile.com,Manual,False,https://greptile.com,True,2026-10-12T20:04:10,Coding & developer tools
+Rillet,,,,Manual,,,,manual:rillet.com,Manual,False,https://rillet.com,True,2026-10-12T20:04:10,Finance AI
+Deepgram,,,,Manual,,,,manual:deepgram.com,Manual,False,https://deepgram.com,True,2026-10-12T20:04:10,Voice & support agents
+AssemblyAI,,,,Manual,,,,manual:assemblyai.com,Manual,False,https://assemblyai.com,True,2026-10-12T20:04:32,Voice & support agents
+Vapi,,,,Manual,,,,manual:vapi.ai,Manual,False,https://vapi.ai,True,2026-10-12T20:04:56,Voice & support agents
+Retell AI,,,,Manual,,,,manual:retellai.com,Manual,False,https://retellai.com,True,2026-10-12T20:05:18,Voice & support agents
+PolyAI,,,,Manual,,,,manual:poly.ai,Manual,False,https://poly.ai,True,2026-10-12T20:05:27,Voice & support agents
+Synthflow,,,,Manual,,,,manual:synthflow.ai,Manual,False,https://synthflow.ai,True,2026-10-12T20:05:50,Voice & support agents
+Hume AI,,,,Manual,,,,manual:hume.ai,Manual,False,https://hume.ai,True,2026-10-12T20:06:05,Voice & support agents
+Bland AI,,,,Manual,,,,manual:bland.ai,Manual,False,https://bland.ai,True,2026-10-12T20:06:11,Voice & support agents
+Cresta,,,,Manual,,,,manual:cresta.com,Manual,False,https://cresta.com,True,2026-10-12T20:06:29,Voice & support agents
+Parloa,,,,Manual,,,,manual:parloa.com,Manual,False,https://parloa.com,True,2026-10-12T20:06:44,Voice & support agents
+Ada,,,,Manual,,,,manual:ada.cx,Manual,False,https://ada.cx,True,2026-10-12T20:06:59,Voice & support agents
+Cognition,,,,Manual,,,,manual:cognition.ai,Manual,False,https://cognition.ai,True,2026-10-12T20:06:59,Coding & developer tools
+Bolt,,,,Manual,,,,manual:bolt.new,Manual,False,https://bolt.new,True,2026-10-12T20:07:07,Coding & developer tools
+Factory,,,,Manual,,,,manual:factory.ai,Manual,False,https://factory.ai,True,2026-10-12T20:07:23,Coding & developer tools
+Tabnine,,,,Manual,,,,manual:tabnine.com,Manual,False,https://tabnine.com,True,2026-10-12T20:07:31,Coding & developer tools
+Augment Code,,,,Manual,,,,manual:augmentcode.com,Manual,False,https://augmentcode.com,True,2026-10-12T20:07:40,Coding & developer tools
+Warp,,,,Manual,,,,manual:warp.dev,Manual,False,https://warp.dev,True,2026-10-12T20:07:56,Coding & developer tools
+Magic,,,,Manual,,,,manual:magic.dev,Manual,False,https://magic.dev,True,2026-10-12T20:08:20,Coding & developer tools
+Qodo,,,,Manual,,,,manual:qodo.ai,Manual,False,https://qodo.ai,True,2026-10-12T20:08:26,Coding & developer tools
+Spellbook,,,,Manual,,,,manual:spellbook.legal,Manual,False,https://spellbook.legal,True,2026-10-12T20:08:36,Legal AI
+EvenUp,,,,Manual,,,,manual:evenuplaw.com,Manual,False,https://evenuplaw.com,True,2026-10-12T20:08:43,Legal AI
+Eudia,,,,Manual,,,,manual:eudia.com,Manual,False,https://eudia.com,True,2026-10-12T20:09:05,Legal AI
+Legora,,,,Manual,,,,manual:legora.com,Manual,False,https://legora.com,True,2026-10-12T20:09:24,Legal AI
+Nabla,,,,Manual,,,,manual:nabla.com,Manual,False,https://nabla.com,True,2026-10-12T20:09:31,Healthcare AI
+Suki,,,,Manual,,,,manual:suki.ai,Manual,False,https://suki.ai,True,2026-10-12T20:09:46,Healthcare AI
+DeepScribe,,,,Manual,,,,manual:deepscribe.ai,Manual,False,https://deepscribe.ai,True,2026-10-12T20:10:03,Healthcare AI
+Freed,,,,Manual,,,,manual:getfreed.ai,Manual,False,https://getfreed.ai,True,2026-10-12T20:10:19,Healthcare AI
+Heidi Health,,,,Manual,,,,manual:heidihealth.com,Manual,False,https://heidihealth.com,True,2026-10-12T20:10:35,Healthcare AI
+Tennr,,,,Manual,,,,manual:tennr.com,Manual,False,https://tennr.com,True,2026-10-12T20:10:55,Healthcare AI
+Infinitus,,,,Manual,,,,manual:infinitus.ai,Manual,False,https://infinitus.ai,True,2026-10-12T20:11:11,Healthcare AI
+Rogo,,,,Manual,,,,manual:rogo.ai,Manual,False,https://rogo.ai,True,2026-10-12T20:11:18,Finance AI
+AlphaSense,,,,Manual,,,,manual:alpha-sense.com,Manual,False,https://alpha-sense.com,True,2026-10-12T20:11:36,Finance AI
+Brightwave,,,,Manual,,,,manual:brightwave.io,Manual,False,https://brightwave.io,True,2026-10-12T20:12:03,Finance AI
+Abnormal Security,,,,Manual,,,,manual:abnormalsecurity.com,Manual,False,https://abnormalsecurity.com,True,2026-10-12T20:12:11,Security AI
+Torq,,,,Manual,,,,manual:torq.io,Manual,False,https://torq.io,True,2026-10-12T20:12:26,Security AI
+Dropzone AI,,,,Manual,,,,manual:dropzone.ai,Manual,False,https://dropzone.ai,True,2026-10-12T20:12:32,Security AI
+Prophet Security,,,,Manual,,,,manual:prophetsecurity.ai,Manual,False,https://prophetsecurity.ai,True,2026-10-12T20:12:40,Security AI
+7AI,,,,Manual,,,,manual:7ai.com,Manual,False,https://7ai.com,True,2026-10-12T20:12:56,Security AI
+Granola,,,,Manual,,,,manual:granola.ai,Manual,False,https://granola.ai,True,2026-10-12T20:13:10,Search & knowledge work
+Otter.ai,,,,Manual,,,,manual:otter.ai,Manual,False,https://otter.ai,True,2026-10-12T20:13:17,Search & knowledge work
+Fireflies.ai,,,,Manual,,,,manual:fireflies.ai,Manual,False,https://fireflies.ai,True,2026-10-12T20:13:33,Search & knowledge work
+Read AI,,,,Manual,,,,manual:read.ai,Manual,False,https://read.ai,True,2026-10-12T20:13:48,Search & knowledge work
+Jasper,,,,Manual,,,,manual:jasper.ai,Manual,False,https://jasper.ai,True,2026-10-12T20:14:09,Search & knowledge work
+Typeface,,,,Manual,,,,manual:typeface.ai,Manual,False,https://typeface.ai,True,2026-10-12T20:14:17,Search & knowledge work
+Pika,,,,Manual,,,,manual:pika.art,Manual,False,https://pika.art,True,2026-10-12T20:14:32,Video image & audio
+Luma AI,,,,Manual,,,,manual:lumalabs.ai,Manual,False,https://lumalabs.ai,True,2026-10-12T20:14:41,Video image & audio
+Udio,,,,Manual,,,,manual:udio.com,Manual,False,https://udio.com,True,2026-10-12T20:14:57,Video image & audio
+Ideogram,,,,Manual,,,,manual:ideogram.ai,Manual,False,https://ideogram.ai,True,2026-10-12T20:15:06,Video image & audio
+Synthesia,,,,Manual,,,,manual:synthesia.io,Manual,False,https://synthesia.io,True,2026-10-12T20:15:06,Video image & audio
+Higgsfield,,,,Manual,,,,manual:higgsfield.ai,Manual,False,https://higgsfield.ai,True,2026-10-12T20:15:23,Video image & audio
+Hedra,,,,Manual,,,,manual:hedra.com,Manual,False,https://hedra.com,True,2026-10-12T20:15:30,Video image & audio
+Photoroom,,,,Manual,,,,manual:photoroom.com,Manual,False,https://photoroom.com,True,2026-10-12T20:15:45,Video image & audio
+Opus Clip,,,,Manual,,,,manual:opus.pro,Manual,False,https://opus.pro,True,2026-10-12T20:16:03,Video image & audio
+Speak,,,,Manual,,,,manual:speak.com,Manual,False,https://speak.com,True,2026-10-12T20:16:31,Consumer AI
+Lindy,,,,Manual,,,,manual:lindy.ai,Manual,False,https://lindy.ai,True,2026-10-12T20:16:46,Agents & GTM
+Browserbase,,,,Manual,,,,manual:browserbase.com,Manual,False,https://browserbase.com,True,2026-10-12T20:16:54,Agents & GTM
+11x,,,,Manual,,,,manual:11x.ai,Manual,False,https://11x.ai,True,2026-10-12T20:17:18,Agents & GTM
+Artisan,,,,Manual,,,,manual:artisan.co,Manual,False,https://artisan.co,True,2026-10-12T20:17:42,Agents & GTM
+Unify,,,,Manual,,,,manual:unifygtm.com,Manual,False,https://unifygtm.com,True,2026-10-12T20:17:57,Agents & GTM
+micro1,,,,Manual,,,,manual:micro1.ai,Manual,False,https://micro1.ai,True,2026-10-12T20:18:13,Agents & GTM
+Juicebox,,,,Manual,,,,manual:juicebox.ai,Manual,False,https://juicebox.ai,True,2026-10-12T20:18:21,Agents & GTM

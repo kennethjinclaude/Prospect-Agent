@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:11x.ai",
+  "company_name": "11x",
+  "created_at": "2026-10-12T21:25:39",
+  "fingerprint": "1ee075187d48009a",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "The technical leader is likely the person who would decide how 11x runs its AI digital workers and voice features in production, though the evidence shows no open models, GPU infrastructure, or ML infra hiring yet.",
+      "cares_about": "reliable production AI behind voice and agent features, without the team owning every layer of model serving",
+      "opening_angle": "Baseten turns ML models into production APIs, so you can run the voice and agent models behind Alice and Julian as production endpoints; would it be useful to compare how you serve them today?",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=11x+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=11x",
+  "warnings": []
+}

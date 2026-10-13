@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:glean.com",
+  "company_name": "Glean",
+  "created_at": "2026-10-12T21:23:39",
+  "fingerprint": "77b4b926f20dac6d",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "The CTO is likely the person who would weigh whether Glean's AI gateway and model routing should extend to models Glean hosts itself, since the evidence shows no custom or self-hosted model signals yet.",
+      "cares_about": "Keeping AI model routing and usage controls under the company's own control.",
+      "opening_angle": "Glean's AI gateway already routes and governs model use, so I'm curious whether you've looked at running open-source models behind that same layer as dedicated deployments on autoscaling GPUs.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Glean+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Glean",
+  "warnings": []
+}

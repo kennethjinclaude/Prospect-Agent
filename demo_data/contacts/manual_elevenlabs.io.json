@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:elevenlabs.io",
+  "company_name": "ElevenLabs",
+  "created_at": "2026-10-12T21:23:37",
+  "fingerprint": "bf9523bc6d64a406",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "The CTO or technical founder likely owns the decision on whether ElevenLabs keeps building its own serving stack or buys inference infrastructure, and the fit reason suggests they may lean toward building in-house.",
+      "cares_about": "Control over the model serving stack and technical ownership of core infrastructure.",
+      "opening_angle": "Teams running their own voice models at ElevenLabs' scale often hit questions about GPU autoscaling, so I'm curious how you're handling serving for your own models today.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=ElevenLabs+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=ElevenLabs",
+  "warnings": []
+}

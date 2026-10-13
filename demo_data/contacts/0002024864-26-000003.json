@@ -1,0 +1,50 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/2024864/000202486426000003/0002024864-26-000003-index.htm",
+  "company_name": "Exa Labs Inc.",
+  "created_at": "2026-10-12T21:21:53",
+  "fingerprint": "27a56c54c522ae0f",
+  "size_band": "300_plus",
+  "size_note": "estimated from a $247,488,419 round; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [],
+  "cards": [
+    {
+      "slot": "champion",
+      "role": "Director of ML Platform",
+      "search": "ML Platform",
+      "why_this_role": "This person likely owns the GPU cluster that runs Exa's own embedding, reranking and extraction models, and Exa's fit note says it may build in-house, so this is the most likely builder-versus-buy decision maker.",
+      "cares_about": "keeping their own GPU cluster running reliably while serving their own models",
+      "opening_angle": "Exa already works with Baseten as a Hosted Tools search provider, so I wanted to ask how your team thinks about running the embedding and reranking models on your own GPU cluster versus using dedicated deployments with autoscaling GPUs.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Exa+Labs+ML+Platform"
+    },
+    {
+      "slot": "economic_buyer",
+      "role": "VP Engineering or CTO",
+      "search": "VP Engineering",
+      "why_this_role": "Given the 300-plus size estimate and the large round, this person likely makes the final call on whether inference stays in-house or moves to a managed platform.",
+      "cares_about": "engineering focus and keeping infrastructure choices aligned with the product roadmap",
+      "opening_angle": "Since Exa already runs Baseten as a Hosted Tools search provider, I'm curious whether it makes sense to consider Baseten for the models your own team runs on its GPU cluster, since we turn ML models into production APIs.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Exa+Labs+VP+Engineering"
+    },
+    {
+      "slot": "blocker",
+      "role": "Security lead",
+      "search": "Security",
+      "why_this_role": "Exa handles public web and private information for AI agents, so this person likely reviews where models run and how data is handled, even though Exa is not marked as regulated.",
+      "cares_about": "where data is processed and how infrastructure vendors are vetted",
+      "opening_angle": "Exa already works with Baseten, and I wanted to share that Baseten supports SOC 2 Type II, with single-tenant and self-hosted options, in case that helps your review of where the models run.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Exa+Labs+Security"
+    },
+    {
+      "slot": "blocker",
+      "role": "Procurement",
+      "search": "Procurement",
+      "why_this_role": "Exa's heavy token volume suggests usage costs are significant, so procurement likely evaluates vendor terms for any inference platform, though this is inferred.",
+      "cares_about": "clear vendor terms and how usage is billed",
+      "opening_angle": "Baseten uses usage-based pricing, and since Exa already works with us as a Hosted Tools search provider, I wanted to check whether it would help to walk through how that billing would apply to your model workloads.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Exa+Labs+Procurement"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Exa+Labs",
+  "warnings": []
+}

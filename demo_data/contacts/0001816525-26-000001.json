@@ -1,0 +1,41 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/1816525/000181652526000001/0001816525-26-000001-index.htm",
+  "company_name": "Twin Health, Inc.",
+  "created_at": "2026-10-12T21:22:32",
+  "fingerprint": "5571a103af3287e2",
+  "size_band": "50_300",
+  "size_note": "estimated from a $61,507,331 round; check the LinkedIn company page for headcount",
+  "regulated": "sells into a regulated industry (\"Health\" in what they sell)",
+  "notes": [],
+  "cards": [
+    {
+      "slot": "champion",
+      "role": "Head of ML/AI or ML infrastructure lead",
+      "search": "Head of ML",
+      "why_this_role": "This person likely owns how the AI digital twin models are trained and served to members, and the company has no visible ML infrastructure hiring, so they may be a small team handling production model serving themselves.",
+      "cares_about": "reliable, low-latency serving of per-member models at growing scale",
+      "opening_angle": "Baseten turns ML models into production APIs, and I'm curious how your team serves a separate model for each member as membership grows.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Twin+Health+Head+of+ML"
+    },
+    {
+      "slot": "economic_buyer",
+      "role": "VP Engineering",
+      "search": "VP Engineering",
+      "why_this_role": "This leader likely owns the engineering budget and platform decisions behind the product, and the recent funding round suggests they may be scaling the platform now.",
+      "cares_about": "keeping the platform stable while the member base grows (likely)",
+      "opening_angle": "Congrats on the new round. Baseten runs dedicated deployments with autoscaling GPUs, so you can run models as production APIs without building that layer yourselves.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Twin+Health+VP+Engineering"
+    },
+    {
+      "slot": "blocker",
+      "role": "CISO or security lead",
+      "search": "CISO",
+      "why_this_role": "Twin Health handles sensitive health data in a regulated industry, so this person likely has to approve any vendor that touches member data.",
+      "cares_about": "compliance and data handling for health data (likely)",
+      "opening_angle": "Baseten supports HIPAA and SOC 2 Type II, and offers single-tenant and self-hosted options, so you can keep member data under your own controls.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Twin+Health+CISO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Twin+Health",
+  "warnings": []
+}

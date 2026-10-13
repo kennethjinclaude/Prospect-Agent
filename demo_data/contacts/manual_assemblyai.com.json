@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:assemblyai.com",
+  "company_name": "AssemblyAI",
+  "created_at": "2026-10-12T21:23:50",
+  "fingerprint": "18ab2cf267cdb361",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "The CTO or technical founder likely owns the decision on how AssemblyAI's own speech and voice models are built and served, so they are the person most able to weigh Baseten against self-building inference, though the evidence suggests AssemblyAI may be a competitor rather than a typical customer.",
+      "cares_about": "Technical control over model serving and whether an outside platform fits their own stack.",
+      "opening_angle": "Since you already run your own speech models in production, I'm curious how you think about serving infrastructure, and whether Baseten's dedicated deployments or self-hosted option ever come up as a comparison for your team.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=AssemblyAI+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=AssemblyAI",
+  "warnings": []
+}

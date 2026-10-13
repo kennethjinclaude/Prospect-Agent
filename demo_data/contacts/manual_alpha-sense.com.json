@@ -1,0 +1,34 @@
+{
+  "filing_url": "manual:alpha-sense.com",
+  "company_name": "AlphaSense",
+  "created_at": "2026-10-12T21:24:54",
+  "fingerprint": "bac08b0cbfe838f6",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "vertical ai for finance or insurance: \"The AI analyst for financial and strategic work.\"",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "The CTO is likely the person who would own any decision to run AI models in production for AlphaSense's SuperAnalyst and GenAI insight products, given the company's scale with 7,000+ enterprise customers.",
+      "cares_about": "reliable production AI systems that scale with demand",
+      "opening_angle": "Baseten turns ML models into production APIs, and I wanted to ask how your team currently gets models like the ones behind SuperAnalyst into production.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=AlphaSense+CTO"
+    },
+    {
+      "slot": "blocker",
+      "role": "CISO or security lead",
+      "search": "CISO",
+      "why_this_role": "AlphaSense serves finance and strategic research clients, so a security lead is likely involved in any vendor that touches sensitive customer data, and Baseten supports HIPAA and SOC 2 Type II.",
+      "cares_about": "data protection and vendor compliance for sensitive financial work",
+      "opening_angle": "Baseten supports HIPAA and SOC 2 Type II and offers single-tenant and self-hosted options, so I wanted to see whether your team has a standard for where AI model inference can run.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=AlphaSense+CISO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=AlphaSense",
+  "warnings": []
+}

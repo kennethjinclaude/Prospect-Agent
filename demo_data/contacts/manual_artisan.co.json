@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:artisan.co",
+  "company_name": "Artisan",
+  "created_at": "2026-10-12T21:25:41",
+  "fingerprint": "fdb249bd9e6d021c",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "Artisan's product is built on AI agents for outbound, so the technical lead likely owns model and inference choices, but the site does not show which models or infrastructure they run.",
+      "cares_about": "Keeping the AI agents fast and reliable at scale without slowing the product team down.",
+      "opening_angle": "Saw Ava runs email, social, and call outbound for sales teams; Baseten turns ML models into production APIs, so you could run your own models as production APIs, and I'd like to hear how you're serving models today.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Artisan+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Artisan",
+  "warnings": []
+}

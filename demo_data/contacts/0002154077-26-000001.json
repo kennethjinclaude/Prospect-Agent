@@ -1,0 +1,25 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/2154077/000215407726000001/0002154077-26-000001-index.htm",
+  "company_name": "TraceFrame, Inc.",
+  "created_at": "2026-10-12T21:21:34",
+  "fingerprint": "ecae8274e65e76ed",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "The CTO or technical founder would likely make the call on whether TraceFrame's AI-native applications need any model serving, but the evidence shows no model, traffic, or scale signals, so this is a low-confidence contact.",
+      "cares_about": "Whether the AI features they ship need reliable model serving in production.",
+      "opening_angle": "Baseten turns ML models into production APIs, so if TraceFrame's AI-native apps ever need models served that way, I'd be glad to share how that works.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=TraceFrame+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=TraceFrame",
+  "warnings": []
+}

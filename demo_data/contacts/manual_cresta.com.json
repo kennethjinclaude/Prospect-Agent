@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:cresta.com",
+  "company_name": "Cresta",
+  "created_at": "2026-10-12T21:24:06",
+  "fingerprint": "ea2d694241c32f79",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "This person likely owns the architecture behind Cresta's AI agents and real-time generative AI assist, which the evidence says run model calls on every conversation, so they are the most likely decision maker on how those models get served.",
+      "cares_about": "reliable, scalable model serving for live customer conversations",
+      "opening_angle": "Cresta's real-time agent assist runs model calls on every conversation, so I wanted to share how Baseten turns ML models into production APIs with autoscaling GPUs, in case that helps as your volume grows.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Cresta+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Cresta",
+  "warnings": []
+}

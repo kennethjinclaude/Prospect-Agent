@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:suno.com",
+  "company_name": "Suno",
+  "created_at": "2026-10-12T21:23:43",
+  "fingerprint": "cdf4fe1ac9482ae1",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "Suno runs its own music models (v6) for millions of users, so the technical lead likely owns how those models get served, and the evidence says it may build this in-house.",
+      "cares_about": "Serving its own models reliably at scale while keeping control of the stack.",
+      "opening_angle": "Baseten turns ML models into production APIs, so you can run your own music models as production APIs without building the serving layer from scratch, and that's worth a quick look if you're weighing build versus buy for v6 and what comes next.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Suno+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Suno",
+  "warnings": []
+}

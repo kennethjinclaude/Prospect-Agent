@@ -1,0 +1,41 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/1689694/000168969426000002/0001689694-26-000002-index.htm",
+  "company_name": "K Health, Inc.",
+  "created_at": "2026-10-12T21:23:11",
+  "fingerprint": "a95d88c672c5934d",
+  "size_band": "50_300",
+  "size_note": "estimated from a $68,949,885 round; check the LinkedIn company page for headcount",
+  "regulated": "sells into a regulated industry (\"Health\" in what they sell)",
+  "notes": [],
+  "cards": [
+    {
+      "slot": "champion",
+      "role": "Head of ML/AI or ML infrastructure lead",
+      "search": "Head of ML",
+      "why_this_role": "This person likely owns the models behind PatientGPT and AI intake, which are core to K Health's product, though the evidence shows no model-hosting or open-model signals and no ML infra hiring.",
+      "cares_about": "reliable model serving for clinical-facing AI products",
+      "opening_angle": "Baseten turns ML models into production APIs, so you could run the models behind PatientGPT and AI intake as production APIs without building the serving layer yourselves.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=K+Health+Head+of+ML"
+    },
+    {
+      "slot": "economic_buyer",
+      "role": "VP Engineering",
+      "search": "VP Engineering",
+      "why_this_role": "With an estimated 50 to 300 people and AI intake deployed across many named health systems, this role likely oversees how AI features get shipped and run in production.",
+      "cares_about": "dependable delivery of AI features across health system deployments",
+      "opening_angle": "Baseten offers dedicated deployments with autoscaling GPUs, so you could run AI intake on dedicated infrastructure sized to health system demand.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=K+Health+VP+Engineering"
+    },
+    {
+      "slot": "blocker",
+      "role": "CISO or security lead",
+      "search": "CISO",
+      "why_this_role": "K Health sells into a regulated healthcare market, so this person likely reviews any vendor that handles patient data.",
+      "cares_about": "compliance and control over where patient data runs",
+      "opening_angle": "Baseten supports HIPAA and SOC 2 Type II, and offers single-tenant and self-hosted options, so you could keep AI workloads under tighter control for health system customers.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=K+Health+CISO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=K+Health",
+  "warnings": []
+}

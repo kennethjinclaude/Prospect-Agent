@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:replit.com",
+  "company_name": "Replit",
+  "created_at": "2026-10-12T21:23:45",
+  "fingerprint": "0c8dac180652aefd",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "Replit's fit reason points to every user prompt driving model calls and cost with an explicit focus on model-routing cost, so the technical leader likely owns how those model calls are served.",
+      "cares_about": "keeping model serving reliable and cost-aware as agent usage grows",
+      "opening_angle": "Saw Replit's Agent turns prompts into hosted apps, so every prompt is a model call; Baseten runs dedicated, autoscaling GPU deployments and OpenAI-compatible Model APIs for open-source models, so you can run models as production APIs.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Replit+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Replit",
+  "warnings": []
+}

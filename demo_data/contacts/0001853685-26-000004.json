@@ -1,0 +1,50 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/1853685/000185368526000004/0001853685-26-000004-index.htm",
+  "company_name": "Incode Technologies, Inc.",
+  "created_at": "2026-10-12T21:22:17",
+  "fingerprint": "eb7210875d84ca57",
+  "size_band": "300_plus",
+  "size_note": "estimated from a $140,000,000 round; check the LinkedIn company page for headcount",
+  "regulated": "vertical ai for finance or insurance: \"Industries Financial services Fintech & Neobanks Crypto\"",
+  "notes": [],
+  "cards": [
+    {
+      "slot": "champion",
+      "role": "Director of ML Platform",
+      "search": "ML Platform",
+      "why_this_role": "Incode trains its own identity foundation models on billions of verifications, so someone likely owns the platform that serves those models in production, though no ML infra hiring was found.",
+      "cares_about": "reliable model serving and keeping inference running at scale",
+      "opening_angle": "Baseten turns ML models into production APIs, so you can run your identity foundation models as production APIs without building that serving layer yourselves.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Incode+Technologies+ML+Platform"
+    },
+    {
+      "slot": "economic_buyer",
+      "role": "VP Engineering or CTO",
+      "search": "VP Engineering",
+      "why_this_role": "As an AI-native vendor with an estimated 300-plus headcount and a $140M round, the engineering leader likely decides how inference infrastructure gets built and sourced.",
+      "cares_about": "architecture choices and keeping the core product shipping (likely)",
+      "opening_angle": "Baseten runs dedicated deployments with autoscaling GPUs, so you can give your verification models dedicated capacity that scales with demand.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Incode+Technologies+VP+Engineering"
+    },
+    {
+      "slot": "blocker",
+      "role": "Procurement",
+      "search": "Procurement",
+      "why_this_role": "Incode sells to financial services and public sector customers, so vendor onboarding and contract terms for a new infrastructure supplier likely pass through procurement.",
+      "cares_about": "contract terms, pricing structure, and vendor compliance paperwork (likely)",
+      "opening_angle": "Baseten uses usage-based pricing, and it can run on your existing AWS contract through our AWS Strategic Collaboration Agreement, so you may be able to buy through a path you already have.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Incode+Technologies+Procurement"
+    },
+    {
+      "slot": "blocker",
+      "role": "CISO or security lead",
+      "search": "CISO",
+      "why_this_role": "Incode handles biometric and identity data for regulated finance and public sector customers, so the security lead likely has to approve any inference vendor touching that data.",
+      "cares_about": "data handling, compliance certifications, and deployment isolation (likely)",
+      "opening_angle": "Baseten supports HIPAA and SOC 2 Type II, plus single-tenant and self-hosted options, so you can keep sensitive verification workloads in a deployment that fits your security review.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Incode+Technologies+CISO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Incode+Technologies",
+  "warnings": []
+}

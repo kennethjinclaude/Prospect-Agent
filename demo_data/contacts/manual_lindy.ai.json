@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:lindy.ai",
+  "company_name": "Lindy",
+  "created_at": "2026-10-12T21:25:35",
+  "fingerprint": "0fdd0736dac83db0",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "The evidence shows no ML infrastructure hiring and no stated model or GPU setup, so the technical lead is likely the person who decides how Lindy's AI agent models get served, and the fit is still unclear.",
+      "cares_about": "likely keeping AI agent features running reliably in production without slowing the product team down",
+      "opening_angle": "Lindy's agents work across a lot of company tools, so I'm curious how your team currently serves the models behind them, and whether you've looked at dedicated deployments with autoscaling GPUs.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Lindy+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Lindy",
+  "warnings": []
+}

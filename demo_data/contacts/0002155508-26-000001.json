@@ -1,0 +1,34 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/2155508/000215550826000001/0002155508-26-000001-index.htm",
+  "company_name": "Intrinsic Labs Holdings Inc.",
+  "created_at": "2026-10-12T21:22:20",
+  "fingerprint": "e2fc3d926aafd1f6",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "vertical ai for finance or insurance: \"Verticals in production Logistics \u2022 Manufacturing \u2022 Industrial \u2022 Construction \u2022 Insurance \u2022 Real Estate\"",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "The technical leader likely owns how custom AI agents get built and run inside client ERP, TMS, and CRM systems, so they would decide whether a managed model serving layer fits their stack.",
+      "cares_about": "reliable production agents and keeping engineering focus on the product",
+      "opening_angle": "Since your agents run in production inside client ERP and TMS systems, Baseten turns ML models into production APIs, so you could run the models behind them as dedicated, autoscaling deployments.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Intrinsic+Labs+Holdings+CTO"
+    },
+    {
+      "slot": "blocker",
+      "role": "CISO or security lead",
+      "search": "CISO",
+      "why_this_role": "Agents that touch invoices, load routing, and insurance-vertical workflows inside client systems likely raise data handling questions, and Baseten supports HIPAA and SOC 2 Type II with single-tenant and self-hosted options.",
+      "cares_about": "where client data goes, compliance evidence, and control over deployment environments",
+      "opening_angle": "For agents running inside client ERP and TMS systems, Baseten supports SOC 2 Type II and HIPAA, and offers single-tenant and self-hosted options so you can keep deployments where your clients need them.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Intrinsic+Labs+Holdings+CISO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Intrinsic+Labs+Holdings",
+  "warnings": []
+}

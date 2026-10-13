@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:higgsfield.ai",
+  "company_name": "Higgsfield",
+  "created_at": "2026-10-12T21:25:25",
+  "fingerprint": "8011b229e466c7d3",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "Higgsfield runs a live AI image and video generation suite with APIs and frequent launches, so the technical lead likely decides how its models get served, likely making this the person to talk to about model hosting.",
+      "cares_about": "reliable model serving and shipping new models quickly without slowing the product team (likely)",
+      "opening_angle": "Saw Higgsfield's API for motion transfer and object swap is live alongside new models like Seedance 2.5, so I wanted to share how Baseten turns ML models into production APIs with autoscaling GPUs.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Higgsfield+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Higgsfield",
+  "warnings": []
+}

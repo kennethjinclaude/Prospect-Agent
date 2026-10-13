@@ -1,0 +1,32 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/1829506/000182950626000002/0001829506-26-000002-index.htm",
+  "company_name": "Rialtic, Inc.",
+  "created_at": "2026-10-12T21:21:27",
+  "fingerprint": "0419ed49604fa0df",
+  "size_band": "under_50",
+  "size_note": "estimated from a $15,000,000 round; check the LinkedIn company page for headcount",
+  "regulated": "vertical ai for finance or insurance: \"Rialtic's agentic workforce helps payers and providers improve payment accuracy and reduce administrative costs with transparent AI and human oversight.\"",
+  "notes": [],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "Rialtic's Super Agents are agentic AI systems running live for payers, and the technical leader likely owns how those models get served in production (likely inferred, since no ML infrastructure hiring was found).",
+      "cares_about": "reliable production AI for payer workflows and keeping a small team focused on the product",
+      "opening_angle": "Rialtic's Super Agents handle payment accuracy and prior authorization for payers, and Baseten turns ML models into production APIs, so I'm curious how you're serving those models today.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Rialtic+CTO"
+    },
+    {
+      "slot": "blocker",
+      "role": "CISO or security lead",
+      "search": "CISO",
+      "why_this_role": "Rialtic works with payers on claims and prior authorization, so PHI and compliance requirements likely shape any vendor decision (likely inferred from the healthcare payer focus).",
+      "cares_about": "data protection, compliance posture, and human oversight of AI decisions",
+      "opening_angle": "Payers trust Rialtic with claims data, and Baseten supports HIPAA and SOC 2 Type II along with single-tenant and self-hosted options, so I wanted to share how that fits with your review process.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Rialtic+CISO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Rialtic",
+  "warnings": []
+}

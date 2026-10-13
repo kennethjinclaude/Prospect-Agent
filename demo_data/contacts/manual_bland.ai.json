@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:bland.ai",
+  "company_name": "Bland AI",
+  "created_at": "2026-10-12T21:24:04",
+  "fingerprint": "7a0acc09f975addc",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "The technical founder likely owns the decision on whether to keep running Bland's own speech-to-text, LLM, and text-to-speech stack in-house, which makes them the most direct decision-maker for an inference platform.",
+      "cares_about": "Keeping their own model stack reliable and under their control as voice calls scale.",
+      "opening_angle": "Bland runs its own STT, LLM, and TTS models end to end, so I wanted to ask how you handle serving those models in production, since Baseten turns ML models into production APIs and offers dedicated deployments with autoscaling GPUs.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Bland+AI+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Bland+AI",
+  "warnings": []
+}

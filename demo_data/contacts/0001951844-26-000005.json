@@ -1,0 +1,32 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/1951844/000195184426000005/0001951844-26-000005-index.htm",
+  "company_name": "Axle Labs, Inc.",
+  "created_at": "2026-10-12T21:21:37",
+  "fingerprint": "4c81ba144180ab8c",
+  "size_band": "under_50",
+  "size_note": "estimated from a $17,260,363 round; check the LinkedIn company page for headcount",
+  "regulated": "vertical ai for finance or insurance: \"Axle - AI Agents to Automate Insurance Workflows\"",
+  "notes": [],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "At a Series A company under 50 people, the CTO or technical founder likely owns the choice of how AI agents and document models get run in production, since the evidence shows real production use but no ML infrastructure hiring.",
+      "cares_about": "keeping production AI agents reliable without building extra infrastructure from scratch",
+      "opening_angle": "Axle's agents already run in production for lenders and dealerships, so I'm curious how you're hosting the models behind verification and Document AI today.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Axle+Labs+CTO"
+    },
+    {
+      "slot": "blocker",
+      "role": "CISO or security lead",
+      "search": "CISO",
+      "why_this_role": "Axle handles insurance policy data for mortgage lenders, dealerships, and rental car companies, so a security lead likely reviews where that data is processed; Baseten supports HIPAA and SOC 2 Type II, single-tenant and self-hosted options.",
+      "cares_about": "where sensitive insurance data is processed and whether vendors meet compliance standards like SOC 2 Type II",
+      "opening_angle": "Since Axle processes insurance policy data for lenders and rental firms, I wanted to share how Baseten supports SOC 2 Type II and single-tenant or self-hosted deployments, in case that fits your review process.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Axle+Labs+CISO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Axle+Labs",
+  "warnings": []
+}

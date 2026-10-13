@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:browserbase.com",
+  "company_name": "Browserbase",
+  "created_at": "2026-10-12T21:25:37",
+  "fingerprint": "55e163df8c841545",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "The CTO or technical founder is likely the person who would weigh whether Browserbase's AI agent stack needs any model-serving layer, though the evidence shows no model-serving, fine-tuning, or GPU signals, so this is an exploratory conversation rather than a clear inference buyer.",
+      "cares_about": "technical fit, whether a new vendor is worth evaluating for their agent stack",
+      "opening_angle": "Since Browserbase runs browser infrastructure for AI agents, I wondered if you ever need to host your own models alongside it, since Baseten turns ML models into production APIs.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Browserbase+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Browserbase",
+  "warnings": []
+}

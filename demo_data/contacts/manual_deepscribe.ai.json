@@ -1,0 +1,34 @@
+{
+  "filing_url": "manual:deepscribe.ai",
+  "company_name": "DeepScribe",
+  "created_at": "2026-10-12T21:24:38",
+  "fingerprint": "a524ca4c6ad5b44f",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "your category: Healthcare AI",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "This person likely owns the architecture behind DeepScribe's ambient scribe, which runs model calls on every clinical visit at scale, so they are the most likely decision maker on how those models get served in production.",
+      "cares_about": "reliable production model serving that holds up across many live clinical visits",
+      "opening_angle": "Baseten turns ML models into production APIs, so you can run the models behind your ambient scribe as production APIs without building that serving layer yourselves.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=DeepScribe+CTO"
+    },
+    {
+      "slot": "blocker",
+      "role": "CISO or security lead",
+      "search": "CISO",
+      "why_this_role": "Because DeepScribe works in healthcare and integrates with EHRs, this person likely has to sign off on any new infrastructure that touches patient data, so they gate the deployment choice.",
+      "cares_about": "patient data protection and vendor compliance posture",
+      "opening_angle": "Baseten supports HIPAA and SOC 2 Type II and offers single-tenant and self-hosted options, which may help if you want model serving that fits your compliance review.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=DeepScribe+CISO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=DeepScribe",
+  "warnings": []
+}

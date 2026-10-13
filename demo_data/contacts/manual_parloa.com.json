@@ -1,0 +1,34 @@
+{
+  "filing_url": "manual:parloa.com",
+  "company_name": "Parloa",
+  "created_at": "2026-10-12T21:24:08",
+  "fingerprint": "b6df790e7efea408",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "regulated enterprise building ai: \"At M\u00fcnchener Verein, insurance has always been personal. Now AI helps us serve customers even more efficiently.\"",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "As the technical lead of an AI-native customer service platform with enterprise insurers as customers, this person likely owns how agents are built and served in production, though the evidence shows no model-hosting or open-model signals.",
+      "cares_about": "reliable production AI agents that keep improving without constant manual rework",
+      "opening_angle": "Parloa's agents improve continuously in production, and Baseten turns ML models into production APIs, so you can run models as production APIs without building that serving layer yourselves.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Parloa+CTO"
+    },
+    {
+      "slot": "blocker",
+      "role": "CISO or security lead",
+      "search": "CISO",
+      "why_this_role": "Parloa sells into regulated enterprises such as insurers, so this person likely reviews vendors that handle sensitive customer conversations.",
+      "cares_about": "compliance evidence and control over where customer data runs",
+      "opening_angle": "Baseten supports HIPAA and SOC 2 Type II, and offers single-tenant and self-hosted options, so you can keep model serving within the controls your insurance customers expect.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Parloa+CISO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Parloa",
+  "warnings": []
+}

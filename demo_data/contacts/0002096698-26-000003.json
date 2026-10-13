@@ -1,0 +1,50 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/2096698/000209669826000003/0002096698-26-000003-index.htm",
+  "company_name": "Gnau Inc.",
+  "created_at": "2026-10-12T21:22:55",
+  "fingerprint": "6bee2aeb9f9f03c9",
+  "size_band": "300_plus",
+  "size_note": "estimated from a $100,109,653 round; check the LinkedIn company page for headcount",
+  "regulated": "vertical ai for finance or insurance: \"Today's top finance teams trust Rillet to close faster, report in real time and move their business forward.\"",
+  "notes": [],
+  "cards": [
+    {
+      "slot": "champion",
+      "role": "Director of ML Platform",
+      "search": "ML Platform",
+      "why_this_role": "Rillet ships Aura AI agents inside accounting workflows, so someone likely owns running those models in production, though the evidence shows no ML infra hiring.",
+      "cares_about": "Keeping model serving reliable and under their control",
+      "opening_angle": "Rillet's Aura agents run inside close and reporting workflows, and Baseten turns ML models into production APIs, so you could run those models as production APIs without building serving from scratch.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Gnau+ML+Platform"
+    },
+    {
+      "slot": "economic_buyer",
+      "role": "VP Engineering or CTO",
+      "search": "VP Engineering",
+      "why_this_role": "At a company of roughly 300 plus people (estimated from the funding round) with a $100M round, the engineering leader likely decides how AI features get built and hosted.",
+      "cares_about": "Engineering focus and keeping AI features shipping on a sound platform",
+      "opening_angle": "Baseten runs ML models as production APIs with dedicated deployments that autoscale GPUs, which could fit how Rillet's AI agents scale as more finance teams use them.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Gnau+VP+Engineering"
+    },
+    {
+      "slot": "blocker",
+      "role": "Procurement",
+      "search": "Procurement",
+      "why_this_role": "Baseten uses usage-based pricing and offers AWS Strategic Collaboration Agreement purchasing, so procurement may need to weigh vendor terms and existing AWS contracts.",
+      "cares_about": "Clear pricing terms and fitting purchases into existing contracts",
+      "opening_angle": "Baseten's usage-based pricing is set up so you pay for what you run, and enterprises can run Baseten's inference on their own AWS infrastructure using existing AWS contracts.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Gnau+Procurement"
+    },
+    {
+      "slot": "blocker",
+      "role": "CISO or security lead",
+      "search": "CISO",
+      "why_this_role": "Rillet sells accounting and financial reporting software to finance teams, so the security lead likely reviews any vendor that touches financial data, though the evidence does not confirm this.",
+      "cares_about": "Data protection and compliance for financial data",
+      "opening_angle": "Baseten supports HIPAA and SOC 2 Type II, with single-tenant and self-hosted options, so you can keep model inference in an environment that fits your security requirements.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Gnau+CISO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Gnau",
+  "warnings": []
+}

@@ -1,0 +1,1286 @@
+filing_url,company_name,website,verdict,account_segment,note,sender_name,created_at,relationship,relationship_reason,what_they_build,likely_models,inference_pain,why_now,ideal_role,assumptions,contact_name,contact_title,email_subject,email_body,followup_subject,followup_day3,followup_day5,followup_day9,followup_day11,social_proof_customer,excluded,nurture_note,company_display_name
+https://www.sec.gov/Archives/edgar/data/1816525/000181652526000001/0001816525-26-000001-index.htm,"Twin Health, Inc.",https://www.twinhealth.com,yes,tier_1,,Kenneth Jin,2026-10-11T23:49:10,customer,"Twin Health sells an AI digital twin product that analyzes sensor data in real time, so it would run models in production.","A metabolic health program for employers, health plans, and members, built around an AI digital twin, a real-time model of a person's metabolism that analyzes data from sensors and smart devices and gives daily guidance on food, sleep, activity, and stress.","Time-series and predictive models on sensor and wearable data, plus likely LLMs for personalized daily guidance and member insights.","Running real-time models per member on continuous sensor data, which needs low latency and reliable scaling as membership grows after the raise.","The Form D filed 2026-09-16 shows about $59.0M sold of a $61.5M offering, so they have fresh capital to scale the AI behind the digital twin.",CTO or Head of ML / AI Engineering,"Twin Health likely runs time-series or predictive models on sensor data and possibly LLMs for guidance; the website does not name model types.; Inference pain (latency, scaling) is inferred from the real-time digital twin description and the raise.; The AI digital twin is assumed to run in production on Twin Health's own infrastructure or a cloud provider.; Ideal technical contact is assumed to be a CTO or Head of ML since the filing lists no technical executive by title.; Twin Health is assumed to handle patient health data because it runs clinical care and metabolic programs, so HIPAA is mentioned.; OpenEvidence was chosen as the closest healthcare AI customer.","Executive Officer, Director","Executive Officer, Director",[First name] // Scaling Digital Twin Inference,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Twin Health gives members a real-time AI digital twin of their metabolism, and Baseten helps run the models behind products like that in production. OpenEvidence gives physicians fast, accurate medical information on Baseten.
+
+Baseten does this by turning ML models into production APIs on dedicated deployments with autoscaling GPUs, and Baseten supports HIPAA and SOC 2 Type II.
+
+Would you have 15 minutes this week or next to see if it's a fit for Twin Health?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Scaling Digital Twin Inference,"Hi [First name],
+
+Here is a resource on healthcare AI on Baseten that may be relevant to the digital twin: [RESOURCE LINK: add a real case study or article]. Would Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs, with dedicated deployments and autoscaling GPUs. Would Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and either answer helps me close the loop.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now. I'm happy to revisit another quarter if that's easier.
+
+Thanks,
+Kenneth",OpenEvidence,False,,
+https://www.sec.gov/Archives/edgar/data/2132947/000213294726000002/0002132947-26-000002-index.htm,"Quartermaster AI, Inc",https://www.quartermaster.us/,yes,tier_1,,Kenneth Jin,2026-10-11T23:49:18,customer,"Quartermaster builds a maritime awareness product with multimodal AI that identifies vessels from video, which would run models in production.","A distributed maritime awareness network that turns civilian and commercial vessels into a sensing layer using vessel-mounted HD video, geolocation, and multimodal AI that identifies nearby vessels and flags unusual activity.","Multimodal and vision models for vessel detection and identification from video, plus models that flag unusual activity.","Running vision and multimodal models reliably on a growing stream of video from 600+ sensors, with enough capacity to scale as the network grows after the raise.","The Form D filed 2026-09-29 shows about $122.6M sold of a $123.6M offering, so they have fresh capital to grow the network and the AI behind it.",CTO or Head of ML / AI Engineering,"Quartermaster likely runs vision and multimodal models, inferred from the website's description of multimodal AI identifying vessels.; Inference pain around scaling video workloads is inferred from the sensor network size and the raise, not stated.; The ideal technical contact is inferred, since the filing lists only directors and an executive officer.; Notion was chosen as social proof because no listed customer shares the maritime or vision workload.; The framing of Baseten helping run their AI as production APIs assumes they host or plan to host models rather than using only a third-party API.","Executive Officer, Director","Executive Officer, Director",[First name] // Scaling Maritime AI,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Quartermaster is turning vessels into a real-time maritime sensing network, and Baseten helps run the AI behind it as production APIs. Notion built AI Meeting Notes on Baseten with 2-3x lower latency.
+
+Baseten does this by turning ML models into production APIs, with dedicated deployments on autoscaling GPUs and multi-model workflows.
+
+Would you have 15 minutes this week or next to see if it's a fit for Quartermaster?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Scaling Maritime AI,"Hi [First name],
+
+Here is a resource on running AI features in production that may be relevant to your team: [RESOURCE LINK: add a real case study or article]. Does Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs, with dedicated deployments on autoscaling GPUs. Does Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and either way I'll close the loop on my side.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now, so I'll stop here. Happy to revisit another quarter if it becomes useful.
+
+Thanks,
+Kenneth",Notion,False,,
+https://www.sec.gov/Archives/edgar/data/1853685/000185368526000004/0001853685-26-000004-index.htm,"Incode Technologies, Inc.",https://incode.com,yes,tier_2,,Kenneth Jin,2026-10-11T23:49:35,customer,"Incode builds AI identity verification products (document, liveness, facial recognition, deepfake detection) that need to run ML models in production.","AI identity verification and KYC software, including document verification, liveness detection, facial recognition, deepfake detection, age assurance, and GovFaceMatch, which matches biometrics against DMV records.","Vision models for document and face verification, liveness and deepfake detection models, OCR and vision-language models, and identity foundation models.","Identity checks likely need low latency in real time at scale, and handling biometric data from regulated customers likely requires strong security and control over where models run.","Incode filed a Form D on 2026-09-16 for a $140,000,000 offering with about $37 million sold so far, and its Frontier AI Lab is building identity foundation models.",CTO or Head of ML / AI Infrastructure,"Incode runs its own ML models in production (vision, liveness, deepfake, OCR and VLM), inferred from its product descriptions and Frontier AI Lab.; Likely model types are inferred, not stated by Incode.; Latency and security pain points are inferred from the nature of identity verification.; The tier_2 angle is applied because the segment was given, and Incode serves regulated customers like financial services and government.; Ideal role is a guess since the filing lists only executives and directors.; Hebbia was chosen as the closest match for financial services customers.; Banks and governments are inferred from the listed industries (financial services, public sector).","Executive Officer, Director","Executive Officer, Director",[First name] // Secure Inference For Identity,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Incode verifies identities with AI for banks and governments, and Baseten gives the models behind that a secure place to run in production. Hebbia runs AI workflows for major financial institutions on Baseten.
+
+Baseten does this by offering SOC 2 Type II, single-tenant and self-hosted options, and running Baseten's inference on your own AWS infrastructure using your existing AWS contracts.
+
+Would you have 15 minutes this week or next to see if it's a fit for Incode?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Secure Inference For Identity,"Hi [First name],
+
+Here is something on how teams run models in production: [RESOURCE LINK: add a real case study or article]. It is relevant because Incode's identity models run in regulated settings. Would Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Just checking my note reached you. Baseten offers SOC 2 Type II, single-tenant and self-hosted options, so companies can run models on their own AWS infrastructure. Would Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and either way I'll close the loop on my end.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now, so I'm happy to revisit it another quarter.
+
+Thanks,
+Kenneth",Hebbia,False,,
+https://www.sec.gov/Archives/edgar/data/2155508/000215550826000001/0002155508-26-000001-index.htm,Intrinsic Labs Holdings Inc.,https://www.intrinsic-labs.ai/,yes,tier_2,,Kenneth Jin,2026-10-11T23:49:44,partner,"Intrinsic Labs designs, deploys and operates custom AI agents inside its clients' systems, which makes it an agency-style builder of AI for clients.","Custom AI workers (agents) that run inside clients' existing systems such as ERP, TMS and CRM, for industries like logistics, manufacturing, industrial, construction, insurance and real estate. They operate each agent until the client's team takes over.","Likely LLM-based agents for document and data work such as invoice coding, load routing, line-item matching and exception flagging. They may also use document extraction or classification models.","Each client runs its own agents, so Intrinsic probably has to host and scale many models across different clients. Those clients may want data control and the option to run in their own cloud.","The Form D filed 2026-09-16 shows $150,000 sold so far, and the website shows agents already running in production for clients such as Colliers International and Geis Companies. This looks like an early stage where they might be choosing how to host client deployments.",CTO or Head of Engineering,"Intrinsic is treated as a partner because it builds and operates AI agents for clients, rather than a company that sells its own AI product.; The models they run are inferred from the agent tasks on the website; the site does not name any models.; The hosting and data control pain is inferred from their client-embedded, multi-client model.; Whether they host the models themselves or call a third-party API is not stated.; The ideal technical contact is inferred; the filing lists only executive officers and directors [Executive Officer, Director] and [Executive Officer, Director], and their roles are not specified.; The total offering amount is not stated, so the size of the raise is unknown beyond the $150,000 sold so far.","Executive Officer, Director","Executive Officer, Director",,,,,,,,,False,,
+https://www.sec.gov/Archives/edgar/data/1951844/000195184426000005/0001951844-26-000005-index.htm,"Axle Labs, Inc.",https://axle.insure,yes,tier_2,,Kenneth Jin,2026-10-11T23:50:00,customer,"Axle builds AI agents and document AI for insurance workflows, which would run models in production.","AI agents and insurance data infrastructure that verify insurance policies directly from carriers, monitor policy changes, extract data from insurance documents, and validate whether a policy meets requirements.","LLM-based agents for carrier and portal interactions, document AI models (OCR and LLM extraction) for reading insurance documents, and classification or validation models for policy checks.","Running agent and document extraction workloads reliably in production with low latency for real-time verification, while handling security and data control needs from customers in lending, auto, and rental.","The filing shows $17,260,363 raised and fully sold, and the website announces a $17.5M Series A led by Base10, so they are likely scaling their AI agent products.",CTO or Head of AI/ML Engineering,"Axle likely runs LLM-based agents and document AI models, but the website does not name specific models.; Axle likely hosts its own models in production, which is inferred from the AI agent product descriptions.; Inference pain around latency and security is inferred from real-time verification and insurance data use cases.; The Series A from the website is assumed to match the Form D raise of $17,260,363.; Hebbia is chosen as the closest match because it serves financial institutions, similar to Axle's mortgage and loan servicing customers.; The ideal role is a guess, since the filing lists no technical executive by title.; Axle is assumed to be in a regulated or enterprise-facing segment as given by the tier_2 label; the website does not mention healthcare or patient data.","Executive Officer, Director","Executive Officer, Director",[First name] // Secure Inference For Agents,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Axle is using AI agents to automate insurance verification, and Baseten helps teams run the models behind agents like that on infrastructure they control. Hebbia runs AI workflows for major financial institutions on Baseten.
+
+Baseten does this by offering SOC 2 Type II compliance, single-tenant and self-hosted options, and running Baseten on your own AWS infrastructure using your existing AWS contracts.
+
+Would you have 15 minutes this week or next to see if it's a fit for Axle?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Secure Inference For Agents,"Hi [First name],
+
+Here is a resource on how teams run AI workloads on their own cloud: [RESOURCE LINK: add a real case study or article]. It seemed relevant given Axle's work with insurance data. Does Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten offers single-tenant and self-hosted options, plus SOC 2 Type II, for companies running models in production. Does Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and either answer helps me close the loop on my end.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now, so I'll step back. I'm glad to revisit another quarter if that's easier.
+
+Thanks,
+Kenneth",Hebbia,False,,
+https://www.sec.gov/Archives/edgar/data/1897766/000189776626000003/0001897766-26-000003-index.htm,Voxel Labs Inc.,https://www.voxelai.com,yes,tier_3,,Kenneth Jin,2026-10-12T00:55:34,customer,"Voxel sells an AI video platform for industrial safety, quality and flow that would run vision models in production on camera feeds.","AI-powered visibility for industrial operations that turns existing cameras into real-time insight on safety, quality, and flow in logistics, manufacturing, and retail facilities.","Computer vision models such as pose estimation, object detection, and activity recognition running on video streams.","Running vision models on many camera feeds in real time, and scaling GPU capacity as they add customer sites after the raise.","The Form D filed 2026-09-17 shows about $10.0M sold of an $11M offering, and the website says Voxel just acquired Ventral, so more customer sites and video workloads are likely.",CTO or Head of ML,"Voxel likely runs computer vision models on video, inferred from the website describing AI on camera feeds.; Inference pain around real-time video and scaling is inferred, not stated.; Ideal technical contact is assumed to be a CTO or Head of ML since the filing lists directors and an executive officer only.; Assumed more customer sites and video workloads follow the raise and the Ventral acquisition.; Notion is used as the social proof default because no public customer shares the industrial vision workload, though no social proof text is written for tier_3.","Executive Officer, Director","Executive Officer, Director",[First name] // Scaling Vision Inference,"Good morning, [First name],
+
+Voxel's new raise and the Ventral deal suggest more camera feeds to serve soon. Baseten turns ML models into production APIs with usage-based pricing, so you pay for what you use. Is running your vision models something you're looking at right now?
+
+Thanks,
+Kenneth",,,,,,,False,"Reach out again when Voxel closes the rest of the $11M round or onboards new sites after the Ventral acquisition, and ask about the cost of running real-time video models across customer cameras.",
+https://www.sec.gov/Archives/edgar/data/1979207/000197920726000004/0001979207-26-000004-index.htm,UrgentIQ Inc.,https://www.urgentiq.com/,yes,tier_3,,Kenneth Jin,2026-10-12T00:55:54,customer,"UrgentIQ sells an AI-native EMR for urgent care centers, with AI documentation, coding and chart review that would run models in production.","An AI-native EMR and operating system for urgent care centers, covering intake, clinical documentation, coding, billing and practice management.","LLMs for clinical documentation, discharge instructions and chart review, speech-to-text for voice dictation, OCR and vision models for insurance verification, and classification models for coding and claim scrubbing.","Keeping clinical documentation and dictation fast for busy clinics while scaling AI workloads across more urgent care centers after the raise, with patient data requirements.","The Form D shows about $11.6M of a $12M offering sold, so they have fresh capital to scale their AI features.",CTO or Head of Engineering / ML,"The models they run are inferred from website features like AI documentation, dictation, OCR and coding, not stated.; They likely run models in production themselves rather than only calling a third-party API.; Scaling after the raise is inferred from the Form D amounts.; The ideal technical contact title is a guess since the only listed person is [Executive Officer, Director, Promoter], an executive officer.; Tier 3 treatment is based on the segment given, not the filing.","Executive Officer, Director, Promoter","Executive Officer, Director, Promoter",[First name] // Running Clinical AI Reliably,"Good morning, [First name],
+
+Your recent raise should mean more clinics and more AI workloads to run. Baseten supports HIPAA and SOC 2 Type II, which matters when the models touch patient data. Is running your models in production on your radar this year?
+
+Thanks,
+Kenneth",,,,,,,False,"Reach out again when they raise again or start adding AI features like coding or chart review to more clinics; the site highlights AI documentation, voice dictation, and HIPAA compliance.",
+https://www.sec.gov/Archives/edgar/data/2145503/000214550326000003/0002145503-26-000003-index.htm,"Rebel Audio, Inc.",https://www.rebelaudio.ai,yes,tier_3,,Kenneth Jin,2026-10-12T00:56:16,customer,"Rebel Audio sells an AI podcasting product with transcript editing, AI editing, voice translation and an AI agent, which would run models in production.","An AI podcasting platform where creators upload or record audio or video, and Rebel edits, writes titles and descriptions, makes cover art and clips, and publishes to Spotify, Apple, YouTube and other apps.","Speech-to-text for transcripts, audio enhancement models, LLMs for titles, descriptions and the chat agent, image generation for cover art, and voice translation and voice cloning models.","Audio and video files are heavy to process, so editing, clipping and translation jobs likely need lots of GPU capacity that scales with creator uploads, while keeping turnaround fast.","The filing shows $9.225M sold of a $14.15M offering, and the company recently came out of stealth, so usage is likely to grow as it onboards more creators.",CTO or Head of ML,"Rebel Audio likely runs speech-to-text, LLM, image generation and voice translation models, inferred from the website features.; Heavy audio and video processing likely creates GPU and scaling pressure, which is inferred.; Usage likely grows after the recent stealth exit and raise, which is inferred.; Whether they host their own models or use third-party APIs is unknown.; The nurture trigger of closing the rest of the offering is inferred from the amount sold so far versus the total offering.",Executive Officer,Executive Officer,[First name] // Scaling Audio AI Models,"Good morning, [First name],
+
+Saw Rebel Audio's recent raise and the push to make podcasting one click. Baseten turns ML models into production APIs, with usage-based pricing so you pay for what you use as you grow. Is model serving on your radar yet?
+
+Thanks,
+Kenneth",,,,,,,False,"Reach out again when Rebel Audio closes the rest of its $14.15M offering or when creator volume picks up, and ask about how they run voice translation and auto edit models.",
+https://www.sec.gov/Archives/edgar/data/2142746/000214274626000002/0002142746-26-000002-index.htm,Glauc Inc.,https://www.glauc.co/,yes,tier_3,,Kenneth Jin,2026-10-12T00:56:23,customer,"Glauc sells an AI product that returns biomarker and disease risk estimates from eye photos, which would run models in production.","Software that turns a smartphone photo of the eye into health insights, offered through iOS and Android SDKs, a REST API, and an MCP server, returning disease risk signals and biological age estimates.","Computer vision models for eye image analysis and biomarker estimation, plus image quality checks.","Returning structured results from each image through a single API endpoint, which likely means keeping inference fast and reliable as usage grows after the raise.","Form D filed 2026-09-15 with $50,000 sold so far, so this is a very early raise and the team is likely building out its API and integrations.",CTO or Head of ML,"Glauc likely runs computer vision models on eye images, which the website does not state directly.; Glauc likely hosts or will host its own inference, which is not stated.; The small amount sold ($50,000) suggests an early-stage raise.; HIPAA is mentioned because Glauc works with health data and hospital wellness checks; whether it handles patient data in a regulated way is inferred.; [Executive Officer] is the CEO per the website, so a technical contact may be a different person.",Executive Officer,Executive Officer,[First name] // Running Eye Biomarker Models,"Good morning, [First name],
+
+Saw Glauc's recent raise and the single endpoint that returns disease risk signals from an eye photo. Baseten turns ML models into production APIs and supports HIPAA, which may fit a health product like yours. Is model hosting on your radar yet?
+
+Thanks,
+Kenneth",,,,,,,False,"Reach out again when Glauc raises a larger round or when API usage through its SDKs and wellness check integrations starts to ramp up; the website mentions hospital wellness checks, so a clinical deal could be a trigger.",
+https://www.sec.gov/Archives/edgar/data/2155066/000215506626000002/0002155066-26-000002-index.htm,DVx Atomic Co.,https://atomic.supply,yes,tier_3,,Kenneth Jin,2026-10-12T15:41:43,customer,"Atomic sells supply chain planning software that uses AI models to simulate and plan every unit, so it would run models in production.","Supply chain planning software for companies that make, buy, move, or sell physical goods, where AI models every unit, tests what-ifs, and explains each decision.","Forecasting and simulation models, optimization models, and likely LLMs for explaining decisions in plain language.","Continuously rerunning simulations across every SKU, site and supplier, and scaling that compute reliably as customers and the team grow after the raise.","The filing shows a recent round with the full offering amount sold, so the team is likely growing the platform and customer base.",CTO or Head of AI/ML,"Atomic likely runs forecasting, simulation, and optimization models, and possibly LLMs for explanations, but the website does not say which.; The recent round is assumed to mean the team is growing and adding customers.; Inference scaling is assumed to be a pain because simulations rerun continuously, which the website describes.; The ideal technical contact title is a guess since the filing lists no CTO or ML lead.","Executive Officer, Director","Executive Officer, Director",[First name] // Scaling Atomic's Inference,"Good morning, [First name],
+
+Atomic's recent round likely means more customers running planning on your AI. Baseten turns ML models into production APIs with usage-based pricing, so you pay for what you use. Is running your models in production on your radar this year?
+
+Thanks,
+Kenneth",,,,,,,False,"Reach out again when Atomic raises again or adds big customers beyond DashMart and Good Chop, since more simulation volume could make inference a bigger focus.",
+https://www.sec.gov/Archives/edgar/data/1829506/000182950626000002/0001829506-26-000002-index.htm,"Rialtic, Inc.",https://rialtic.io,yes,tier_3,,Kenneth Jin,2026-10-12T15:41:51,customer,Rialtic builds agentic AI products for healthcare payers and providers that would run models in production.,"A transparent pre-pay claims editing platform for payers, plus Super Agents that pair deterministic rules with agentic inference and human validation for payment accuracy, prior authorization, and audit and appeals.","LLMs for agentic inference and document or chart review, alongside rules-based logic.","Running agentic workloads reliably in production for healthcare payers, with data handling requirements, and scaling capacity as the new funds are put to work.","The Form D shows $9.6M sold of a $15M offering, and the website announces a merger with Exponential AI, so the team is likely growing its AI workloads.",CTO or Head of AI/ML Engineering,"Rialtic likely runs LLMs for its agentic inference.; Rialtic likely handles patient or claims data, so HIPAA is relevant.; The Form D filing and merger news suggest AI workloads will grow, which is inferred.; Rialtic's ideal technical contact is a CTO or Head of AI/ML, since the filing lists directors and officers without technical titles.","Executive Officer, Director","Executive Officer, Director",[First name] // Agent Inference After Your Round,"Good morning, [First name],
+
+Saw Rialtic is putting your recent round to work on Super Agents for payers. Baseten turns ML models into production APIs, with HIPAA and SOC 2 Type II support. Is running those agents in production on your radar?
+
+Thanks,
+Kenneth",,,,,,,False,"Reach out again when the Exponential AI merger closes or Rialtic raises again, and ask about running Super Agents for prior authorization and audit and appeals at higher volume.",
+https://www.sec.gov/Archives/edgar/data/2072522/000207252226000003/0002072522-26-000003-index.htm,Rapta Inc.,https://rapta.ai,yes,tier_3,,Kenneth Jin,2026-10-12T15:41:58,customer,"Rapta builds an AI manufacturing inspection product that uses cameras and sensors, which would likely run vision models in production.","A manufacturing intelligence platform that uses cameras and sensors to make manual and robotic build stations smarter, catching defects and errors at the station and archiving photo proof of each unit.","Computer vision models for defect and part inspection, plus possibly LLMs or multimodal models for the AI Supercoach and co-pilot features.","Real-time, low-latency vision inference at build stations, and scaling deployments across customers, including on-premises or air-gapped setups.","The Form D filed 2026-09-14 shows the full $10,835,253 offering sold, so the team likely has fresh budget to scale its AI platform.",CTO or Head of AI/ML,"Rapta likely runs computer vision models, inferred from its camera-based inspection description.; The AI Supercoach and co-pilot features may use LLMs, which is inferred.; Fresh budget is inferred from the fully sold Form D offering.; Likely need for low-latency inference and on-premises deployment is inferred from the website's on-premises and air-gapped claims.; Social proof customer is set to Notion by default and is not used in a tier_3 email.; Ideal role of CTO or Head of AI/ML is a guess, since the filing lists no technical executive by title.","Executive Officer, Director, Promoter","Executive Officer, Director, Promoter",[First name] // Scaling Inspection AI,"Good morning, [First name],
+
+Rapta's recent round caught my eye. Baseten turns ML models into production APIs, with usage-based pricing, so an early team can run models in production and pay for what it uses. Is that worth a quick chat?
+
+Thanks,
+Kenneth",,,,,,,False,"Reach out again when Rapta posts ML or AI infrastructure roles on its Jobs page or raises again, and note its on-premises, air-gapped and ITAR requirements, which could make Baseten's self-hosted options relevant.",
+https://www.sec.gov/Archives/edgar/data/1876339/000187633926000003/0001876339-26-000003-index.htm,Sunflower Labs Inc.,https://sunflower-labs.com,yes,tier_3,,Kenneth Jin,2026-10-12T15:42:05,customer,Sunflower Labs sells an AI-powered drone security system whose detection of suspicious behavior would run vision models in production.,"The Beehive, a fully autonomous, AI-powered drone security system (the Bee drone) that protects commercial, industrial, and residential properties, detects suspicious behavior, tracks intruders, and sends real-time alerts.","Computer vision models for object, person, and behavior detection on live video, plus possibly multimodal models for alert summaries.","Real-time alerts on live HD video need low latency and reliable GPU capacity, and demand can grow as more properties are added after the raise.","The Form D shows about $14.9M sold of a $20M offering, filed in September 2026, so the team is likely scaling deployments and AI workloads.",CTO or Head of AI/ML,"Sunflower Labs likely runs computer vision models for detection of suspicious behavior, though the website does not name models.; Real-time alerts are assumed to depend on low-latency inference, which may or may not run in the cloud versus on the drone.; Scaling of deployments is inferred from the amount sold in the Form D filing.; Usage-based pricing is mentioned as fitting an early team, which is an assumed relevance.; CTO or Head of AI/ML is assumed to be the right technical contact, since the listed persons are executives and directors.","Executive Officer, Director","Executive Officer, Director",[First name] // Scaling Real-Time Detection,"Good morning, [First name],
+
+Saw your recent round and how the Bee sends real-time alerts. Baseten turns ML models into production APIs with usage-based pricing, so you can run models as you grow. Is inference on your radar this quarter?
+
+Thanks,
+Kenneth",,,,,,,False,"Reach out again when Sunflower Labs raises again or expands Beehive deployments, since real-time detection on live video would drive more inference demand.",
+https://www.sec.gov/Archives/edgar/data/2030828/000203082826000003/0002030828-26-000003-index.htm,Lateral Care Inc.,https://www.lateralcare.com,maybe,tier_3,,Kenneth Jin,2026-10-12T15:42:12,customer,Lateral Care builds AI agents for healthcare revenue cycle management that would need to run models in production.,"Revenue alai, an AI-powered healthcare platform with revenue cycle management agents covering claims and billing, denial management, and compliance.","LLM-based agents for claims, billing, denial management and compliance workflows, possibly with document understanding models.","Running agent workflows reliably in production for healthcare organizations, with scaling and latency needs as usage grows after the raise.","The filing shows the full offering of $11,305,000 sold on 2026-10-06, so the team is likely scaling its product and customer base.",CTO or Head of AI/ML Engineering,"Lateral Care likely runs LLMs or similar models behind its agents, which is not stated on the website.; The ideal technical contact is assumed to be a CTO or Head of AI/ML since the filing lists only directors and one executive officer.; Revenue alai likely handles patient or healthcare billing data, inferred from the healthcare revenue cycle focus.; The raise is assumed to be fresh capital for scaling the product, inferred from the Form D filing.; EliseAI is chosen as social proof because it is the closest healthcare AI customer, but it is not used in the tier 3 email.",Executive Officer,Executive Officer,[First name] // Running Revenue Agents In Production,"Good morning, [First name],
+
+Since your recent round is closed, your agents will likely see more production traffic. Baseten supports HIPAA and SOC 2 Type II, which matters for healthcare teams like yours. Is running your own models something you're looking at?
+
+Thanks,
+Kenneth",,,,,,,False,"Reach out again when Lateral Care raises again or starts hiring ML or infrastructure engineers, and check whether Revenue alai adds new agents beyond claims, denials and compliance.",
+https://www.sec.gov/Archives/edgar/data/1988367/000143774926027932/0001437749-26-027932-index.htm,"iSchemaView, Inc.",https://www.rapidai.com/,yes,tier_1,,Kenneth Jin,2026-10-12T18:08:23,customer,"RapidAI sells clinical AI for medical imaging used in hospitals, which means it runs ML models in production.","RapidAI (legal name iSchemaView) sells the Rapid Enterprise Platform, a clinical AI platform that connects imaging to clinical action across the health system, with FDA-cleared AI used in 2,500+ hospitals for neurovascular, cardiac and vascular, and radiology use cases.","Medical imaging models (computer vision on CT, CTA, CTP scans) for detection, quantification and triage, plus possibly LLM-based tools for autoreporting and interpretation assistance.","Running imaging AI reliably across thousands of hospitals, with fast results for time-sensitive cases and scaling GPU capacity as the platform grows, all while meeting security and compliance needs.","The Form D filing from August 2026 shows the full $25M offering sold, so the company has fresh capital to expand its AI portfolio, including new areas like aortic and autoreporting.","CTO, VP of Engineering, or Head of AI/ML Platform","RapidAI is the brand name for iSchemaView, Inc., inferred from the website domain and filing.; The models are assumed to be medical imaging computer vision models; the website does not name model types.; The autoreporting and interpretation assistance features may use LLMs, which is inferred.; The inference pain points (latency, GPU scaling, compliance) are inferred, not stated on the website.; The full $25M sold is read as fresh capital; the filing does not say how the money will be used.; Ideal role is a guess, since the filing lists executive officers and directors without technical titles.; Baseten's HIPAA support is mentioned because RapidAI handles patient imaging data in healthcare.","Executive Officer, Director","Executive Officer, Director",[First name] // Running Clinical Imaging AI,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. RapidAI connects imaging to clinical action across the health system, and Baseten helps run the AI models behind products like that in production. OpenEvidence uses Baseten to give physicians fast, accurate medical information.
+
+Baseten does this by turning ML models into production APIs on autoscaling GPUs, with HIPAA and SOC 2 Type II support plus single-tenant and self-hosted options.
+
+Would you have 15 minutes this week or next to see if it's a fit for RapidAI?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Running Clinical Imaging AI,"Hi [First name],
+
+Here is a resource on healthcare AI on Baseten that may be relevant to RapidAI's clinical work: [RESOURCE LINK: add a real case study or article]. Would Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs, with HIPAA and SOC 2 Type II support for healthcare teams. Would Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and either way I'll close the loop on my end.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now, so I won't keep following up. I'd be glad to revisit it another quarter if that's easier.
+
+Thanks,
+Kenneth",OpenEvidence,False,,RapidAI
+https://www.sec.gov/Archives/edgar/data/1979342/000197934226000003/0001979342-26-000003-index.htm,WindBorne Systems Inc.,https://windbornesystems.com,yes,tier_1,"Director, no executive listed",Kenneth Jin,2026-10-12T18:08:33,customer,"WindBorne builds WeatherMesh, a deep learning forecast model, which would run in production as part of its forecast products.","Long-duration atmospheric balloons (the Atlas constellation) that collect weather data, plus WeatherMesh, a deep learning forecast model that uses that proprietary data, sold as observations, forecasts and weather solutions for industries like energy trading and utilities.","Deep learning weather forecasting models (WeatherMesh), likely large GPU-based neural networks, possibly with smaller models for turning forecasts into industry-specific insights.","Running large forecast models on a regular schedule and serving them through an API to customers, which likely needs reliable GPU capacity that scales as the business grows after the raise.","The Form D shows about $37M sold, and the website says WindBorne is scaling Atlas and launching hundreds of balloons each month, so more data and more forecast demand likely follow.",Head of ML or CTO,"WeatherMesh is likely served as a GPU-based deep learning model, which is inferred from the website description.; WindBorne likely exposes forecasts through its API (API Docs are listed on the site), so models probably run in production.; Inference pain around reliable GPU capacity and scaling is inferred, not stated.; The raise is assumed to fund growth in forecast demand, based on the Form D and site text.; No Baseten customer is in weather, so Notion was used as the default social proof.; Ideal technical contact is assumed to be a Head of ML or CTO since the filing lists only directors.",Director,Director,[First name] // Serving WeatherMesh In Production,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. WindBorne fuses balloon data with deep learning to forecast weather, and Baseten helps run the models behind forecasts like that as production APIs. Notion built AI Meeting Notes on Baseten with 2-3x lower latency.
+
+Baseten does this by offering dedicated deployments with autoscaling GPUs, plus usage-based pricing, so you can run models as production APIs.
+
+Would you have 15 minutes this week or next to see if it's a fit for WindBorne?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Serving WeatherMesh In Production,"Hi [First name],
+
+Sharing this because it covers running models in production, which seems relevant to WeatherMesh: [RESOURCE LINK: add a real case study or article]. Does Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs, with dedicated deployments and autoscaling GPUs. Does Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and either answer is fine so I can close the loop on my end.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now, so I'll stop here. Happy to revisit another quarter if that's useful.
+
+Thanks,
+Kenneth",Notion,False,,WindBorne
+https://www.sec.gov/Archives/edgar/data/1689694/000168969426000002/0001689694-26-000002-index.htm,"K Health, Inc.",https://www.khealth.com,yes,tier_1,,Kenneth Jin,2026-10-12T18:08:54,customer,"K Health builds AI products like PatientGPT and dynamic intake for health systems, which would need to run models in production.","AI-enabled care for health systems: dynamic intake and PatientGPT that integrate into EHR systems as a digital front door, plus 24/7 virtual primary care and specialty care.","LLMs behind PatientGPT that answer patient questions grounded in medical records, plus models driving AI-guided intake.","Running conversational LLMs for many health system partners with low latency and reliable uptime, while handling patient data and scaling GPU capacity as new partners launch.","The Form D shows a round with about $58.9M sold so far, and the site shows a growing list of health system partners and a move into specialty care.",CTO or Head of ML / AI Engineering,"K Health likely runs LLMs for PatientGPT and intake, inferred from the website description.; The inference pain (latency, uptime, GPU scaling across health system partners) is inferred, not stated.; The ideal technical contact is inferred, since the filing lists no CTO or ML lead.; Handling patient data is inferred from the integration with EHR systems and grounding in patient medical records.; Whether K Health already runs its own inference stack or uses another provider is unknown.","Executive Officer, Director","Executive Officer, Director",[First name] // Running PatientGPT In Production,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. K Health is building AI intake and PatientGPT into health system care, and Baseten helps run the models behind products like that in production. OpenEvidence uses Baseten to give physicians fast, accurate medical information.
+
+Baseten does this by turning ML models into production APIs, with dedicated deployments on autoscaling GPUs, plus HIPAA and SOC 2 Type II support.
+
+Would you have 15 minutes this week or next to see if it's a fit for K Health?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Running PatientGPT In Production,"Hi [First name],
+
+Here is a resource on how healthcare AI teams run models in production: [RESOURCE LINK: add a real case study or article]. It seemed relevant given PatientGPT. Would Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs, with HIPAA and SOC 2 Type II support for healthcare teams. Would Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and I'll close the loop either way.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now, so I'll step back. If it helps, I'm glad to revisit another quarter.
+
+Thanks,
+Kenneth",OpenEvidence,False,,K Health
+https://www.sec.gov/Archives/edgar/data/2014393/000201439326000004/0002014393-26-000004-index.htm,CodeRabbit Inc.,https://coderabbit.ai,yes,tier_1,,Kenneth Jin,2026-10-12T18:09:02,customer,CodeRabbit sells an AI code review product that would run models in production on every pull request.,"CodeRabbit sells AI code review and change management for agentic development: it reviews every PR automatically, helps teams prioritize reviews, and scans codebases for security issues.","Large language models for code review and code understanding, plus models for prioritization and security scanning.","Reviewing every PR for 17K customers and 6M repositories means high, spiky LLM volume where latency and GPU cost matter, and agents are pushing more PRs through the pipeline.","The filing shows a large raise of about $143M, filed 2026-08-14, and the website says coding agents are flooding pipelines with PRs, so review volume is likely growing fast.",CTO or Head of ML / AI Infrastructure,"CodeRabbit likely runs LLMs for code review; the website does not name the models or say whether they are hosted or self-run.; Inference pain (latency, GPU cost, spiky volume) is inferred from the customer and repository counts and the PR volume claims on the website.; The raise is inferred from the Form D total offering amount; the filing does not say how the funds will be used.; Ideal technical contact titles are guesses, since the filing lists only executive officers and directors.; OpenCode was chosen as the closest match because it is an AI coding agent for developers; it is not an exact workload match for code review.","Executive Officer, Director","Executive Officer, Director",[First name] // Scaling AI Code Review,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. CodeRabbit reviews every pull request automatically for teams shipping AI-written code, and Baseten helps run the models behind products like that in production. OpenCode, an AI coding agent for developers, is one of the teams running on Baseten.
+
+Baseten does this by turning ML models into production APIs, with dedicated deployments on autoscaling GPUs and OpenAI-compatible Model APIs for open-source models.
+
+Would you have 15 minutes this week or next to see if it's a fit for CodeRabbit?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Scaling AI Code Review,"Hi [First name],
+
+Here is a resource on how teams run AI features in production on Baseten: [RESOURCE LINK: add a real case study or article]. It may be useful as your review volume grows. Does Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs, with dedicated deployments and autoscaling GPUs. Does Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and I'll close the loop here either way.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'll assume this isn't a priority right now. I'm glad to revisit another quarter if that's easier.
+
+Thanks,
+Kenneth",OpenCode,False,,CodeRabbit
+https://www.sec.gov/Archives/edgar/data/1929303/000192930326000001/0001929303-26-000001-index.htm,"Tabnam, Inc.",https://greptile.com,yes,tier_1,,Kenneth Jin,2026-10-12T18:09:10,customer,"Greptile builds an AI code review product whose agents would run models in production, and it does not sell inference or GPU infrastructure itself.","Greptile is an AI code reviewer. It indexes a codebase as a graph, then uses a swarm of agents to review and test pull requests, including runtime testing of PR branches in a sandbox (TREX). It says 22,000+ teams use it.","LLMs for code understanding and review comments, likely run as many parallel agent calls per pull request, possibly alongside embedding models for codebase indexing.","Each PR triggers a swarm of parallel agents, so latency and GPU cost can climb quickly as usage grows. Capacity has to scale with PR volume, especially after a large raise.","The filing shows a fully sold $40M offering dated 2026-08-31, so the team likely has budget to scale agent workloads and may be reconsidering how it serves its models.",CTO or Head of Engineering or ML Infrastructure,"Tabnam, Inc. in the Form D filing is assumed to be the legal entity behind Greptile, based on the provided website.; The raise is assumed to be recent, based on the filing date and the fully sold offering.; Likely models (LLMs and embedding models) are inferred from the AI code review and agent descriptions, not stated on the website.; Claims about latency, GPU cost and scaling pain are inferred from the swarm-of-agents design and are not stated by the company.; Ideal role of CTO or Head of Engineering or ML Infrastructure is inferred, since the listed officers' technical titles are not given.; OpenCode is chosen as the closest match because it is an AI coding agent for developers, a similar workload type.","Executive Officer, Director","Executive Officer, Director",[First name] // Scaling Agent Inference,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Greptile uses a swarm of agents to review pull requests, and Baseten turns the ML models behind products like that into production APIs. OpenCode, an AI coding agent for developers, is a Baseten customer.
+
+Baseten does this by offering dedicated deployments with autoscaling GPUs, plus OpenAI-compatible Model APIs for open-source models.
+
+Would you have 15 minutes this week or next to see if it's a fit for Greptile?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Scaling Agent Inference,"Hi [First name],
+
+Sharing this because it covers running agent-style workloads in production, which looks close to how Greptile reviews pull requests: [RESOURCE LINK: add a real case study or article]. Does Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Just checking that my earlier note reached you. Baseten turns ML models into production APIs, with dedicated deployments and autoscaling GPUs for companies like Greptile. Would Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and either answer is fine so I can close the loop on my end.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'll assume this isn't a priority right now. If that changes, I'm glad to pick this back up another quarter.
+
+Thanks,
+Kenneth",OpenCode,False,,Greptile
+https://www.sec.gov/Archives/edgar/data/2150632/000215063226000002/0002150632-26-000002-index.htm,"Qualitate, Inc.",https://qualitate.io,yes,tier_2,,Kenneth Jin,2026-10-12T18:09:40,customer,Qualitate builds an AI-native research platform with AI-moderated expert conversations and synthesis that would need to run models in production.,"An AI-powered expert intelligence platform that runs AI-moderated expert discussions and turns them into structured insights, sentiment scores and time-series signals for investment firms and enterprises.","LLMs for moderating and synthesizing expert conversations, plus likely speech-to-text and text-to-speech models for the AI moderator on calls.","Keeping AI moderated conversations responsive and reliable as they scale to thousands of discussions per quarter, while meeting the security expectations of investment firms and enterprise buyers.","The filing is dated 2026-08-18 and shows a recent round fully sold, and the website announces a raise to deliver the future of primary research, so volume is likely to grow.",CTO or Head of AI/ML Engineering,"Qualitate likely runs LLMs for moderation and synthesis, and possibly speech models for the AI moderator, which is inferred from the website.; Inference pain (latency, reliability, security needs of investment and enterprise customers) is inferred, not stated.; Why_now assumes the raise will increase usage; the filing only shows the round and date.; Ideal role of CTO or Head of AI/ML is a guess, not from the filing.; Hebbia is chosen as the closest finance AI customer; Qualitate serves investment firms but is not itself a financial institution.; The Security angle is chosen because the segment is tier_2; the site does not state specific security requirements.","Executive Officer, Director","Executive Officer, Director",[First name] // Secure AI Inference Control,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Qualitate runs AI-moderated expert research for investment firms and enterprises, and Baseten gives the AI behind it single-tenant or self-hosted deployments with SOC 2 Type II. Hebbia builds AI workflows for major financial institutions on Baseten.
+
+Baseten does this by supporting SOC 2 Type II, single-tenant and self-hosted options, and running inference on your own AWS infrastructure using your existing AWS contracts.
+
+Would you have 15 minutes this week or next to see if it's a fit for Qualitate?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Secure AI Inference Control,"Hi [First name],
+
+Sharing this in case it helps with how you think about running models in your own environment: [RESOURCE LINK: add a real case study or article]. It is relevant because Qualitate serves investment firms and enterprises. Would Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten supports SOC 2 Type II, single-tenant and self-hosted options, and can run on your own AWS infrastructure. Would Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and I'll close the loop here either way.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing running models in your own environment isn't a priority right now. Happy to revisit in another quarter if that's easier.
+
+Thanks,
+Kenneth",Hebbia,False,,Qualitate
+https://www.sec.gov/Archives/edgar/data/1818357/000181835726000002/0001818357-26-000002-index.htm,"Quaestor Technologies, Inc.",https://www.standardmetrics.io,yes,tier_2,,Kenneth Jin,2026-10-12T18:09:48,customer,"Standard Metrics builds an AI Analyst, AI document parsing and an MCP server, which are AI features that would run models in production.","AI portfolio monitoring for venture capital and private equity: it collects portfolio company data, parses board decks and financial statements with an AI agent plus human QA, and offers an AI Analyst, MCP server, embedded BI and benchmarking.","LLMs for the natural language AI Analyst and MCP queries, document understanding or extraction models for parsing financial documents, and models behind AI-powered chart building.","Handling sensitive financial data for investors and portfolio companies, so security, data control and where the models run matter, along with reliable performance as usage grows after the raise.","The Form D shows about $21.3M sold, and the website says it recently raised a Series B, so it is likely expanding its AI features and the models behind them.",CTO or Head of Engineering / Head of AI,"The Form D legal name Quaestor Technologies, Inc. is assumed to be the company behind Standard Metrics, based on the website provided.; Likely models (LLMs, document extraction models) are inferred from the AI Analyst, MCP server and AI document parsing features.; Security and data control are assumed to matter because the company handles investor and portfolio company financial data.; The Series B on the website is assumed to be the same round as the Form D offering.; The ideal role is inferred, since the filing lists no technical executive.; Hebbia was chosen as the closest match because it serves finance, and Standard Metrics serves investors.","Executive Officer, Director","Executive Officer, Director",[First name] // Secure AI Inference,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Standard Metrics brings AI to portfolio monitoring, and Baseten runs the AI behind it on a SOC 2 Type II platform with single-tenant options. Hebbia builds AI workflows for major financial institutions on Baseten.
+
+Baseten does this by offering single-tenant and self-hosted options, plus running inference on your own AWS infrastructure using your existing AWS contracts.
+
+Would you have 15 minutes this week or next to see if it's a fit for Standard Metrics?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Secure AI Inference,"Hi [First name],
+
+Sharing this in case it helps, since Standard Metrics handles financial data for investors: [RESOURCE LINK: add a real case study or article]. Does Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten offers SOC 2 Type II, single-tenant and self-hosted options, and can run on your own AWS infrastructure using existing AWS contracts. Does Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and either answer helps me close the loop on my end.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing running your models in production on your own cloud isn't a priority right now. I'm happy to revisit another quarter if that's easier.
+
+Thanks,
+Kenneth",Hebbia,False,,Standard Metrics
+https://www.sec.gov/Archives/edgar/data/1934798/000193479826000002/0001934798-26-000002-index.htm,Cube Security Inc.,https://www.cube3.ai/,yes,tier_2,,Kenneth Jin,2026-10-12T18:10:04,customer,"CUBE AI builds an agentic AI product for financial crime prevention that would run models in production, and it does not sell inference or GPU infrastructure.","An agentic crime prevention platform that uses AI agents to prevent financial crime, fraud, scams, and cyber threats for banks, fintechs, crypto exchanges, public sector agencies, and large technology platforms.","LLM-based AI agents, plus likely classification or risk models for fraud and mule account detection.","Agents working continuously across the internet need reliable, scalable inference. Their bank and public sector buyers will likely demand strict security review and data control over where models run.","The Form D shows a completed raise, with the full offering amount sold. Enterprise customers will push security and deployment needs as they scale.",CTO or Head of AI/ML Engineering,"CUBE AI is assumed to run LLM-based agents and possibly classification or risk models; the website does not name model types.; The inference pain (latency, scaling, security review by bank buyers) is inferred from the website's focus on large institutions and continuous agents.; Assumed they would want single-tenant or self-hosted deployment because their customers are banks and public sector agencies.; The raise is inferred from the Form D filing; the emails do not mention it or the amount.; Parallel was chosen as the social proof because its agentic web research is similar to CUBE AI's agents roaming the internet.; Ideal technical contact is assumed to be a CTO or Head of AI/ML, since the Form D lists mostly executives and directors.","Executive Officer, Director","Executive Officer, Director",[First name] // Secure Inference For Agents,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. CUBE AI uses agents to stop financial crime before funds move, and Baseten supports single-tenant and self-hosted inference for the AI behind it. Parallel runs high-throughput agentic web research on Baseten, with 3x higher throughput and 2x better latency.
+
+Baseten does this by offering SOC 2 Type II, single-tenant and self-hosted options, and inference on your own AWS infrastructure.
+
+Would you have 15 minutes this week or next to see if it's a fit for CUBE AI?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Secure Inference For Agents,"Hi [First name],
+
+Sharing this in case it's useful, since CUBE AI sells to large banks that will look closely at where models run: [RESOURCE LINK: add a real case study or article]. Does Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten offers SOC 2 Type II, single-tenant and self-hosted options, and lets enterprises run inference on their own AWS infrastructure using existing AWS contracts. Does Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and either way I'll close the loop on my side.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now, which is completely fine. Happy to revisit in another quarter if the timing is better.
+
+Thanks,
+Kenneth",Parallel,False,,CUBE AI
+https://www.sec.gov/Archives/edgar/data/1702634/000170263426000003/0001702634-26-000003-index.htm,"Virtualitics, Inc.",https://virtualitics.com,yes,tier_3,,Kenneth Jin,2026-10-12T18:10:40,customer,"Virtualitics sells an AI-native readiness product for defense with generative AI and agents, which would run models in production.","AI-native readiness software for defense, including Virtualitics Iris, which combines generative AI and specialized readiness AI agents in one interface for maintenance, materiel, personnel, supply chain and strategic planning.","LLMs powering conversational and agent workflows, plus predictive models for maintenance and readiness forecasting.","Serving conversational AI and agents reliably to defense users as usage grows after the raise, likely with strict deployment and control requirements.","The Form D shows $10M of a $15M offering sold, so the team is likely expanding what it runs in production.",CTO or Head of AI/ML Engineering,"Virtualitics likely runs LLMs and predictive models, since the site mentions generative AI, agents, and predicting asset failures.; Their inference pain is inferred from the raise and product type, not stated.; The remaining Form D amount is not yet sold, so a close or new round may come.; CTO or Head of AI/ML is the likely technical contact, since the filing lists mostly CEO and directors.; Defense customers are assumed to want single-tenant or self-hosted deployment.","Executive Officer, Director","Executive Officer, Director",[First name] // Production Inference After Your Round,"Good morning, [First name],
+
+Virtualitics is building agent-driven readiness AI, and your recent round suggests more models heading to production. Baseten turns ML models into production APIs, with single-tenant and self-hosted options. Is running models that way on your radar?
+
+Thanks,
+Kenneth",,,,,,,False,"Reach out again when Virtualitics closes the rest of its round or ships more Iris agents, and ask about self-hosted needs for defense customers.",Virtualitics
+https://www.sec.gov/Archives/edgar/data/2000910/000200091026000004/0002000910-26-000004-index.htm,Handraise Inc.,https://handraise.com,maybe,tier_3,,Kenneth Jin,2026-10-12T18:10:46,customer,Handraise builds an AI media monitoring product with an assistant and briefings that would run models in production.,"An AI media monitoring and narrative intelligence platform that shows how brands are perceived across news, media, and AI models, with daily briefings, risk and crisis alerts, and PR measurement reports.","LLMs for briefings, summaries, and the chat assistant, plus sentiment and classification models for coverage across news, broadcast, podcasts, and social.","Running many LLM calls for daily briefings and an ask-anything assistant, where latency and GPU cost can grow as customers and monitored sources increase.","The Form D filed in September 2026 shows about $4.5M sold of a roughly $10.5M offering, so the team is likely scaling product and usage.",CTO or Head of Engineering,"Handraise likely runs LLMs for briefings, the assistant, and summaries, which is inferred from the website.; They may use third-party model APIs today rather than hosting their own models.; Inference latency and cost pain is inferred, not stated.; The recent round is inferred from the Form D filing amounts.; CTO or Head of Engineering is the likely technical contact since the filing lists no technical executive.","Executive Officer, Director","Executive Officer, Director",[First name] // Scaling AI Briefings,"Good morning, [First name],
+
+Handraise's recent round suggests the AI behind your briefings and assistant is about to see more use. Baseten turns ML models into production APIs with usage-based pricing. Is inference something your team is looking at right now?
+
+Thanks,
+Kenneth",,,,,,,False,"Reach out again when Handraise raises again or launches new AI features, since the site highlights daily briefings and an ask-anything assistant that likely drive LLM usage.",Handraise
+https://www.sec.gov/Archives/edgar/data/2152342/000215234226000001/0002152342-26-000001-index.htm,"Every Media, Inc.",https://every.to,maybe,tier_3,,Kenneth Jin,2026-10-12T18:10:53,customer,Every sells an AI agent product that runs in Slack and would run models in production for its users.,"The Every Agent, an AI worker that lives in Slack and carries out team tasks like building launch plans in Notion, sending pull requests for website changes, and redlining contracts using shared team skills.","LLMs powering agentic, tool-using workflows (document review, code changes, planning).","Agent tasks likely chain many model calls across long documents and threads, so latency and scaling as more teams install the agent could be a concern.","Filing shows about $16M sold in a round dated September 2026, and the company is promoting a new Slack agent with install credits, which could grow usage.",CTO or Head of Engineering,"Every likely runs LLMs behind the agent, which the website does not state directly.; Agent tasks are assumed to involve multiple model calls, which is inferred from the demos.; Inference latency and scaling are assumed pain points, not stated by the company.; The filing date and amount sold are taken to indicate a recent raise.; CTO or Head of Engineering is assumed to be the right technical contact since the filing lists only [Executive Officer, Director].","Executive Officer, Director","Executive Officer, Director",[First name] // Scaling The Every Agent,"Good morning, [First name],
+
+Every is putting an agent in Slack, and your recent round suggests more teams will install it soon. Baseten turns ML models into production APIs with autoscaling GPUs, so you can run models as usage grows. Is inference on your radar right now?
+
+Thanks,
+Kenneth",,,,,,,False,"Reach out again when Every Agent usage picks up after the install promotion, or if they raise again; the site says teams share reusable skills with the agent, so ask how those runs are served.",Every
+https://www.sec.gov/Archives/edgar/data/2154539/000215453926000001/0002154539-26-000001-index.htm,"Jojo Health, Inc.",https://jojo.health/,yes,tier_3,,Kenneth Jin,2026-10-12T18:11:01,customer,Jojo builds a voice AI device for cognitive health that would run speech and language models in production.,"A voice AI device for seniors aging in place that weaves cognitive testing and vocal biomarker analysis into casual conversation, to detect cognitive change early and spot stroke-like signs.","Speech-to-text, text-to-speech or voice models, LLMs for conversation, and audio models for vocal biomarker analysis.","Real-time voice conversations need low latency, and an early-stage team has to run several models reliably without building out GPU infrastructure.","The filing shows an early raise of $50,000 so far, and the company is opening an Early Access Program, so model usage is about to start growing.",CTO or Head of AI/ML,"Jojo likely runs speech-to-text, voice, LLM and audio biomarker models, which is inferred from the website's description of a voice AI device.; The $50,000 sold so far is treated as a recent raise, which is inferred from the Form D filing.; Early Access usage is assumed to create growing inference demand.; The CTO or Head of AI/ML role is assumed to be the right technical contact since the filing lists only the CEO and [Last name].; Rime is chosen as the voice AI social proof customer but is not used in the tier_3 email.","Executive Officer, Director, Promoter","Executive Officer, Director, Promoter",[First name] // Voice AI For Early Access,"Good morning, [First name],
+
+Saw Jojo is opening early access after your recent round. Baseten turns ML models into production APIs, which could suit a voice AI device like yours. Is running models in production on your radar yet?
+
+Thanks,
+Kenneth",,,,,,,False,"Reach out again when Early Access users ramp up or they announce a larger raise, and mention their HIPAA-aligned, local-first voice device for seniors.",Jojo
+https://www.sec.gov/Archives/edgar/data/2152408/000215240826000001/0002152408-26-000001-index.htm,"Sylvan Labs, Inc.",https://sylvanlabs.com/,yes,tier_3,,Kenneth Jin,2026-10-12T18:11:07,customer,"Sylvan builds a world model and agents for revenue organizations to train and deploy, which would run models in production.","A world model for revenue agents: a foundation for revenue organizations to train, deploy, and optimize revenue superagents at scale.","LLMs powering agents, plus possibly custom or fine-tuned models trained on revenue data.","Serving agent workloads reliably and at low latency as customers deploy agents at scale after the raise, while keeping GPU costs manageable.","The filing shows a recent round of funds sold in full, dated 2026-09-02, so the team is likely building out production infrastructure.",CTO or Head of ML,"Sylvan likely runs LLMs or fine-tuned models behind its agents; the website does not name model types.; The recent round is inferred from the Form D filing with the full offering amount sold.; Sylvan may need production inference as it deploys agents at scale; this is inferred from the website's 'train, deploy, and optimize' language.; Parallel is chosen as social proof for the agents workload, but it is not used in the tier_3 short email.","Executive Officer, Director","Executive Officer, Director",[First name] // Inference For Revenue Agents,"Good morning, [First name],
+
+Saw Sylvan's recent round and the work on revenue agents. Baseten turns ML models into production APIs with autoscaling GPUs, which may suit an early team training and deploying agents. Is running your own models in production on your radar yet?
+
+Thanks,
+Kenneth",,,,,,,False,"Reach out again when Sylvan starts hiring ML or infra engineers (they have a Careers page), when agent deployments for customers ramp up, or when they raise again.",Sylvan
+manual:glean.com,Glean,https://glean.com,yes,tier_2,,Kenneth Jin,2026-10-12T18:12:02,customer,"Glean builds an enterprise AI assistant, agents, and search that would run models in production, and does not sell inference or GPU infrastructure.","Enterprise AI platform with Glean Assistant, Glean Agents, and enterprise search across company data, plus 250+ connectors, an AI gateway, model hub, and auto routing of work to the right model.","LLMs for the assistant, agents, and content creation, plus embedding and retrieval models for enterprise search, likely a mix of third-party and open-source models.","Serving many models at enterprise scale while meeting customer security and data control expectations, and keeping latency and AI spend under control across routed requests.","No funding round is known. The website promotes Model hub, auto routing, and usage controls for AI spend, and its AI Token Savings Story, which suggests model serving and cost are active topics.","VP of Engineering, Head of AI Infrastructure, or Head of ML Platform","Glean is treated as a customer because it builds AI products, though the website does not say which models it runs or whether it hosts them itself.; Likely models (LLMs, embedding and retrieval models, mix of third-party and open-source) are inferred from the product descriptions.; Inference pain and why_now are inferred from website mentions of model routing, usage controls, and token savings.; The ideal role titles are guesses, since no related persons are known.; Glean serves healthcare as an industry, but it is not treated as a healthcare company handling patient data, so HIPAA is not mentioned.; Writer was chosen as the social proof customer because it is the closest enterprise AI match.; The tier_2 angle on security and own-cloud deployment is assumed to matter to Glean's enterprise buyers.",,,[First name] // Secure Inference For Enterprise AI,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Glean gives enterprises an AI assistant, agents, and search, and Baseten offers single-tenant and self-hosted options for running the AI behind it. Writer, a Baseten customer, builds custom medical and financial LLMs for businesses.
+
+Baseten does this with SOC 2 Type II, single-tenant and self-hosted options, and by running Baseten's inference on your own AWS infrastructure using existing AWS contracts.
+
+Would you have 15 minutes this week or next to see if it's a fit for Glean?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Secure Inference For Enterprise AI,"Hi [First name],
+
+Here is a resource that may be relevant to how Glean runs models for enterprise customers: [RESOURCE LINK: add a real case study or article]. Would Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten offers SOC 2 Type II, single-tenant and self-hosted options, and lets enterprises run its inference on their own AWS infrastructure. Would Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and I'll close the loop on my side either way.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now, so I won't keep following up. I'm glad to revisit another quarter if running models on your own cloud becomes a topic.
+
+Thanks,
+Kenneth",Writer,False,,Glean
+manual:suno.com,Suno,https://suno.com,yes,tier_1,,Kenneth Jin,2026-10-12T18:12:41,customer,Suno builds an AI music generation product that runs generative models in production for millions of users.,"An AI music generator that turns a text prompt into complete songs with vocals, lyrics and full production, plus Suno Studio (a browser-based DAW), Voices, stem separation, remix and custom models.","Generative audio and music models (their v6 model), voice cloning and singing voice models, stem separation models, and likely LLMs for lyrics and prompt handling.","Generating a full song in under a minute for millions of free and paid users likely means heavy GPU demand, latency that has to stay low at peak, and cost pressure from free daily usage.","No funding round is known. The website shows the v6 model launch, new products like Suno Studio, Voices and custom models, and a top 10 app ranking, all of which add production inference load.",Head of ML Infrastructure or CTO,"Suno likely runs generative audio, singing voice and stem separation models, and possibly LLMs for lyrics; the site does not state this.; Inference pain (GPU demand, latency, cost from free usage) is inferred from the product and user scale, not stated.; Ideal role is a guess since no related persons are known.; Speechify chosen as the closest audio and voice workload match.; Whether Suno runs its own inference or already uses another provider is unknown.",,,[First name] // Fast Song Generation At Scale,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Suno lets anyone turn a simple prompt into a full song, and Baseten helps run the models behind that as production APIs. Speechify runs real-time text-to-speech for 60M+ users and cut cost per million characters by 44% on Baseten.
+
+Baseten does this by offering dedicated deployments with autoscaling GPUs, so you can run your models as production APIs.
+
+Would you have 15 minutes this week or next to see if it's a fit for Suno?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Fast Song Generation At Scale,"Hi [First name],
+
+Here is a resource on how a voice AI team runs models in production, which seemed relevant to Suno: [RESOURCE LINK: add a real case study or article]. Does Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs, with autoscaling GPUs on dedicated deployments. Does Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and I'll close the loop here either way.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'll assume this isn't a priority right now. Happy to revisit another quarter if that's easier.
+
+Thanks,
+Kenneth",Speechify,False,,Suno
+manual:synthflow.ai,Synthflow,https://synthflow.ai,yes,tier_1,,Kenneth Jin,2026-10-12T20:05:57,customer,Synthflow builds a voice AI agent platform for phone calls that would run speech and language models in production.,"An enterprise voice AI agent platform that automates phone calls for customer service, receptionist, appointment booking and similar uses, with in-house telephony, a visual Flow Designer, testing, monitoring and fine-tuning on customer call data.","Real-time speech-to-text, text-to-speech, and LLMs driving the conversation, plus models fine-tuned on customer call data.","Voice calls need low latency on every turn, and call volume swings through the day, so GPU capacity has to scale up and down without hurting response time.","No funding round is known. Their site stresses 500M+ calls, 99.99% uptime and sub-100 ms telephony latency, and they mention upcoming fine-tuning on customer data, which adds model serving needs.","CTO, VP of Engineering, or Head of ML","Synthflow likely runs speech-to-text, text-to-speech and LLMs; the site does not name models.; Latency and autoscaling pain is inferred from the voice call workload and stated call volume.; Rime is chosen as the closest voice AI match, assuming their workloads are similar.; Ideal role is inferred since no related persons are known.; Their site says fine-tuning on customer data is coming, so extra model serving needs are assumed.",,,[First name] // Voice AI Inference Scale,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Synthflow automates phone calls with enterprise voice AI agents, and Baseten runs the models behind voice products like that as production APIs. Rime, another voice AI company, runs on Baseten and delivers state-of-the-art p99 latencies.
+
+Baseten does this by offering dedicated deployments with autoscaling GPUs, plus multi-model workflows, so your voice models can run as production APIs.
+
+Would you have 15 minutes this week or next to see if it's a fit for Synthflow?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Voice AI Inference Scale,"Hi [First name],
+
+Sharing this because it covers voice AI workloads like yours: [RESOURCE LINK: add a real case study or article]. Does Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs, with dedicated deployments and autoscaling GPUs. Does Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and I'll close the loop on my side either way.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now. Happy to revisit in another quarter if that's easier.
+
+Thanks,
+Kenneth",Rime,False,,Synthflow
+manual:cresta.com,Cresta,https://cresta.com,yes,tier_1,,Kenneth Jin,2026-10-12T20:06:36,customer,"Cresta builds AI agents and real-time agent assist products for customer conversations, which would run models in production rather than selling inference itself.","An enterprise AI platform for customer experience, including AI agents, real-time agent assist, conversation intelligence, and Cresta Conductor, which turns conversations and SOPs into production-grade AI agents.","LLMs for generative agent assist, summaries and AI agents, plus likely speech-to-text and possibly text-to-speech for voice conversations.",Real-time guidance and AI agents during live customer conversations likely need low latency and reliable scaling across many concurrent conversations.,"No funding round is known. The website shows Cresta pushing AI agents and Cresta Conductor for production-grade agents, which suggests growing production inference demand.","CTO, VP of Engineering, or Head of ML","Cresta likely runs LLMs, and likely speech-to-text and text-to-speech models, for its agent assist and AI agents; the website does not name models.; Latency and scaling across many concurrent live conversations are inferred pain points, not stated on the website.; The Cresta contact's role and ideal technical title are inferred, since no related persons are known.; No Form D filing or funding round is known, so why_now is based only on website content.; Scaled Cognition is chosen as the closest match for AI agents; its description is only 'fast AI agents'.; The phrase 'builds fast AI agents on Baseten' assumes Scaled Cognition's listing as a customer means it runs on Baseten.",,,[First name] // Running AI Agents in Production,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Cresta is turning customer conversations into AI agents and real-time guidance, and Baseten helps make sure the models behind that run in production. Scaled Cognition builds fast AI agents on Baseten.
+
+Baseten does this by turning ML models into production APIs, with dedicated deployments on autoscaling GPUs and multi-model workflows.
+
+Would you have 15 minutes this week or next to see if it's a fit for Cresta?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Running AI Agents in Production,"Hi [First name],
+
+Here is a resource on running AI agents in production that may be relevant to Cresta: [RESOURCE LINK: add a real case study or article]. Would Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs, with dedicated deployments on autoscaling GPUs. Would Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and I'll close the loop on my end either way.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'll assume this isn't a priority right now. Happy to revisit in another quarter if that's easier.
+
+Thanks,
+Kenneth",Scaled Cognition,False,,Cresta
+manual:bolt.new,Bolt,https://bolt.new,yes,tier_1,,Kenneth Jin,2026-10-12T20:07:15,customer,Bolt sells an AI app and website builder that runs coding agents and routes tasks across models in production.,"Bolt is an AI builder where users create websites, apps and prototypes by chatting with AI, with built-in hosting, databases and authentication through Bolt Cloud.","Large language models for coding agents, likely a mix of models that Bolt routes between per task.","Routing each task to the right model while balancing quality and cost, keeping speed high across many concurrent users, and handling very large project contexts.","No funding round is known. The website highlights automatic model routing, a Max tier and projects 1,000 times larger, which suggests growing inference demand.",CTO or Head of AI/ML Engineering,"Bolt likely runs LLMs for its coding agents, though the website does not name specific models.; Bolt likely uses some open-source or self-hosted models, which makes Baseten's Model APIs relevant.; Inference pain such as latency and cost is inferred from the model routing and quality-versus-cost language on the website.; Growing inference demand is inferred from the website claims about handling projects 1,000 times larger.; OpenCode was chosen as the closest match because Bolt's agents write code, and its description says only that it is an AI coding agent for developers.; The ideal role is a guess since no related persons are known.",,,[First name] // Model Routing In Production,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Bolt lets people build apps and websites by chatting with AI, and Baseten helps run the models behind that as production APIs. OpenCode is an AI coding agent for developers that runs on Baseten.
+
+Baseten does this by offering OpenAI-compatible Model APIs for open-source models, plus dedicated deployments with autoscaling GPUs, so you can run models as production APIs.
+
+Would you have 15 minutes this week or next to see if it's a fit for Bolt?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Model Routing In Production,"Hi [First name],
+
+Sharing this because it covers running models in production, which is relevant to how Bolt routes tasks across models. [RESOURCE LINK: add a real case study or article] Does Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs, with dedicated deployments and autoscaling GPUs. Does Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and either way I'll close the loop on my end.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now, so I won't keep following up. I'm glad to revisit another quarter if that's useful.
+
+Thanks,
+Kenneth",OpenCode,False,,Bolt
+manual:warp.dev,Warp,https://warp.dev,yes,tier_1,,Kenneth Jin,2026-10-12T20:08:06,customer,Warp builds AI coding agents and a terminal that run models in production for developers and enterprise teams.,"Warp offers open infrastructure for cloud software factories, letting teams run fleets of coding agents across the software development lifecycle. It also sells the Warp terminal and the Warp agent CLI.","Large language models for coding agents, covering code review, bug investigation, refactoring and migration, and incident response. Warp says it supports any model or harness.","Running many coding agents at once needs steady low latency and GPU capacity that scales up and down with agent workloads, while keeping model costs under control.","No funding round is known. Warp's current push into Warp Factories, which run fleets of coding agents across the SDLC, means more agent and model traffic.","CTO, VP of Engineering, or Head of AI/ML Infrastructure","Warp likely runs LLMs for its coding agents, possibly from multiple providers or open-source models.; Warp likely faces latency and GPU scaling needs as Warp Factories run many agents at once.; Warp's technical leaders are likely CTO, VP Engineering, or Head of AI/ML, since no related persons are known.; No Form D filing exists, so why_now is based on website text only.; OpenCode is chosen as the closest match because both are AI coding agent products.",,,[First name] // Scaling Coding Agent Inference,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Warp is running fleets of coding agents across the SDLC, and Baseten turns the models behind agents like that into production APIs. Baseten works with OpenCode, an AI coding agent for developers.
+
+Baseten does this by offering dedicated deployments with autoscaling GPUs and OpenAI-compatible Model APIs for open-source models.
+
+Would you have 15 minutes this week or next to see if it's a fit for Warp?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Scaling Coding Agent Inference,"Hi [First name],
+
+Here is something on running coding agents in production that may be relevant to Warp: [RESOURCE LINK: add a real case study or article]. Does Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs, with dedicated deployments and autoscaling GPUs. Does Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and either answer is fine so I can close the loop.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now. I'm glad to revisit another quarter if that's easier.
+
+Thanks,
+Kenneth",OpenCode,False,,Warp
+manual:evenuplaw.com,EvenUp,https://evenuplaw.com,yes,tier_1,,Kenneth Jin,2026-10-12T20:08:50,customer,"EvenUp sells AI products for personal injury lawyers, such as AI drafting and an AI assistant, which would run models in production.","AI software for personal injury law firms, covering pre-litigation and litigation work, including AI drafting, an AI assistant, communication agents, and executive analytics, built on a large personal injury dataset called Piai.","LLMs for drafting legal documents and powering the assistant and communication agents, plus document understanding and extraction models for case files.","Serving AI drafting, assistant, and communication agent features to 2,000+ firms likely means keeping latency low and GPU capacity steady as usage grows.","The website shows a recent launch of Proactive Communication Agents and a customer base of 2,000+ firms, so production AI workloads are likely growing.","CTO, VP of Engineering, or Head of ML/AI","EvenUp likely runs LLMs and document extraction models; the website does not name specific models.; Latency and GPU capacity as inference pains are inferred from the product mix and 2,000+ firm customer base.; Notion is used as social proof because no public customer is in legal AI.; healthcare_or_patient_data is set to false because the website does not say EvenUp handles patient data, so HIPAA is not mentioned.; No funding round is mentioned because the instructions said none is known.; Ideal role is inferred, since no related persons are known.",,,[First name] // Production Inference for Legal AI,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. EvenUp is building AI for personal injury lawyers, and Baseten turns the ML models behind products like that into production APIs. Notion built AI Meeting Notes on Baseten with 2-3x lower latency.
+
+Baseten does this by offering dedicated deployments with autoscaling GPUs, plus OpenAI-compatible Model APIs for open-source models.
+
+Would you have 15 minutes this week or next to see if it's a fit for EvenUp?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Production Inference for Legal AI,"Hi [First name],
+
+Sharing this in case it helps, since EvenUp runs AI features for many firms: [RESOURCE LINK: add a real case study or article]. Would Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs, with dedicated deployments and autoscaling GPUs. Would Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and either way I'll close the loop on my end.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now. Happy to revisit another quarter if that's easier.
+
+Thanks,
+Kenneth",Notion,False,,EvenUp
+manual:nabla.com,Nabla,https://nabla.com,yes,tier_1,,Kenneth Jin,2026-10-12T20:09:37,customer,"Nabla builds ambient AI clinical documentation, dictation, and coding products that would run speech and language models in production.","Ambient AI for clinical documentation: it captures patient-clinician conversations and generates structured notes, plus EHR-integrated dictation and E/M and ICD-10 coding suggestions, deployed in 130+ health organizations with 20M+ patient encounters per year.","Speech-to-text (ambient capture and clinical dictation), LLMs for note generation and coding suggestions.","Ambient notes and dictation inside Epic need fast, reliable responses across 20M+ encounters per year, so latency and dependable scaling across many health organizations are likely concerns.","No funding round is known. The site shows scale (130+ organizations, 85,000+ clinicians, 20M+ encounters a year) and an API-first and Nabla Connect push for partners, which adds more production inference load.",CTO or Head of ML / AI Engineering,"Nabla likely runs speech-to-text and LLMs, inferred from the ambient documentation, dictation, and coding products.; Latency and scaling are likely pain points, inferred from the scale figures and Epic integration.; No funding data was provided, so the email does not mention a raise.; The ideal technical contact title is inferred because no related persons are known.; Nabla is assumed to run its own models in production rather than only calling third-party APIs.; OpenEvidence was chosen as the closest healthcare AI customer match.",,,[First name] // Clinical AI Inference At Scale,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Nabla is giving clinicians ambient documentation, dictation, and coding support, and Baseten makes sure the models behind tools like that run reliably in production. OpenEvidence gives physicians fast, accurate medical information on Baseten.
+
+Baseten does this by turning ML models into production APIs, with dedicated deployments on autoscaling GPUs, and HIPAA and SOC 2 Type II support for healthcare teams.
+
+Would you have 15 minutes this week or next to see if it's a fit for Nabla?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Clinical AI Inference At Scale,"Hi [First name],
+
+Sharing this in case it's useful, since it covers healthcare AI running in production: [RESOURCE LINK: add a real case study or article]. Does Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs, with dedicated deployments and autoscaling GPUs. Does Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and either answer helps me close the loop on my end.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now, which is completely fine. I'd be glad to revisit it another quarter if that's easier.
+
+Thanks,
+Kenneth",OpenEvidence,False,,Nabla
+manual:suki.ai,Suki,https://suki.ai,yes,tier_1,,Kenneth Jin,2026-10-12T20:09:54,customer,Suki builds an AI documentation assistant for clinicians that would run speech and language models in production.,"Suki sells an ambient clinical intelligence platform that captures patient conversations to generate clinical notes, patient instructions, and orders, plus coding, clinical reasoning, and Q&A, integrated with major EHRs.","Speech-to-text for ambient capture, and LLMs for note generation, coding, clinical reasoning, and Q&A.","Ambient documentation needs fast, reliable speech and LLM responses across 400+ healthcare systems and partners, and demand can vary through the clinical day.","No funding round is known. Suki is adding features like Suki Dictation and a developer toolkit for partners, which adds more models and workloads to run in production.",CTO or Head of ML / AI Infrastructure,"Suki likely runs speech-to-text and LLMs, inferred from ambient documentation and note generation.; Inference pain around latency and variable demand is inferred, not stated on the website.; Ideal role is inferred since no related persons are known.; OpenEvidence chosen as the closest healthcare match, though it serves physicians' information needs rather than documentation.; Suki's use of GPU-based inference or any current provider is not stated and is assumed.",,,[First name] // Production Inference For Clinical AI,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Suki is cutting the documentation work clinicians do with ambient AI, and Baseten makes sure the models behind tools like that run in production. OpenEvidence gives physicians fast, accurate medical information on Baseten.
+
+Baseten does this by turning ML models into production APIs, with dedicated deployments on autoscaling GPUs, and HIPAA and SOC 2 Type II support.
+
+Would you have 15 minutes this week or next to see if it's a fit for Suki?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Production Inference For Clinical AI,"Hi [First name],
+
+Here is something relevant to teams running healthcare AI in production: [RESOURCE LINK: add a real case study or article]. Does Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Just checking that my note reached you. Baseten turns ML models into production APIs, with dedicated deployments on autoscaling GPUs. Does Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and I'll close the loop on my end either way.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now. I'm glad to revisit another quarter if that's easier.
+
+Thanks,
+Kenneth",OpenEvidence,False,,Suki
+manual:deepscribe.ai,DeepScribe,https://deepscribe.ai,yes,tier_1,,Kenneth Jin,2026-10-12T20:10:10,customer,"DeepScribe sells an ambient AI medical scribe and coding product for oncology, which would run AI models in production.","An ambient AI medical scribe built for oncology and other specialty care, with SmartPrep pre-visit summaries, AI coding (E/M, ICD-10, HCC), and a Customization Studio, integrated with EHRs like OncoEMR and iKnowMed.","Speech-to-text models for ambient conversation capture, LLMs for note generation, summarization and coding suggestions.","Ambient notes and pre-visit summaries have to be accurate and quick enough to fit clinic workflows, and the workload likely grows as more oncology centers and specialties are added. Patient data adds security expectations.","No funding round is known. The timing hook is the recent launch of SmartPrep for oncology, which adds another AI workload on top of scribing and coding.",CTO or Head of ML / AI Engineering,"DeepScribe likely runs speech-to-text models and LLMs; the website does not name its models.; Inference pain (accuracy and speed fitting clinic workflows, growing volume) is inferred from the product description.; The SmartPrep launch is used as the timing hook since no funding round is known.; The CTO or Head of ML is assumed to be the right contact since no related persons are known.; DeepScribe is assumed to handle patient data because it captures clinical conversations and pulls patient records.; OpenEvidence is chosen as the closest match because both serve physicians in healthcare AI.",,,[First name] // Running Clinical AI In Production,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. DeepScribe is taking documentation work off oncology clinicians with ambient AI, and Baseten makes sure the models behind products like that run in production. OpenEvidence gives physicians fast, accurate medical information on Baseten.
+
+Baseten does this by turning ML models into production APIs on dedicated deployments with autoscaling GPUs, with HIPAA and SOC 2 Type II support.
+
+Would you have 15 minutes this week or next to see if it's a fit for DeepScribe?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Running Clinical AI In Production,"Hi [First name],
+
+Sharing this in case it helps, since it's about healthcare AI running in production: [RESOURCE LINK: add a real case study or article]. Would Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs, with HIPAA and SOC 2 Type II support for healthcare teams. Would Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and I'll close the loop on my end either way.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now, so I won't keep following up. I'm happy to revisit it another quarter if that's useful.
+
+Thanks,
+Kenneth",OpenEvidence,False,,DeepScribe
+manual:getfreed.ai,Freed,https://getfreed.ai,yes,tier_1,,Kenneth Jin,2026-10-12T20:10:26,customer,"Freed sells an AI medical scribe, clinical evidence tool, coding assistant, and AI receptionist, all of which would run models in production.","Freed sells an AI medical scribe that turns patient conversations into notes that sync to the EHR, plus a Clinical Evidence tool, a Coding Assistant for ICD-10, CPT, and E/M codes, and a Front Desk AI receptionist, aimed at independent clinics.","Speech-to-text for visit transcription, LLMs for note generation, coding suggestions, and cited clinical answers, and text-to-speech or voice models for the AI receptionist.","Transcribing over 32 million patient visits a year plus live phone calls means steady, high volume load with latency needs, especially for a voice receptionist answering calls in real time.","No funding round is known. The timing is based on volume: 26,000+ clinicians, 1,300+ clinics, and a newer Front Desk product that adds real-time voice workloads.",CTO or Head of ML / AI Engineering,"Freed likely runs speech-to-text, LLMs, and voice models, since the website does not name its models.; The inference pain (latency, scale, real-time voice) is inferred from the visit volume and the Front Desk product, not stated.; The ideal role is a guess because no related persons are known; the website names [name] as CEO.; Freed handles patient conversations, so healthcare is treated as true and HIPAA is relevant.; Whether Freed runs its own models or uses third-party APIs is not stated.",,,[First name] // Running Clinical AI Models,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Freed turns patient conversations into clinical notes for independent clinics, and Baseten helps run the AI models behind products like that in production. OpenEvidence runs on Baseten to give physicians fast, accurate medical information.
+
+Baseten does this by turning ML models into production APIs, with dedicated deployments on autoscaling GPUs, and Baseten supports HIPAA and SOC 2 Type II.
+
+Would you have 15 minutes this week or next to see if it's a fit for Freed?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Running Clinical AI Models,"Hi [First name],
+
+Sharing this because it covers healthcare AI teams running models in production: [RESOURCE LINK: add a real case study or article]. Does Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs, with dedicated deployments on autoscaling GPUs. Does Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and I'll close the loop on my end either way.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now, so I'll stop here. Happy to revisit another quarter if running Freed's models in production becomes a focus.
+
+Thanks,
+Kenneth",OpenEvidence,False,,Freed
+manual:heidihealth.com,Heidi Health,https://heidihealth.com,yes,tier_1,,Kenneth Jin,2026-10-12T20:10:46,customer,Heidi sells an AI ambient scribe and clinical assistant that would run speech and language models in production for clinicians.,"An AI care partner for clinicians and health systems, built on an ambient scribe that listens to visits, writes notes and documents, answers clinical questions with cited evidence, and handles admin work after the visit.","Speech-to-text transcription models across many languages, LLMs for note and document generation, and retrieval-backed LLMs for clinical evidence answers.","Keeping transcription and note generation fast and reliable across 175M+ patient interactions, and handling real-time audio from visits and telehealth calls at scale.","No funding round is known. The website announces Heidi II, which adds answering and acting on admin work, so more model workloads are likely moving into production now.",CTO or Head of ML / AI Engineering,"Heidi likely runs speech-to-text and LLM models, inferred from the ambient scribe and note-writing features.; Inference pain (latency, reliability, scaling) is inferred from the volume of 175M+ patient interactions, not stated.; Heidi II adding more workloads is inferred from the website copy, not stated as a model infrastructure change.; Ideal role of CTO or Head of ML is a guess since no related persons are known.; Heidi may already run its own inference or use another provider; this is unknown.; Healthcare is true because the site mentions patient interactions and HIPAA compliance.; Word count of the first email is estimated at roughly 80 to 100 words once the template is filled in.",,,[First name] // Scaling Clinical AI Inference,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Heidi is giving clinicians an AI care partner that listens, writes notes and answers questions, and Baseten runs the models behind products like that. OpenEvidence gives physicians fast, accurate medical information on Baseten.
+
+Baseten does this by turning ML models into production APIs, with dedicated deployments on autoscaling GPUs. Baseten also supports HIPAA and SOC 2 Type II.
+
+Would you have 15 minutes this week or next to see if it's a fit for Heidi?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Scaling Clinical AI Inference,"Hi [First name],
+
+Sharing this since it covers healthcare AI teams running models in production: [RESOURCE LINK: add a real case study or article]. Would Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs, with dedicated deployments and autoscaling GPUs. Would Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and either way I'll close the loop on my end.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now. I'm happy to revisit another quarter if that's easier.
+
+Thanks,
+Kenneth",OpenEvidence,False,,Heidi
+manual:tennr.com,Tennr,https://tennr.com,yes,tier_1,,Kenneth Jin,2026-10-12T20:11:02,customer,"Tennr builds an agentic patient orchestration platform that uses proprietary models and automated phone calling, so it would run models in production.","An agentic patient orchestration platform for healthcare providers that classifies and routes patient documents, checks eligibility, submits prior authorizations, and handles inbound and outbound patient calls.","Document understanding and classification models, LLMs for decisioning against payer criteria, and speech models for phone calling.",Handling millions of care pathways each month with real-time phone conversations needs low latency and reliable scaling for document and voice models.,"No funding round is known. The site highlights nationwide scale and expanding automated calling, which makes dependable production inference timely.",CTO or Head of ML / AI Engineering,"Tennr likely runs LLMs, document classification models, and speech models, inferred from its website description of proprietary models and phone calling.; Tennr's inference pain around latency and scaling is inferred from its claim of millions of care pathways each month.; The ideal technical contact is inferred, since no related persons are known.; Tennr is treated as a tier_1 AI-native scale-up per the provided segment, and no funding round is mentioned because none is known.; OpenEvidence was chosen as the closest healthcare AI customer match.",,,[First name] // Scaling Patient Flow Models,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Tennr helps providers move patients through complex payer requirements, and Baseten helps the models behind that work run reliably in production. OpenEvidence gives physicians fast, accurate medical information on Baseten.
+
+Baseten does this by turning ML models into production APIs on dedicated deployments with autoscaling GPUs. Baseten also supports HIPAA and SOC 2 Type II.
+
+Would you have 15 minutes this week or next to see if it's a fit for Tennr?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Scaling Patient Flow Models,"Hi [First name],
+
+Here is a resource on healthcare AI teams running models in production: [RESOURCE LINK: add a real case study or article]. It seemed relevant given Tennr's patient workflows. Would Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Just checking that my note reached you. Baseten turns ML models into production APIs, with dedicated deployments and autoscaling GPUs. Would Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and I'll close the loop on my end either way.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now, so I won't keep following up. I'm glad to revisit another quarter if that's useful.
+
+Thanks,
+Kenneth",OpenEvidence,False,,Tennr
+manual:rogo.ai,Rogo,https://rogo.ai,yes,tier_2,,Kenneth Jin,2026-10-12T20:11:27,customer,"Rogo builds an AI product with hundreds of purpose-built financial agents for financial institutions, which would run models in production.","AI platform for financial institutions that runs end-to-end financial workflows with hundreds of purpose-built financial agents, unifies firm data, and builds shared firm knowledge, used by 450+ finance firms.","LLMs powering agents for financial modeling, document and memo review, comps research, and deal search.","Serving agent workloads to large financial institutions that expect security and controls, while keeping latency steady as firmwide rollouts grow.","Rogo announced a strategic investment to expand into EMEA and APAC, which likely means more firms and more regions to serve.",CTO or Head of ML / AI Infrastructure,"Rogo likely runs LLMs for its financial agents; the website does not name the models.; Rogo's inference pain (latency, scaling with firmwide rollouts, security needs) is inferred from its customer base and expansion announcement.; The EMEA and APAC strategic investment is read as a sign of growth; no funding amount or round is known.; Hebbia is chosen as the closest match because it is finance AI.; The CTO or Head of ML title is a guess since no related persons are known.; Self-hosted and AWS angle is assumed to matter to Rogo because it serves regulated financial institutions.",,,[First name] // Secure Inference for Finance AI,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Rogo gives financial institutions AI agents for their financial workflows, and Baseten gives teams a secure, SOC 2 Type II way to run the models behind them. Hebbia builds AI workflows for major financial institutions on Baseten.
+
+Baseten does this by offering single-tenant and self-hosted options, plus the ability to run Baseten's inference on your own AWS infrastructure using your existing AWS contracts.
+
+Would you have 15 minutes this week or next to see if it's a fit for Rogo?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Secure Inference for Finance AI,"Hi [First name],
+
+Here is a resource on how finance teams run AI inference: [RESOURCE LINK: add a real case study or article]. It seemed relevant given the security needs of the firms Rogo serves. Does Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten offers SOC 2 Type II, single-tenant and self-hosted options, so companies can run models in their own AWS infrastructure. Does Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and either way I'll close the loop on my end.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now. I'm happy to revisit it another quarter if that's easier.
+
+Thanks,
+Kenneth",Hebbia,False,,Rogo
+manual:alpha-sense.com,AlphaSense,https://alpha-sense.com,yes,tier_2,,Kenneth Jin,2026-10-12T20:11:46,customer,"AlphaSense sells an AI-powered market intelligence platform with a GenAI agent, so it runs models in production for its users.","A market intelligence and search platform for financial services and corporate teams, with GenAI search over 500+ million documents, an always-on AI agent called SuperAnalyst, and Deep Research, with sentence-level citations.","LLMs for synthesis, summarization and agents, plus retrieval and embedding models for search over documents, and possibly sentiment models for earnings calls.","Serving LLM-based answers and agent workflows at scale to 7,000+ enterprises, where customers in finance likely care about data control, security and where the models run.","No funding round is known. The site shows new launches (SuperAnalyst and Deep Research), which likely add more production inference load and enterprise security questions.","CTO, VP of Engineering, or Head of AI/ML Platform","AlphaSense is treated as an AI product that runs models in production, based on the website's GenAI and agent claims.; The likely models (LLMs, retrieval and embedding models, sentiment models) are inferred, not stated on the site.; The inference pain around enterprise data control and security is inferred from its financial services customer base.; Whether AlphaSense runs its own models or relies on third-party APIs is unknown.; The AWS angle assumes AlphaSense could use AWS infrastructure; its current cloud is unknown.; No funding data was provided, so no raise is mentioned.; Life sciences is one of AlphaSense's solutions, but it is not primarily a healthcare company, so HIPAA is not mentioned.",,,[First name] // Running AlphaSense Models Securely,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. AlphaSense gives financial teams AI search and the SuperAnalyst agent, and Baseten lets the AI behind it run on your own AWS infrastructure. Hebbia builds AI workflows for major financial institutions on Baseten.
+
+Baseten does this with SOC 2 Type II, single-tenant and self-hosted options, and by running on your own AWS infrastructure using existing AWS contracts.
+
+Would you have 15 minutes this week or next to see if it's a fit for AlphaSense?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Running AlphaSense Models Securely,"Hi [First name],
+
+Sharing something relevant to how AlphaSense serves enterprise customers with AI: [RESOURCE LINK: add a real case study or article]. Would Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten lets enterprises run inference on their own AWS infrastructure using existing AWS contracts, with SOC 2 Type II and single-tenant or self-hosted options. Would Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and I'll close the loop on my end either way.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'll assume this isn't a priority right now. I'm glad to revisit another quarter if running AlphaSense's models on your own cloud becomes a topic.
+
+Thanks,
+Kenneth",Hebbia,False,,AlphaSense
+manual:abnormalsecurity.com,Abnormal Security,https://abnormalsecurity.com,yes,tier_1,,Kenneth Jin,2026-10-12T20:12:18,customer,"Abnormal Security sells a Behavioral AI security platform, so it builds an AI product that would run models in production rather than selling inference or acting as an agency.","A Behavioral AI security platform covering email security, identity security, and AI security, used by 5,000 organizations including 30% of the Fortune 500.","Behavioral and anomaly detection models, classifiers for phishing and account takeover, and LLMs for AI-generated attack detection and features like the AI Security Mailbox and AI Data Analyst.","Detection has to keep pace with attacks that move at machine speed, so they likely need low latency and reliable scaling across a large customer base, plus GPU cost control as new AI features launch.","Their website says they are expanding their AI Security Suite and highlights an AI Data Analyst, AI Agent Security, and a partnership with OpenAI, which suggests growing model workloads. No funding round is known.","CTO, VP of Engineering, or Head of ML / AI Platform","Abnormal likely runs behavioral/anomaly detection models, classifiers, and LLMs; the website text does not name specific model types.; Inference pain (latency, scaling, GPU cost) is inferred from the nature of real-time security detection and the AI feature expansion.; Notion was chosen as social proof because no listed customer shares the security workload type.; The model workloads implied by the OpenAI partnership and AI Security Suite expansion are inferred.; Ideal role titles are guesses since no related persons are known.; Email word count of the first email is estimated to fall in the 80 to 100 word range once the template is filled.",,,[First name] // Running Behavioral AI in Production,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Abnormal is stopping AI-powered attacks with behavioral AI, and Baseten makes sure the models behind products like that run as production APIs. Notion built AI Meeting Notes on Baseten with 2-3x lower latency.
+
+Baseten does this by offering dedicated deployments with autoscaling GPUs, plus OpenAI-compatible Model APIs for open-source models.
+
+Would you have 15 minutes this week or next to see if it's a fit for Abnormal?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Running Behavioral AI in Production,"Hi [First name],
+
+Here is a resource on running AI features in production that may be relevant to your team: [RESOURCE LINK: add a real case study or article]. Does Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs, with dedicated deployments and autoscaling GPUs. Does Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and either way I'll close the loop on my side.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now. I'm happy to revisit it another quarter if that's easier.
+
+Thanks,
+Kenneth",Notion,False,,Abnormal
+manual:7ai.com,7AI,https://7ai.com,yes,tier_1,,Kenneth Jin,2026-10-12T20:13:03,customer,"7AI builds an agentic AI security platform whose agents investigate alerts, so it would run models in production rather than sell inference itself.","An agentic security platform with AI SOC agents that investigate alerts end to end with the reasoning shown, plus federated SIEM, threat hunting, detection, response, and managed services.","LLMs powering AI agents that triage and investigate security alerts, possibly with smaller classification or embedding models for alert enrichment.","Alert volume is large (the site says 14M+ alerts processed), so agent workloads likely need steady throughput, low latency per investigation, and GPU capacity that scales with alert spikes.","No funding round is known. The site shows fast growth in volume (9M+ and 14M+ alerts processed, both cited), which suggests inference load is climbing.","CTO, Head of AI, or VP of Engineering","7AI likely runs LLMs for its agents; the site does not name models.; Alert volume is assumed to create latency and scaling needs for inference.; The ideal technical contact is inferred, as no related persons are known.; Parallel is chosen as the closest match because 7AI runs agentic workloads.; It is assumed 7AI does not already self-host or sell its own inference; the site shows nothing either way.",,,[First name] // Scaling Agentic Security Inference,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. 7AI is taking repetitive alert work off security teams with AI agents, and Baseten helps the models behind agents like that run in production. Parallel runs high-throughput agentic web research on Baseten, with 3x higher throughput and 2x better latency.
+
+Baseten does this by turning ML models into production APIs, with dedicated deployments on autoscaling GPUs and multi-model workflows.
+
+Would you have 15 minutes this week or next to see if it's a fit for 7AI?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Scaling Agentic Security Inference,"Hi [First name],
+
+Sharing this in case it helps, since 7AI runs agents at high alert volume: [RESOURCE LINK: add a real case study or article]. Would Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs, with dedicated deployments on autoscaling GPUs. Would Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I can reconnect next quarter, and I'm happy to close the loop either way.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now, so I'll step back. Happy to revisit in another quarter if that's useful.
+
+Thanks,
+Kenneth",Parallel,False,,7AI
+manual:read.ai,Read AI,https://read.ai,yes,tier_1,,Kenneth Jin,2026-10-12T20:13:55,customer,Read AI sells an AI meeting notetaker and assistant whose summaries and agents would run models in production.,"An AI meeting notetaker and assistant that turns meetings into summaries with context from email and calendar, action items, enterprise search, and AI agents that recommend next steps, available across Zoom, Google Meet, Microsoft Teams, and as a Claude Connector, ChatGPT App, and MCP Server.","LLMs for summaries, Q&A and agents, speech-to-text for transcription, and possibly embedding models for search across meetings, email and messages.","Meeting summaries and Ask Read answers across millions of users likely need low latency and enough GPU capacity during busy meeting hours, while serving many models cost-effectively.","Read AI is expanding into agents, a digital twin (Ada), and connectors for Claude, ChatGPT and MCP, which likely adds inference load and more models to serve.","CTO, VP of Engineering, or Head of ML/AI Infrastructure","Read AI likely runs LLMs, speech-to-text and possibly embedding models; the website does not name the models.; Inference pain (latency, GPU capacity, cost) is inferred from the product type and scale, not stated on the site.; The website does not say whether Read AI self-hosts models or uses third-party APIs.; Notion is chosen as social proof because its AI Meeting Notes is the closest workload to Read AI's meeting notes.; Ideal technical contact titles are guesses since no related persons are known.; Why-now is inferred from the new product launches on the website, since no funding is known.",,,[First name] // Meeting AI In Production,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Read AI turns meetings into outcomes with summaries and AI agents, and Baseten turns the ML models behind that into production APIs. Notion built its AI Meeting Notes on Baseten with 2-3x lower latency.
+
+Baseten does this by offering dedicated deployments with autoscaling GPUs and OpenAI-compatible Model APIs for open-source models.
+
+Would you have 15 minutes this week or next to see if it's a fit for Read AI?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Meeting AI In Production,"Hi [First name],
+
+Sharing this because Notion's AI Meeting Notes is a similar workload to yours: [RESOURCE LINK: add a real case study or article]. Does Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Just checking my note reached you. Baseten turns ML models into production APIs, with dedicated deployments and autoscaling GPUs. Does Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and either way I'll close the loop on my end.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now, so I'll stop here. Happy to revisit another quarter if inference becomes a focus.
+
+Thanks,
+Kenneth",Notion,False,,Read AI
+manual:typeface.ai,Typeface,https://typeface.ai,yes,tier_1,,Kenneth Jin,2026-10-12T20:14:25,customer,Typeface sells an enterprise marketing AI platform with agents and content generation that would run models in production.,"An enterprise marketing AI platform for agentic workflows, where agents plan, execute, check their work, and iterate on on-brand campaigns, with tools for marketing, IT, and creative teams.","LLMs for agents and copy, image generation and image editing models for visual variations across channels and audiences.","Agents that plan, check their own work, and iterate make many model calls per task, so latency and GPU cost at enterprise scale are likely concerns.","No funding round is known. The website shows an agentic push (Arc Agents, Arc Loop) with large enterprise customers, which likely means growing inference demand.",CTO or Head of ML / AI Engineering,"Typeface likely runs LLMs and image generation models, inferred from the agent and visual variation features.; Agentic loops likely mean many model calls per task, so latency and GPU cost are likely pains, inferred.; Typeface may use third-party model APIs rather than hosting its own models, which is not stated on the site.; Ideal technical contact is a CTO or Head of ML, since no related persons are known.; Parallel was chosen as the closest match because Typeface sells agentic workflows.; No funding round is known, so the emails do not mention one.",,,[First name] // Running Marketing Agents Reliably,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Typeface helps enterprise marketing teams run on-brand campaigns with AI agents, and Baseten helps run the models behind agents like those in production. Parallel does high-throughput agentic web research, with 3x higher throughput and 2x better latency on Baseten.
+
+Baseten does this by turning ML models into production APIs, with dedicated deployments on autoscaling GPUs and multi-model workflows.
+
+Would you have 15 minutes this week or next to see if it's a fit for Typeface?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Running Marketing Agents Reliably,"Hi [First name],
+
+Sharing this because it covers running agent workloads in production, which looks close to what Arc Agents does: [RESOURCE LINK: add a real case study or article]. Does Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs, with dedicated deployments on autoscaling GPUs. Does Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and I'll close the loop on my end either way.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'll assume this isn't a priority right now. Happy to revisit in another quarter if that's easier.
+
+Thanks,
+Kenneth",Parallel,False,,Typeface
+manual:opus.pro,Opus Clip,https://opus.pro,yes,tier_1,,Kenneth Jin,2026-10-12T20:16:10,customer,"OpusClip sells an AI video clipping and editing product built on its own AI editing models, which would run in production.","An AI video clipping and editing tool that turns long videos into shorts, with AI captions, reframe, B-roll, dubbing, speech enhancement, a web app and a video API for AI agents. It says it is used by 20M+ creators and businesses.","Video understanding and clipping models (ClipAnything), object tracking for reframing, speech-to-text for captions, text-to-speech and voice cloning for dubbing, audio enhancement, image generation for thumbnails and B-roll, and LLMs for clip selection.","Video workloads are heavy, so GPU cost, latency per clip and handling bursts of uploads from a large user base are likely pain points, along with serving an API that AI agents can call.","No funding round is known. The site shows a new API and MCP offering for AI agents plus several new AI features, which suggests growing inference demand.","CTO, VP of Engineering or Head of ML","OpusClip runs its own AI editing models in production, based on the site's claim of its own models (ClipAnything, ReframeAnything).; The kinds of models listed (video understanding, object tracking, speech-to-text, text-to-speech, image generation, LLMs) are inferred from the feature list.; The inference pain points (GPU cost, latency, burst traffic) are inferred, not stated on the site.; Why now is inferred from the new API, MCP and feature launches, since no funding round is known.; Ideal role is a guess, since no related persons are known.; Gamma is the closest available customer match, as a content generation workload with image generation, since no public customer is in video.; The first email word count is estimated at around 90 words.",,,[First name] // Scaling Video AI Inference,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. OpusClip turns long videos into shorts with its own AI editing models, and Baseten turns ML models behind products like that into production APIs. Gamma uses Baseten for presentation building, with 5x faster image generation.
+
+Baseten does this by offering dedicated deployments with autoscaling GPUs, plus OpenAI-compatible Model APIs for open-source models and multi-model workflows.
+
+Would you have 15 minutes this week or next to see if it's a fit for OpusClip?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Scaling Video AI Inference,"Hi [First name],
+
+Sharing this in case it's useful, since you run several AI models behind OpusClip: [RESOURCE LINK: add a real case study or article]. Would Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs, with dedicated deployments and autoscaling GPUs. Would Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and I'll close the loop either way.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now, so I won't keep following up. Happy to revisit another quarter if that's easier.
+
+Thanks,
+Kenneth",Gamma,False,,OpusClip
+manual:speak.com,Speak,https://speak.com,yes,tier_1,,Kenneth Jin,2026-10-12T20:16:38,customer,"Speak is a language learning app with an AI Tutor for spoken conversation, so it would run models in production.","A language learning app that teaches spoken fluency through an expert-crafted curriculum personalized by AI, with real back-and-forth conversation with the Speak Tutor and feedback, available in several languages.","Speech-to-text, text-to-speech, and LLMs for the conversational tutor and feedback.","Real-time spoken conversation needs low latency, and serving millions of learners across many languages means scaling GPU capacity as usage grows.","No funding round is known. The timing is based on the website: 15M+ downloads, seven languages, and a conversational AI tutor that depends on fast responses.",CTO or Head of ML / AI,"Speak likely runs speech-to-text, text-to-speech, and LLMs for the Speak Tutor; the website does not name the models.; Latency and GPU scaling are inferred pain points, not stated on the website.; Speechify chosen as the closest workload match (voice AI).; Ideal role of CTO or Head of ML is a guess since no related persons are known.; Whether Speak hosts its own models or uses third-party APIs is unknown.",,,[First name] // Voice AI Inference At Scale,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Speak helps people get speaking a new language through real conversation with an AI tutor, and Baseten helps run the models behind that in production. Speechify runs real-time text-to-speech for 60M+ users and cut cost per million characters by 44% on Baseten.
+
+Baseten does this by offering dedicated deployments with autoscaling GPUs, plus OpenAI-compatible Model APIs for open-source models, so you can run models as production APIs.
+
+Would you have 15 minutes this week or next to see if it's a fit for Speak?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Voice AI Inference At Scale,"Hi [First name],
+
+Sharing this because it covers voice workloads like yours: [RESOURCE LINK: add a real case study or article]. Does Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs, with autoscaling GPUs on dedicated deployments. Does Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and I'll close the loop either way.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now, so I won't keep following up. I'm glad to revisit another quarter if that's useful.
+
+Thanks,
+Kenneth",Speechify,False,,Speak
+manual:juicebox.ai,Juicebox,https://juicebox.ai,yes,tier_1,,Kenneth Jin,2026-10-12T20:18:28,customer,"Juicebox sells an AI recruiting platform with natural language search and agents, which would run models in production.","An AI recruiting platform (PeopleGPT) where natural language search finds candidates from 800M global profiles, and Juicebox Agents source candidates around the clock and run outreach sequences personalized with AI.","LLMs for natural language search, candidate ranking and personalized outreach, plus agent workflows and likely embedding or retrieval models.","Natural language search that returns a ranked pool in seconds, plus agents running around the clock, needs low latency and steady capacity as usage grows across staffing agencies and enterprises.","Juicebox just launched its all-new Agents, which source around the clock and add always-on inference load on top of search. No funding round is known, so the timing is based on the launch.","CTO, VP of Engineering, or Head of AI/ML","Juicebox likely runs LLMs for natural language search, ranking and outreach personalization; the website does not name models.; Always-on agents likely create steady inference load and latency sensitivity; this is inferred from the website description.; Ideal role of CTO, VP of Engineering, or Head of AI/ML is a guess since no related persons are known.; Parallel was chosen as the closest match because Juicebox's agents resemble agentic workloads; no customer is in recruiting.; The always-on inference load claim in why_now is inferred from the Agents launch description.; No funding round is known, so none is mentioned.",,,[First name] // Powering Always-On Sourcing Agents,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Juicebox is helping recruiters find talent with natural language search and sourcing agents, and Baseten helps run the AI behind products like that in production. Parallel runs high-throughput agentic web research on Baseten, with 3x higher throughput and 2x better latency.
+
+Baseten does this by turning ML models into production APIs, with dedicated deployments on autoscaling GPUs and OpenAI-compatible Model APIs for open-source models.
+
+Would you have 15 minutes this week or next to see if it's a fit for Juicebox?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Powering Always-On Sourcing Agents,"Hi [First name],
+
+Here is a resource on running AI agents in production that may be relevant to your new Agents: [RESOURCE LINK: add a real case study or article]. Would Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs, with autoscaling GPUs for dedicated deployments. Would Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and either answer helps me close the loop on my end.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now, so I won't keep following up. I'm glad to revisit another quarter if that's useful.
+
+Thanks,
+Kenneth",Parallel,False,,Juicebox
+https://www.sec.gov/Archives/edgar/data/2045111/000204511126000003/0002045111-26-000003-index.htm,"Stuut, Inc.",https://www.stuut.ai/,yes,tier_2,,Kenneth Jin,2026-10-12T20:45:44,customer,"Stuut sells an AI coworker for order-to-cash that contacts customers by email, SMS and voice, so it would run models in production.","An AI coworker for order-to-cash that handles collections, cash application, payments, disputes and deductions, and order management for enterprise finance teams, with credit coming soon.","LLMs for outreach and dispute reasoning, voice models for collection calls, and document or payment matching models.","Acting on thousands of invoices at once, around the clock, across email, SMS and voice needs reliable, scalable inference. Enterprise finance buyers will also expect strong security and control over where models run.","The Form D shows a large completed raise filed in September 2026, and the site announces a Series B, so Stuut is likely scaling its AI workloads and enterprise footprint.","CTO, VP of Engineering, or Head of AI/ML","Stuut likely runs LLMs and voice models, inferred from the website describing outreach across email, SMS and voice and dispute investigation.; Stuut is assumed to run its own or hosted models in production rather than only calling a third-party API.; The security and own-cloud angle is inferred from the enterprise customer base and the site's mention of encryption and logged actions.; Hebbia is chosen as the closest public customer because it serves finance, though Stuut's workload is finance operations rather than research.; The ideal role is a guess, since the filing lists only executive officers and directors with no technical titles.; The Form D amount and the Series B amount differ, so the filing is assumed to cover the same recent funding activity.","Executive Officer, Director","Executive Officer, Director",[First name] // Secure Inference For Order-to-Cash,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Stuut is an AI coworker for order-to-cash, and Baseten lets teams run the AI behind it on their own infrastructure. Hebbia runs AI workflows for major financial institutions on Baseten.
+
+Baseten does this by supporting SOC 2 Type II, single-tenant and self-hosted options, and by running inference on your own AWS infrastructure using your existing AWS contracts.
+
+Would you have 15 minutes this week or next to see if it's a fit for Stuut?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Secure Inference For Order-to-Cash,"Hi [First name],
+
+Sharing this in case it helps, since Stuut serves large enterprise finance teams that care where models run: [RESOURCE LINK: add a real case study or article]. Would Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten lets enterprises run inference on their own AWS infrastructure using existing AWS contracts, with SOC 2 Type II and single-tenant or self-hosted options. Would Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and either answer is completely fine so I can close the loop.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'll assume running your models on your own cloud isn't a priority right now. I'm glad to revisit another quarter if that's useful.
+
+Thanks,
+Kenneth",Hebbia,False,,Stuut
+manual:parloa.com,Parloa,https://parloa.com,yes,tier_2,,Kenneth Jin,2026-10-12T20:46:00,customer,"Parloa sells an AI agent platform for enterprise customer service, which would run models in production for live customer conversations.","An AI agent platform for enterprise customer service that handles customer conversations across channels, with agent lifecycle management, model orchestration, and context in one platform.","LLMs for conversation and agent reasoning, and likely speech-to-text and text-to-speech models for voice channels.","Customer conversations need quick replies at enterprise volume, and enterprise buyers in regulated sectors like insurance expect strong security and control over where models run.","No funding round is known, but the site shows enterprise customers in insurance and automotive and an SAP certification, so security, data control, and deployment options matter in their deals.",CTO or VP of Engineering / Head of ML Platform,"Parloa likely runs LLMs and possibly speech-to-text and text-to-speech models, inferred from conversational AI agents and channels on the site.; Parloa's security and data control concerns are inferred from its enterprise insurance and automotive customers and its trust center link.; Scaled Cognition was chosen as the closest match for AI agents, since no voice or customer service customer is listed.; Ideal role is inferred, since no related persons are known.; The email assumes Parloa may want to run models in its own AWS environment, which is not stated on the website.; The email mentions no raise because none is known.",,,[First name] // Secure Inference For AI Agents,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Parloa is building AI agents for enterprise customer service, and Baseten runs the models behind agents like these with SOC 2 Type II and self-hosted options. Scaled Cognition builds fast AI agents on Baseten.
+
+Baseten does this by offering single-tenant and self-hosted deployments, plus running on your own AWS infrastructure using your existing AWS contracts, with SOC 2 Type II.
+
+Would you have 15 minutes this week or next to see if it's a fit for Parloa?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Secure Inference For AI Agents,"Hi [First name],
+
+Here is a resource on how teams run AI agents on Baseten, which fits Parloa's enterprise customer service work: [RESOURCE LINK: add a real case study or article]. Does Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten offers SOC 2 Type II, single-tenant and self-hosted options, and can run on your own AWS infrastructure. Does Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and I'll close the loop here either way.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now, so I won't keep following up. I'm glad to revisit another quarter if running Parloa's models on your own cloud becomes a topic.
+
+Thanks,
+Kenneth",Scaled Cognition,False,,Parloa
+manual:photoroom.com,Photoroom,https://photoroom.com,yes,tier_1,,Kenneth Jin,2026-10-12T20:58:58,customer,"Photoroom builds an AI image editing and generation product, with an API, that would run image and video models in production.","An AI photo editor and listing studio for e-commerce product photography, with background removal, image and video generation, batch editing across thousands of images, and an image API.","Image segmentation and background removal models, image generation (diffusion) models, and video generation models.",Running image edits in batches across thousands of images and serving API customers with enterprise SLAs likely means handling bursty GPU demand while keeping latency and cost under control.,"No funding round is known. The website emphasizes batch processing, an API, and enterprise custom models with dedicated capacity and SLA-backed uptime, which suggests growing production inference demand.","CTO, Head of ML, or Head of Platform Engineering","Photoroom likely runs image segmentation, diffusion-based image generation, and video generation models; the website does not name specific models.; Inference pain (bursty GPU demand, latency, cost) is inferred from the batch processing, API, and enterprise dedicated capacity features.; Gamma chosen as the closest match because it does generative image work; no customer is an exact e-commerce imaging match.; Ideal role titles are guesses since no related persons are known.; Why-now is inferred from website positioning, not from a funding filing.",,,[First name] // Scaling Image Inference,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Photoroom helps e-commerce teams edit and generate product visuals with AI, and Baseten helps run the models behind products like that in production. Gamma uses Baseten for generative AI presentation building, with 5x faster image generation.
+
+Baseten does this by turning ML models into production APIs, with dedicated deployments and autoscaling GPUs for your image workloads.
+
+Would you have 15 minutes this week or next to see if it's a fit for Photoroom?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Scaling Image Inference,"Hi [First name],
+
+Sharing this because it covers running generative models in production, which seems close to what you do at Photoroom: [RESOURCE LINK: add a real case study or article]. Does Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Bumping this in case it got buried. Baseten turns ML models into production APIs, with dedicated deployments and autoscaling GPUs. Does Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and either way I'll close the loop on my end.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now, so I won't keep following up. I'm happy to revisit it another quarter if that's useful.
+
+Thanks,
+Kenneth",Gamma,False,,Photoroom
+manual:sierra.ai,Sierra,https://sierra.ai,yes,tier_1,,Kenneth Jin,2026-10-12T20:59:07,customer,"Sierra sells a conversational AI agent platform, so it runs models in production for its customers and does not sell inference itself.","A conversational AI platform for businesses. It lets companies build AI agents, with an agent-building agent called Ghostwriter, and deploy one agent across chat, SMS, WhatsApp, email, voice, and ChatGPT. It also offers insights, monitoring, and experiments tools.","LLMs for conversation and agent planning, plus speech models for voice (speech-to-text and text-to-speech), and possibly embedding models for knowledge lookups.","Agents across chat and voice need low latency on every turn, and tool calls and long-horizon planning add more model calls per conversation. Traffic likely varies by customer, so GPU capacity needs to scale up and down.","The website recaps Sierra Summit 2026 and mentions Tandem Voice and new models, so voice and model work is active right now.","Head of ML, VP of Engineering, or Head of AI Infrastructure","Sierra is treated as a customer because its agents likely run models in production; the website does not say which models it uses.; Likely models (LLMs, speech models, embeddings) are inferred from the chat, voice, and agent product descriptions.; Inference pain (latency, variable traffic, many model calls per conversation) is inferred, not stated on the website.; Why now is inferred from the Sierra Summit 2026 recap mentioning Tandem Voice and new models.; Ideal role is a guess, since no related persons are known.; Scaled Cognition was chosen as the closest match because Sierra builds AI agents, though it is a different kind of company.",,,[First name] // Running Agent Models In Production,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Sierra builds AI agents for customer experiences across chat, voice, and email, and Baseten turns the models behind agents like that into production APIs. Scaled Cognition is building fast AI agents on Baseten.
+
+Baseten does this by offering dedicated deployments with autoscaling GPUs and OpenAI-compatible Model APIs for open-source models.
+
+Would you have 15 minutes this week or next to see if it's a fit for Sierra?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Running Agent Models In Production,"Hi [First name],
+
+Sharing this in case it's useful, since you run agents across voice and chat: [RESOURCE LINK: add a real case study or article]. Would Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs, with dedicated deployments and autoscaling GPUs. Would Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and I'll close the loop on my end either way.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now, so I won't keep following up. I'm glad to revisit another quarter if the timing gets better.
+
+Thanks,
+Kenneth",Scaled Cognition,False,,Sierra
+manual:fireflies.ai,Fireflies.ai,https://fireflies.ai,yes,tier_1,,Kenneth Jin,2026-10-12T20:59:23,customer,"Fireflies.ai sells an AI meeting assistant that transcribes and summarizes conversations, so it runs models in production.","An AI teammate for meetings that records, transcribes, summarizes, searches, and analyzes team conversations. It supports 100+ languages and speaker recognition, and offers AskFred, Live Assist, 200+ AI Skills, and an MCP server.","Speech-to-text and speaker recognition models, LLMs for summaries, action items, and question answering, and models for sentiment analysis and search.","Transcribing and summarizing many meetings at once needs steady throughput, and real-time features like Live Assist need low latency. Both are hard to keep up as usage grows.","No funding round is known. The website shows new launches (Fireflies Talk dictation, Live Assist, MCP server), which add more real-time model workloads.","CTO, VP of Engineering, or Head of ML","Fireflies likely runs speech-to-text, speaker recognition, and LLM models, since the website does not name its models.; Latency and throughput are inferred pain points based on real-time features like Live Assist and the volume of meetings processed.; Fireflies is treated as an AI-native scale-up because the segment was given as tier_1.; Healthcare is set to false because Fireflies is not a healthcare company, even though it offers HIPAA compliance and a healthcare use case, so HIPAA is not mentioned.; Notion is chosen as the closest match since AI Meeting Notes is the nearest workload to meeting transcription and summaries.; The ideal technical contact is inferred because no related persons are known.; The 'why now' point about new launches is inferred from the website and does not come from a funding filing.",,,[First name] // Scaling Meeting AI Inference,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Fireflies.ai turns meeting conversations into transcripts, summaries, and searchable notes, and Baseten turns the models behind that into production APIs. Notion built AI Meeting Notes on Baseten with 2-3x lower latency.
+
+Baseten does this by offering dedicated deployments with autoscaling GPUs, plus OpenAI-compatible Model APIs for open-source models.
+
+Would you have 15 minutes this week or next to see if it's a fit for Fireflies?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Scaling Meeting AI Inference,"Hi [First name],
+
+Sharing this because it covers running AI features in production, which looks relevant to Fireflies: [RESOURCE LINK: add a real case study or article]. Does Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs for companies like Fireflies. Does Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and either answer helps me close the loop on my end.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now, so I won't keep following up. I'm glad to revisit another quarter if it makes sense.
+
+Thanks,
+Kenneth",Notion,False,,Fireflies
+manual:synthesia.io,Synthesia,https://synthesia.io,yes,tier_1,,Kenneth Jin,2026-10-12T20:59:38,customer,"Synthesia sells an AI video platform with avatars, dubbing and real-time interactive avatars, so it runs models in production for its users.","An AI video platform for business that creates videos with AI avatars and voiceovers in 140+ languages, plus dubbing, translation, interactive avatar Sessions and an API.","Video generation and avatar models, text-to-speech and voice models, translation and dubbing models, and LLMs behind the video assistant and conversational avatars.","Real-time interactive avatars need low latency, and video and dubbing generation for 2,000,000+ users needs GPU capacity that scales with demand.","Synthesia just launched Syren, its most advanced AI video model, and is pushing interactive avatars and the API, which adds production inference load. No funding round is known.","CTO, VP of Engineering, or Head of ML Infrastructure","Synthesia likely runs its own video generation, avatar, speech and LLM models in production, which is inferred from the product descriptions.; Real-time interactive avatars are assumed to be latency sensitive.; Scaling pain on GPUs is inferred from the 2,000,000+ user count and API offering.; Gamma was chosen as the closest generative content customer since no video or avatar customer is listed.; Ideal role is inferred because no executives are known.; Syren being new is taken from the website's 'Meet Syren' banner.",,,[First name] // Scaling Interactive Avatars,"Good morning, [First name],
+
+My name is Kenneth Jin, and I'm writing about Baseten. Synthesia turns scripts and prompts into studio-quality AI avatar videos, and Baseten helps run the models behind products like that in production. Gamma builds presentations with AI and saw 5x faster image generation.
+
+Baseten does this by turning ML models into production APIs, with dedicated deployments on autoscaling GPUs, so you can run models as production APIs.
+
+Would you have 15 minutes this week or next to see if it's a fit for Synthesia?
+
+Thank you in advance,
+Kenneth",Re: [First name] // Scaling Interactive Avatars,"Hi [First name],
+
+Here is something on running generative AI in production that may be relevant to your avatar and video models: [RESOURCE LINK: add a real case study or article]. Does Thursday or Friday morning next week work for 15 minutes?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Wanted to make sure my note reached you. Baseten turns ML models into production APIs, with dedicated deployments on autoscaling GPUs. Does Tuesday or Wednesday morning next week work for a quick introduction?
+
+Thanks,
+Kenneth","Hi [First name],
+
+Does it make sense to revisit this later? I'm happy to reconnect next quarter, and if it's not a fit, just say so and I'll close the loop.
+
+Thanks,
+Kenneth","Hi [First name],
+
+I'm guessing this isn't a priority right now, so I won't keep following up. I'm glad to revisit another quarter if that's easier.
+
+Thanks,
+Kenneth",Gamma,False,,Synthesia

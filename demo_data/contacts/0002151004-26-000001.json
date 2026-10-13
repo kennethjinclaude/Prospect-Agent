@@ -1,0 +1,32 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/2151004/000215100426000001/0002151004-26-000001-index.htm",
+  "company_name": "Ultra Robotics Corp.",
+  "created_at": "2026-10-12T21:23:08",
+  "fingerprint": "1368a17a949fb418",
+  "size_band": "50_300",
+  "size_note": "estimated from a $62,089,507 round; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [],
+  "cards": [
+    {
+      "slot": "champion",
+      "role": "Head of ML/AI or ML infrastructure lead",
+      "search": "Head of ML",
+      "why_this_role": "This person would own how AI models run in Ultra's OP1 robots, but the evidence shows no ML infrastructure hiring and no model-serving signals, so this role is likely a fit only if it exists under a different title.",
+      "cares_about": "reliable model deployment for robots that run warehouse tasks",
+      "opening_angle": "Baseten turns ML models into production APIs, so I'm curious how your team gets models from training into the OP1 robots that pack, sort, and kit in your warehouses.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Ultra+Robotics+Head+of+ML"
+    },
+    {
+      "slot": "economic_buyer",
+      "role": "VP Engineering",
+      "search": "VP Engineering",
+      "why_this_role": "This person likely oversees the engineering work behind the OP1 and would be the decision maker for any new inference platform, though the evidence gives no direct sign of a need for one.",
+      "cares_about": "keeping the robot software and deployments running across live sites",
+      "opening_angle": "Baseten runs ML models as production APIs with autoscaling GPUs, and I wanted to ask whether the OP1 software stack has any model workloads that could run on something like that.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Ultra+Robotics+VP+Engineering"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Ultra+Robotics",
+  "warnings": []
+}

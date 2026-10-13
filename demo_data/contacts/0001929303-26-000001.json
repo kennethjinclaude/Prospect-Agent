@@ -1,0 +1,32 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/1929303/000192930326000001/0001929303-26-000001-index.htm",
+  "company_name": "Tabnam, Inc.",
+  "created_at": "2026-10-12T21:23:02",
+  "fingerprint": "3b33a4a14e8003f1",
+  "size_band": "50_300",
+  "size_note": "estimated from a $40,000,000 round; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [],
+  "cards": [
+    {
+      "slot": "champion",
+      "role": "Head of ML/AI or ML infrastructure lead",
+      "search": "Head of ML",
+      "why_this_role": "Every pull request triggers agent model calls, so this person likely owns how those model calls get served, and no ML infra hiring was found, which suggests a small team handling it.",
+      "cares_about": "Model serving that holds up as call volume grows",
+      "opening_angle": "Every PR your agents review triggers model calls, and Baseten turns ML models into production APIs with autoscaling GPUs, so I'd like to show you how that works.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Greptile+Head+of+ML"
+    },
+    {
+      "slot": "economic_buyer",
+      "role": "VP Engineering",
+      "search": "VP Engineering",
+      "why_this_role": "At a company of roughly 50 to 300 people, this person likely makes the call on infrastructure vendors and how new model hosting fits into the existing stack.",
+      "cares_about": "A dependable engineering stack that the team can run without adding overhead (likely)",
+      "opening_angle": "Baseten offers OpenAI-compatible Model APIs for open-source models, and enterprises can run its inference on their own AWS infrastructure under existing AWS contracts, so I wanted to see if that fits how you're thinking about hosting.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Greptile+VP+Engineering"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Greptile",
+  "warnings": []
+}

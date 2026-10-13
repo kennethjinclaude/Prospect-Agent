@@ -1,0 +1,23 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/2072522/000207252226000003/0002072522-26-000003-index.htm",
+  "company_name": "Rapta Inc.",
+  "created_at": "2026-10-12T21:22:38",
+  "fingerprint": "0375c1573c86ab50",
+  "size_band": "under_50",
+  "size_note": "estimated from a $10,835,253 round; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "At a company under 50 people, the CTO or technical founder likely makes the call on how vision models run in production, though the evidence shows no GPU serving or inference infrastructure pain, so Baseten fit is weak.",
+      "cares_about": "Keeping the vision stack reliable on the factory floor and avoiding extra infrastructure work for a small team.",
+      "opening_angle": "Saw Rapta's station-level defect detection work and wanted to ask how you currently serve your vision models, since Baseten turns ML models into production APIs if that ever becomes a priority.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Rapta+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Rapta",
+  "warnings": []
+}

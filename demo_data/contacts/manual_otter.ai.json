@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:otter.ai",
+  "company_name": "Otter.ai",
+  "created_at": "2026-10-12T21:25:09",
+  "fingerprint": "6dfea021750db0a0",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "The technical lead likely decides how Otter's meeting transcription and agent models get served in production, since every meeting triggers model calls and the site shows no evidence of GPU infrastructure or custom model hosting yet.",
+      "cares_about": "reliable production model serving for live meeting AI",
+      "opening_angle": "Every meeting on Otter kicks off model calls, so I wanted to share how Baseten turns ML models into production APIs with autoscaling GPUs for workloads like yours.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Otter.ai+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Otter.ai",
+  "warnings": []
+}

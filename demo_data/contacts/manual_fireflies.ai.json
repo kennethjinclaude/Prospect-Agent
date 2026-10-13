@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:fireflies.ai",
+  "company_name": "Fireflies.ai",
+  "created_at": "2026-10-12T21:25:12",
+  "fingerprint": "192715eb14112bd3",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "The CTO or technical founder likely owns how Fireflies.ai runs its AI models in production, since the company is AI-native and ships real-time and dictation features on top of its transcription and summary products.",
+      "cares_about": "reliable production AI features and control over how models are served",
+      "opening_angle": "Saw Fireflies just rolled out real-time and dictation features on top of a big transcription base; Baseten turns ML models into production APIs, so I wanted to see if running your own models on dedicated autoscaling GPUs is worth a quick look.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Fireflies+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Fireflies",
+  "warnings": []
+}

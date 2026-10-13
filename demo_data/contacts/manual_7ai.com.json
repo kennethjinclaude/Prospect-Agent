@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:7ai.com",
+  "company_name": "7AI",
+  "created_at": "2026-10-12T21:25:04",
+  "fingerprint": "4d83ba45398bcc0d",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "The CTO or technical founder likely owns the architecture behind 7AI's agentic SOC platform, which is central to what the company sells, so they would make the call on how models get deployed to production.",
+      "cares_about": "reliable production AI systems and keeping the platform architecture clean as it scales",
+      "opening_angle": "Saw 7AI's AI SOC agents triage and investigate alerts in production, and wanted to share how Baseten turns ML models into production APIs with dedicated, autoscaling GPU deployments.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=7AI+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=7AI",
+  "warnings": []
+}

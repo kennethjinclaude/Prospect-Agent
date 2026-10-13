@@ -1,0 +1,23 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/1876339/000187633926000003/0001876339-26-000003-index.htm",
+  "company_name": "Sunflower Labs Inc.",
+  "created_at": "2026-10-12T21:21:55",
+  "fingerprint": "c79ad8ae3337c16b",
+  "size_band": "under_50",
+  "size_note": "estimated from a $20,000,000 round; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "At a company under 50 people, the CTO or technical founder likely owns the decision on how Sunflower Labs runs its computer vision models for The Beehive, though the evidence shows no model hosting or GPU signals so fit is thin.",
+      "cares_about": "keeping a small team focused on the core drone product without extra infrastructure overhead",
+      "opening_angle": "Saw The Beehive launches drones to investigate intruders on its own, curious whether your vision models run on hosted infrastructure or in-house, since Baseten turns ML models into production APIs.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Sunflower+Labs+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Sunflower+Labs",
+  "warnings": []
+}

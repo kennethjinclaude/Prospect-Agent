@@ -1,0 +1,41 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/2115532/000211553226000002/0002115532-26-000002-index.htm",
+  "company_name": "Vistiq.AI, Inc.",
+  "created_at": "2026-10-12T21:21:44",
+  "fingerprint": "bdc8ad1ac9a533d0",
+  "size_band": "50_300",
+  "size_note": "estimated from a $40,000,000 round; check the LinkedIn company page for headcount",
+  "regulated": "vertical ai for finance or insurance: \"VistIQ: AI Investment Operating System for Private Markets PE funds Asset Managers Family Offices\"",
+  "notes": [],
+  "cards": [
+    {
+      "slot": "champion",
+      "role": "Head of ML/AI or ML infrastructure lead",
+      "search": "Head of ML",
+      "why_this_role": "This person likely owns how VistIQ's specialized AI agents for deal assessment, valuation, and reporting get built and served, though no ML infra hiring was found and the site shows no model or scale details.",
+      "cares_about": "reliable, production-ready model serving for finance agents",
+      "opening_angle": "Saw VistIQ runs specialized agents for deal assessment and valuation; Baseten turns ML models into production APIs, so you could run those agents as production APIs without building serving from scratch.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Vistiq.AI+Head+of+ML"
+    },
+    {
+      "slot": "economic_buyer",
+      "role": "VP Engineering",
+      "search": "VP Engineering",
+      "why_this_role": "This person likely oversees the engineering work of connecting firm data sources and running agents across PE funds and asset managers, which makes them the buyer for platform choices.",
+      "cares_about": "dependable delivery across many customer deployments",
+      "opening_angle": "VistIQ connects firm data sources and runs AI agents for private markets firms; Baseten offers dedicated deployments with autoscaling GPUs, so you could run those workloads on dedicated infrastructure.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Vistiq.AI+VP+Engineering"
+    },
+    {
+      "slot": "blocker",
+      "role": "CISO or security lead",
+      "search": "CISO",
+      "why_this_role": "Since VistIQ handles sensitive investment and investor data for PE funds, asset managers, and family offices, this person likely has a strong say in where models run.",
+      "cares_about": "data handling and compliance for sensitive financial data",
+      "opening_angle": "Since VistIQ works with sensitive investor data for private markets firms, Baseten supports HIPAA and SOC 2 Type II and offers single-tenant and self-hosted options, so you could keep deployments in a controlled setup.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Vistiq.AI+CISO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Vistiq.AI",
+  "warnings": []
+}

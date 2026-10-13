@@ -1,0 +1,32 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/2030828/000203082826000003/0002030828-26-000003-index.htm",
+  "company_name": "Lateral Care Inc.",
+  "created_at": "2026-10-12T21:21:32",
+  "fingerprint": "605ff244fcb53ea9",
+  "size_band": "under_50",
+  "size_note": "estimated from a $11,305,000 round; check the LinkedIn company page for headcount",
+  "regulated": "sells into a regulated industry (\"healthcare\" in what they sell)",
+  "notes": [],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "At a company under 50 people, the CTO or technical founder likely makes the call on how their AI agents get hosted and served, and the site shows no model or production traffic details yet.",
+      "cares_about": "shipping the core product reliably without building serving infrastructure from scratch",
+      "opening_angle": "Baseten turns ML models into production APIs, so if your revenue cycle agents need model serving, we can run them as production APIs with autoscaling GPUs.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Lateral+Care+CTO"
+    },
+    {
+      "slot": "blocker",
+      "role": "CISO or security lead",
+      "search": "CISO",
+      "why_this_role": "Since LateralCare sells into healthcare, a security lead likely needs to sign off on any vendor touching patient billing and claims data, and Baseten supports HIPAA and SOC 2 Type II.",
+      "cares_about": "compliance posture and keeping patient data under control",
+      "opening_angle": "Since you sell into healthcare, Baseten supports HIPAA and SOC 2 Type II, and offers single-tenant and self-hosted options for teams that need tighter control over where models run.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Lateral+Care+CISO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Lateral+Care",
+  "warnings": []
+}

@@ -1,0 +1,32 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/1818357/000181835726000002/0001818357-26-000002-index.htm",
+  "company_name": "Quaestor Technologies, Inc.",
+  "created_at": "2026-10-12T21:23:05",
+  "fingerprint": "153dc2c55ee63377",
+  "size_band": "under_50",
+  "size_note": "estimated from a $21,268,098 round; check the LinkedIn company page for headcount",
+  "regulated": "vertical ai for finance or insurance: \"Built for VC/PE.\"",
+  "notes": [],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "As the technical lead at a Series B AI company under 50 people, this person likely owns the choice of how AI agents and the AI Analyst get served, though the evidence shows no custom or open models or self-managed inference yet.",
+      "cares_about": "keeping a small team focused on the core product while adding AI features reliably",
+      "opening_angle": "Baseten turns ML models into production APIs, so if Standard Metrics ever wants to run its own or open-source models behind the AI Analyst, you could run them as production APIs without building that serving layer yourselves.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Standard+Metrics+CTO"
+    },
+    {
+      "slot": "blocker",
+      "role": "CISO or security lead",
+      "search": "CISO",
+      "why_this_role": "Standard Metrics serves VC and PE firms with portfolio data, and Baseten supports HIPAA and SOC 2 Type II, single-tenant, and self-hosted options, so a security lead is likely the one who would check those controls against investor data needs.",
+      "cares_about": "where portfolio data is processed and whether compliance certifications hold up in review",
+      "opening_angle": "Baseten supports SOC 2 Type II and offers single-tenant and self-hosted options, which may help if your VC and PE customers ask where their portfolio data gets processed.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Standard+Metrics+CISO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Standard+Metrics",
+  "warnings": []
+}

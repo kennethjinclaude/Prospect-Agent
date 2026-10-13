@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:prophetsecurity.ai",
+  "company_name": "Prophet Security",
+  "created_at": "2026-10-12T21:25:02",
+  "fingerprint": "7d56026e78ae8039",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "Likely the person who decides how Prophet's AI agents run in production, since every alert triggers model-driven investigation and the company has a live product, but the evidence shows no open-model or GPU signals yet.",
+      "cares_about": "reliable model serving for agents that investigate alerts around the clock",
+      "opening_angle": "Your AI SOC Analyst runs model-driven investigation on every alert, so I'm curious how you're serving those models today and whether you've looked at Baseten, which turns ML models into production APIs.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Prophet+Security+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Prophet+Security",
+  "warnings": []
+}

@@ -1,0 +1,52 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/2132947/000213294726000002/0002132947-26-000002-index.htm",
+  "company_name": "Quartermaster AI, Inc",
+  "created_at": "2026-10-12T21:21:48",
+  "fingerprint": "7bd01a8d85e30cd7",
+  "size_band": "300_plus",
+  "size_note": "estimated from a $123,649,412 round; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Best entry point: the team that owns this posting: Their inference is mainly edge-based, running on NVIDIA Jetson devices on vessels, according to job posts. (https://builtin.com/company/quartermaster-ai/jobs)"
+  ],
+  "cards": [
+    {
+      "slot": "champion",
+      "role": "Director of ML Platform",
+      "search": "ML Platform",
+      "why_this_role": "Likely the person who would own model serving if Quartermaster's AI video analysis ever moves beyond the edge devices on vessels, since their current inference runs mainly on NVIDIA Jetson hardware per job posts.",
+      "cares_about": "Keeping models running reliably in production as the sensor network grows.",
+      "opening_angle": "Quartermaster's sensor network is growing fast, and Baseten turns ML models into production APIs, so I'm curious whether any of your video analysis models could run as cloud APIs alongside the vessel edge setup.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Quartermaster+AI+ML+Platform"
+    },
+    {
+      "slot": "economic_buyer",
+      "role": "VP Engineering or CTO",
+      "search": "VP Engineering",
+      "why_this_role": "Likely the executive who would weigh cloud inference against the current edge-first approach as the company scales its ocean sensor network after its September 2026 funding.",
+      "cares_about": "Scaling the network without the infrastructure becoming a bottleneck.",
+      "opening_angle": "With the new funding aimed at growing the ocean sensor network, I wanted to share how Baseten runs dedicated deployments with autoscaling GPUs, in case cloud inference ever becomes part of your plan.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Quartermaster+AI+VP+Engineering"
+    },
+    {
+      "slot": "blocker",
+      "role": "Security lead",
+      "search": "Security",
+      "why_this_role": "Likely involved in any review of where vessel video and geolocation data is processed, since the company handles verified records and real-time tracking, though the company is not marked as regulated.",
+      "cares_about": "Where sensitive video and location data is processed and how it is protected.",
+      "opening_angle": "Since your service handles vessel video and verified tracking records, Baseten supports SOC 2 Type II and offers single-tenant and self-hosted options, which might be worth a look if inference ever moves off the edge.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Quartermaster+AI+Security"
+    },
+    {
+      "slot": "blocker",
+      "role": "Procurement",
+      "search": "Procurement",
+      "why_this_role": "Likely the person who would evaluate pricing terms if the company adds a cloud inference vendor, and Baseten uses usage-based pricing.",
+      "cares_about": "Predictable terms and paying only for what gets used.",
+      "opening_angle": "Baseten uses usage-based pricing, so I wanted to send over the basics in case your team ever evaluates cloud inference alongside the current edge setup.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Quartermaster+AI+Procurement"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Quartermaster+AI",
+  "warnings": []
+}

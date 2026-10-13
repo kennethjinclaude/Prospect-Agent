@@ -1,0 +1,32 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/1979207/000197920726000004/0001979207-26-000004-index.htm",
+  "company_name": "UrgentIQ Inc.",
+  "created_at": "2026-10-12T21:22:06",
+  "fingerprint": "e9e0a370613dd780",
+  "size_band": "under_50",
+  "size_note": "estimated from a $12,000,000 round; check the LinkedIn company page for headcount",
+  "regulated": "sells into a regulated industry (\"medical\" in what they sell)",
+  "notes": [],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "With an estimated headcount under 50 and no ML infrastructure hiring found, this person likely makes the call on how AI features get hosted and run, since the site shows no sign of a dedicated ML team.",
+      "cares_about": "keeping the AI features reliable without building a big infra team",
+      "opening_angle": "Baseten turns ML models into production APIs, and I wanted to see if that fits how UrgentIQ runs AI for intake and chart review.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=UrgentIQ+CTO"
+    },
+    {
+      "slot": "blocker",
+      "role": "CISO or security lead",
+      "search": "CISO",
+      "why_this_role": "UrgentIQ sells an EMR into a regulated medical setting, so this person likely has to approve any vendor that touches patient data and AI workloads.",
+      "cares_about": "patient data protection and vendor compliance",
+      "opening_angle": "Baseten supports HIPAA and SOC 2 Type II and offers single-tenant and self-hosted options, so I wanted to check whether that would fit your review process for AI features in the EMR.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=UrgentIQ+CISO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=UrgentIQ",
+  "warnings": []
+}

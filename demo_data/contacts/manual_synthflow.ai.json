@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:synthflow.ai",
+  "company_name": "Synthflow",
+  "created_at": "2026-10-12T21:24:00",
+  "fingerprint": "4b77691115d4776e",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "Likely the person who decides how Synthflow's latency-sensitive voice models get hosted and scaled, since the company runs 500M+ calls and fine-tunes on customer conversation data.",
+      "cares_about": "Real-time latency, reliable scaling for call volume, and keeping fine-tuned models running in production.",
+      "opening_angle": "Synthflow's 500M+ calls and real-time voice workloads make me think model serving latency is a constant concern, so I wanted to show how Baseten runs models as production APIs with autoscaling GPUs.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Synthflow+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Synthflow",
+  "warnings": []
+}

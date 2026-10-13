@@ -1,0 +1,23 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/2000910/000200091026000004/0002000910-26-000004-index.htm",
+  "company_name": "Handraise Inc.",
+  "created_at": "2026-10-12T21:22:45",
+  "fingerprint": "f8cb974467614827",
+  "size_band": "under_50",
+  "size_note": "estimated from a $10,531,276 round; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "At a company under 50 people, the CTO or technical founder is likely the person who would own any decision to run AI models on their own infrastructure, though the evidence shows no sign that Handraise has that need yet.",
+      "cares_about": "keeping the product's AI features reliable without adding heavy infrastructure work (likely)",
+      "opening_angle": "Saw Handraise tracks how brands show up in leading AI models; Baseten turns ML models into production APIs, so if you ever run your own models, it could be a fit to explore.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Handraise+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Handraise",
+  "warnings": []
+}

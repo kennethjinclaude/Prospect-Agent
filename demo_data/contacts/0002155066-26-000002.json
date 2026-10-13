@@ -1,0 +1,23 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/2155066/000215506626000002/0002155066-26-000002-index.htm",
+  "company_name": "DVx Atomic Co.",
+  "created_at": "2026-10-12T21:22:13",
+  "fingerprint": "113ec50c325e16ae",
+  "size_band": "under_50",
+  "size_note": "estimated from a $18,510,980 round; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "At a company under 50 people, the CTO or technical founder likely decides how the AI planning models get built and served, so they are the main person to reach even though the Baseten fit is weak.",
+      "cares_about": "keeping the engineering team focused on the core planning product while making sensible infrastructure choices",
+      "opening_angle": "Baseten turns ML models into production APIs, so if your planning models ever need to run as a hosted service, we could be a quick fit to talk through, though I'm not sure it's a priority yet.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=DVx+Atomic+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=DVx+Atomic",
+  "warnings": []
+}

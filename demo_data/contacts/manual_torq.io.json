@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:torq.io",
+  "company_name": "Torq",
+  "created_at": "2026-10-12T21:24:58",
+  "fingerprint": "1b9fa68ae078bdb9",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "Torq builds an agentic AI SOC platform where AI agents and AI verdicts are central to the product, so the CTO or technical founder likely owns how those models get served in production (inferred from the fit reason, not confirmed by the evidence).",
+      "cares_about": "reliable, production-ready AI agents and verdicts that keep improving over time",
+      "opening_angle": "Baseten turns ML models into production APIs, so you can run the models behind Torq's AI verdicts and agents as production APIs without building that serving layer yourselves.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Torq+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Torq",
+  "warnings": []
+}

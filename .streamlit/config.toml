@@ -1,0 +1,25 @@
+# Quiet, dense theme: neutral grays with one accent (deep green), self-hosted Inter.
+[server]
+# Serves files in static/ (the Inter font), so no visitor's browser calls an outside font service.
+enableStaticServing = true
+
+[theme]
+base = "light"
+primaryColor = "#0F766E"
+backgroundColor = "#FFFFFF"
+secondaryBackgroundColor = "#F9FAFB"
+textColor = "#111827"
+linkColor = "#374151"
+borderColor = "#E5E7EB"
+showWidgetBorder = true
+baseRadius = "small"
+baseFontSize = 14
+font = "Inter, sans-serif"
+dataframeBorderColor = "#E5E7EB"
+dataframeHeaderBackgroundColor = "#F9FAFB"
+
+[[theme.fontFaces]]
+family = "Inter"
+url = "app/static/fonts/Inter-latin.woff2"
+weight = "400 700"
+style = "normal"

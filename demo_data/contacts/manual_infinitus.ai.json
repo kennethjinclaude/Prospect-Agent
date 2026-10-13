@@ -1,0 +1,34 @@
+{
+  "filing_url": "manual:infinitus.ai",
+  "company_name": "Infinitus",
+  "created_at": "2026-10-12T21:24:48",
+  "fingerprint": "e364049ebadfd003",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "your category: Healthcare AI",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "Infinitus runs live voice AI agents on production patient calls, so the technical leader likely owns how those models get served, though the evidence shows no model, GPU, or stage details.",
+      "cares_about": "Reliable production serving for live voice agents.",
+      "opening_angle": "Saw Infinitus runs AI agents on live patient calls; Baseten turns ML models into production APIs, so you could run those models as production APIs without building the serving layer yourself.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Infinitus+CTO"
+    },
+    {
+      "slot": "blocker",
+      "role": "CISO or security lead",
+      "search": "CISO",
+      "why_this_role": "Infinitus handles patient communication in healthcare, so the security lead likely needs compliance-backed infrastructure, and Baseten supports HIPAA and SOC 2 Type II.",
+      "cares_about": "Compliance and control over where patient data runs.",
+      "opening_angle": "Since Infinitus handles patient communication, Baseten supports HIPAA and SOC 2 Type II and offers single-tenant and self-hosted options, so you can keep model inference under your own controls.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Infinitus+CISO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Infinitus",
+  "warnings": []
+}

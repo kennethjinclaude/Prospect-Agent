@@ -1,0 +1,34 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/2149868/000214986826000001/0002149868-26-000001-index.htm",
+  "company_name": "Concorda, Inc.",
+  "created_at": "2026-10-12T21:22:11",
+  "fingerprint": "6bf32a723b858385",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "sells into a regulated industry (\"legal\" in what they sell)",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "Likely the person who decides how Concorda's AI drafting and research models get served to customers, though the site shows no hosting or scale evidence and the team looks small.",
+      "cares_about": "getting AI features into production without building serving infrastructure from scratch",
+      "opening_angle": "Concorda's drafting and research features run on models that someone has to serve reliably, and Baseten turns ML models into production APIs, so you can run them that way without building the serving layer yourself.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Concorda+CTO"
+    },
+    {
+      "slot": "blocker",
+      "role": "CISO or security lead",
+      "search": "CISO",
+      "why_this_role": "Concorda sells into the legal industry, a regulated space, so a security lead likely has to sign off on where client and case data is processed.",
+      "cares_about": "where customer data is processed and what compliance controls are in place",
+      "opening_angle": "Since Concorda handles litigation work for law firms, Baseten supports HIPAA and SOC 2 Type II and offers single-tenant and self-hosted options, so you can keep model inference in a controlled environment.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Concorda+CISO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Concorda",
+  "warnings": []
+}

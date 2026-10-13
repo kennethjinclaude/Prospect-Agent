@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:augmentcode.com",
+  "company_name": "Augment Code",
+  "created_at": "2026-10-12T21:24:18",
+  "fingerprint": "32c296250ef817f7",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "Augment Code's product is an always-on agent platform (Cosmos) that runs software delivery loops, so the technical leader likely owns the architecture decisions for running those agents, though the evidence shows no model hosting signals yet.",
+      "cares_about": "reliable always-on agent runs and keeping humans in the loop at approval checkpoints",
+      "opening_angle": "Saw Cosmos runs always-on agents across triage, review, and testing; Baseten turns ML models into production APIs, so you could run the models behind those agents as production APIs without building that serving layer yourselves.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Augment+Code+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Augment+Code",
+  "warnings": []
+}

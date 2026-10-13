@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:jasper.ai",
+  "company_name": "Jasper",
+  "created_at": "2026-10-12T21:25:16",
+  "fingerprint": "f0880af3c8565159",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "This is the person most likely to decide whether Jasper's AI features need their own model serving, though the evidence shows no open or custom models, GPU usage, or clear company size, so fit is unclear.",
+      "cares_about": "Whether the AI stack they run can scale reliably without added engineering overhead.",
+      "opening_angle": "Baseten turns ML models into production APIs, so if your team ever runs its own models behind your agents or content pipelines, I'd be glad to show how that works.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Jasper+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Jasper",
+  "warnings": []
+}

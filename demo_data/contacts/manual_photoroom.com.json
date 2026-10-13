@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:photoroom.com",
+  "company_name": "Photoroom",
+  "created_at": "2026-10-12T21:25:27",
+  "fingerprint": "92537767175bf877",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "The CTO likely owns the decision on whether Photoroom keeps running its image models on in-house infrastructure or moves inference to a managed platform, since inference is core to its product and it sells its own image API.",
+      "cares_about": "Reliable model serving for image generation and editing at scale, and control over its own API.",
+      "opening_angle": "Baseten turns ML models into production APIs, and we have teams running image models on dedicated, autoscaling GPUs. Curious how you're handling serving for your image API today.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Photoroom+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Photoroom",
+  "warnings": []
+}

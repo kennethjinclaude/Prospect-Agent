@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:typeface.ai",
+  "company_name": "Typeface",
+  "created_at": "2026-10-12T21:25:18",
+  "fingerprint": "b1793967e1749245",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "Typeface builds an enterprise marketing AI platform on an orchestration engine and bespoke agents, so the technical lead likely owns how those agents get served to customers like J.P. Morgan, though the site shows no open-model or self-hosted GPU signals.",
+      "cares_about": "Reliable production delivery of their AI agent platform and how the orchestration engine runs at enterprise scale.",
+      "opening_angle": "Baseten turns ML models into production APIs, so you can run models as production APIs without building that serving layer yourselves, and I'd like to hear how your orchestration engine handles model serving today.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Typeface+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Typeface",
+  "warnings": []
+}

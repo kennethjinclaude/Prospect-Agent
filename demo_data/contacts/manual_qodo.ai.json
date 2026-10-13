@@ -1,0 +1,25 @@
+{
+  "filing_url": "manual:qodo.ai",
+  "company_name": "Qodo",
+  "created_at": "2026-10-12T21:24:22",
+  "fingerprint": "d184dcad8ed09f0f",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup."
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "Qodo is an AI-native code review company where every pull request triggers model calls, so the technical lead likely owns how those model calls get served, though the evidence shows no hosting or GPU signals yet.",
+      "cares_about": "reliable model serving behind a live product and keeping review latency under control (likely)",
+      "opening_angle": "Qodo runs model calls on every pull request, so I wanted to share how Baseten turns ML models into production APIs, with dedicated deployments that autoscale GPUs, in case serving that traffic is on your roadmap.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Qodo+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Qodo",
+  "warnings": []
+}

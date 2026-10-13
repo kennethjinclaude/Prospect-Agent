@@ -1,0 +1,26 @@
+{
+  "filing_url": "manual:sierra.ai",
+  "company_name": "Sierra",
+  "created_at": "2026-10-12T21:23:35",
+  "fingerprint": "297596267e15e235",
+  "size_band": "unknown",
+  "size_note": "no round size or team size found; check the LinkedIn company page for headcount",
+  "regulated": "",
+  "notes": [
+    "Thin evidence: company size unknown, so this is the safest default for a startup.",
+    "Best entry point: the team that owns this posting: Sierra is building self-hosted inference in a hybrid inference stack, with new serving and proxy layers, according to its Software Engineer, Inference job posting. (https://jobs.ashbyhq.com/Sierra/b8666a78-fcb1-47bb-ad07-5edb6cd3ad71)"
+  ],
+  "cards": [
+    {
+      "slot": "champion_and_buyer",
+      "role": "CTO or technical founder",
+      "search": "CTO",
+      "why_this_role": "This person likely owns the decision to build self-hosted inference, since Sierra's Software Engineer, Inference posting describes a hybrid inference stack with new serving and proxy layers.",
+      "cares_about": "Keeping latency-sensitive agent performance reliable while the team builds its own serving layers.",
+      "opening_angle": "Saw your Software Engineer, Inference posting describing a hybrid stack with new serving and proxy layers; Baseten runs dedicated deployments with autoscaling GPUs, so you could use it for the fine-tuned and open-weight models while your team keeps building its own serving layer.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Sierra+CTO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Sierra",
+  "warnings": []
+}

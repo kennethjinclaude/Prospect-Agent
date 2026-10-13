@@ -1,0 +1,41 @@
+{
+  "filing_url": "https://www.sec.gov/Archives/edgar/data/2150632/000215063226000002/0002150632-26-000002-index.htm",
+  "company_name": "Qualitate, Inc.",
+  "created_at": "2026-10-12T21:23:14",
+  "fingerprint": "06beb21d95581df6",
+  "size_band": "50_300",
+  "size_note": "estimated from a $31,852,498 round; check the LinkedIn company page for headcount",
+  "regulated": "vertical ai for finance or insurance: \"Structured expert insights for the world's leading investment firms and enterprises.\"",
+  "notes": [],
+  "cards": [
+    {
+      "slot": "champion",
+      "role": "Head of ML/AI or ML infrastructure lead",
+      "search": "Head of ML",
+      "why_this_role": "Qualitate's core product is AI-moderated expert interviews that get converted into sentiment scores and time-series signals, so this person likely owns the models behind that pipeline, though the evidence shows no ML infra hiring or open or custom model signals.",
+      "cares_about": "Reliable model serving for the interview-to-signal pipeline",
+      "opening_angle": "Baseten turns ML models into production APIs, so if your interview and sentiment models need to run as production APIs, I'd like to show you how that works.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Qualitate+Head+of+ML"
+    },
+    {
+      "slot": "economic_buyer",
+      "role": "VP Engineering",
+      "search": "VP Engineering",
+      "why_this_role": "With an estimated 50 to 300 people and a roughly $31.9M round, this leader likely oversees the platform engineering behind the expert intelligence product, which is inferred rather than confirmed.",
+      "cares_about": "Dependable production infrastructure for the platform",
+      "opening_angle": "Baseten offers dedicated deployments with autoscaling GPUs, so you can run models as production APIs without building that layer yourself.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Qualitate+VP+Engineering"
+    },
+    {
+      "slot": "blocker",
+      "role": "CISO or security lead",
+      "search": "CISO",
+      "why_this_role": "Qualitate sells structured expert insights to the world's leading investment firms and enterprises, which likely means security reviews and data handling questions come up in deals, though the evidence doesn't confirm this.",
+      "cares_about": "Compliance and secure data handling for enterprise and finance customers",
+      "opening_angle": "Baseten supports HIPAA and SOC 2 Type II, and offers single-tenant and self-hosted options, so you can match the deployment setup to your customers' security requirements.",
+      "linkedin": "https://www.linkedin.com/search/results/people/?keywords=Qualitate+CISO"
+    }
+  ],
+  "company_page": "https://www.linkedin.com/search/results/companies/?keywords=Qualitate",
+  "warnings": []
+}
